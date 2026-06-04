@@ -1,6 +1,8 @@
 package org.miskito.dictionary.domain.search
 
-object SearchRanker {
+import javax.inject.Inject
+
+class SearchRanker @Inject constructor() {
 
     fun getWeight(matchType: SearchMatchType): Int {
         return when (matchType) {

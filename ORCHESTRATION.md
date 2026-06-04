@@ -1,45 +1,40 @@
 # ORCHESTRATION.md
 
-## Bucle Operativo
+## Bucle De Ejecucion
 
-Repite este bucle y ejecuta una sola tarea por ciclo:
+Repite este bucle determinista:
 
 1. Lee `CONSTITUTION.md`.
 2. Lee `SPEC.md`.
 3. Lee `PLAN.md`.
 4. Lee `TASKS.md`.
 5. Lee `ORCHESTRATION.md`.
-6. Lee `MANUAL_DE_USO.md` si existe.
+6. Lee `MANUAL_DE_USO.md`.
 7. Selecciona la primera tarea con estado `[ ]`.
-8. Verifica precondiciones reales con comandos o inspeccion de archivos.
-9. Verifica `Archivos permitidos` y `Archivos prohibidos`.
-10. Ejecuta fase Red: crea o confirma prueba fallida.
-11. Ejecuta fase Green: aplica el cambio minimo.
-12. Ejecuta fase Refactor: limpia solo dentro del alcance.
-13. Ejecuta el comando exacto de validacion.
-14. Si pasa, marca `[x]` y emite `[TASK_COMPLETE: ID]`.
-15. Si falla y no puedes corregir dentro del alcance, marca `[!]` si la tarea lo indica y emite `[TASK_BLOCKED: ID]`.
-16. Detente.
+8. Verifica sus precondiciones antes de tocar archivos.
+9. Si la tarea requiere repo Android y no existe, bloquea con `[TASK_BLOCKED: T001]`.
+10. Si la tarea requiere el ZIP y no existe, bloquea con el token de la tarea activa.
+11. Revisa `Archivos permitidos` y `Archivos prohibidos`.
+12. Ejecuta fase Red y registra la prueba fallida esperada.
+13. Ejecuta fase Green con el cambio minimo.
+14. Ejecuta fase Refactor sin ampliar alcance.
+15. Ejecuta el `Comando de validacion` exacto.
+16. Si el comando falla, conserva `[ ]`, registra salida relevante y emite `[TASK_BLOCKED: ID]`.
+17. Si el comando pasa, cambia `[ ]` a `[x]`, registra evidencia y emite `[TASK_COMPLETE: ID]`.
 
-## Prioridad De Tareas
+## Orden Obligatorio
 
-Primero asegura que el handoff de datos esta dentro del repo. Luego valida/transfiere el pipeline Node. Despues genera/valida base y asset. Solo despues corrige busqueda y pantallas que dependen de metadata viva. No ejecutes release antes de validar `dictionary.db`.
+No ejecutes tareas de UI antes de localizar el repo Android. No empaquetes asset antes de validar el handoff. No modifiques `DictionaryRepository.kt` antes de tener pruebas de normalizacion/ranking. No cierres About o Settings sin pruebas de metadata visible.
 
-## Manejo De Bloqueos
+## Manejo De Datos
 
-Bloquea si falta el ZIP, si `npm test` falla, si `npm run validate:transcription` falla, si la base generada no abre, si el conteo de entradas no coincide, si Room no abre el asset, si `.\gradlew testDebugUnitTest` falla por causa fuera de archivos permitidos o si el cambio exige permisos Android.
+Extrae el ZIP solo en una ruta de trabajo controlada. Copia al repo solo los archivos autorizados por la tarea. No alteres los JSONL canonicos. Si un conteo difiere de 6386 entradas, bloquea y explica si la diferencia viene de deduplicacion documentada o error.
 
-## Tokens
+## Manejo De Tokens
 
-Usa exactamente:
+Emite exactamente un token por ciclo:
 
-```text
-[TASK_COMPLETE: T###]
-[TASK_BLOCKED: T###]
-```
+- Usa `[TASK_COMPLETE: ID]` si toda validacion pasa.
+- Usa `[TASK_BLOCKED: ID]` si falta repo, falla comando, falta dependencia, falta permiso o aparece una contradiccion entre documentos y codigo.
 
-Cuando haya causa util, escribe una linea breve de evidencia en la tarea antes del token. No emitas token de exito si no ejecutaste el comando exacto. No cambies estados de tareas no activas.
-
-## Regla De No Mezcla
-
-No arregles About junto con Settings. No arregles busqueda junto con base. No copies DB al asset antes de validar salida. No reemplaces pipeline entero sin prueba de equivalencia o validacion Node. No uses el ZIP como asset Android directo.
+No marques completado por inspeccion manual. No uses tokens sin ID.

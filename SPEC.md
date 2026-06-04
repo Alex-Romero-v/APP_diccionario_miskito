@@ -1,66 +1,74 @@
 # SPEC.md
 
-## Proposito
-
-Define los requisitos funcionales para que otro agente cierre los parches pendientes del diccionario miskito: integrar la base real desde el handoff Node, reparar busqueda con normalizacion/ranking de dominio, y mostrar metadata viva en About y Settings.
-
 ## Alcance
 
-Incluye solo:
+Corrige la app Android del diccionario miskito para que consuma la normalizacion/ranking de dominio, muestre metadata viva en About y Settings, y empaquete una base SQLite/Room real generada desde el handoff `handoff_database_agent_20260603-211934.zip`.
 
-1. Validar y usar `docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip` o la carpeta ya extraida `docs/agent-handoff/extracted/`.
-2. Reemplazar o aislar el pipeline Python roto que produjo `database disk image is malformed`.
-3. Generar `tools/dictionary-pipeline/output/dictionary.db` desde JSONL canonicos.
-4. Copiar una base validada a `app/src/main/assets/dictionary.db`.
-5. Verificar compatibilidad Room con `DictionaryDatabase`.
-6. Refactorizar `DictionaryRepository.search()` para usar `MiskitoTextNormalizer`, `TextNormalizer`, `SearchRanker` y `SearchMatchType`.
-7. Renderizar About con texto legal exacto y metadata viva.
-8. Renderizar Settings con `BuildConfig.VERSION_NAME` y version de diccionario desde metadata.
-9. Mantener offline-first y cero permisos sensibles.
+## No Alcance
 
-## Fuera De Alcance
+No rehagas la transcripcion del PDF si el handoff valida. No uses Python. No uses red. No agregues permisos Android sensibles. No inventes datos lexicograficos que no existan en JSON/JSONL. No cambies UI no relacionada con About, Settings, busqueda o metadata.
 
-No implementes nuevas pantallas, redisenos, backend, internet runtime, OCR, IA generativa, audio, camara, login, analiticas, anuncios, sincronizacion, cursos, juegos ni edicion comunitaria. No rehagas la transcripcion del PDF si el handoff Node valida.
+## Actores
 
-## Estado Actual Observado
+- Usuario propietario: entrega el handoff y valida que la app funcione offline.
+- Agente implementador: aplica tareas atomicas en el repo Android.
+- Agente de datos: integra el pipeline Node y produce el asset SQLite verificable.
+- Agente verificador: ejecuta comandos exactos y revisa tokens.
 
-El repo contiene `app/src/main/assets/dictionary.db`, pero existe `db_build_error.txt` con error `sqlite3.DatabaseError: database disk image is malformed`. `DictionaryRepository.search()` normaliza con `trimmedQuery.lowercase().replace(...)` y ordena solo por exact/prefix de `headword`. `RepositoryModule.kt` no inyecta `TextNormalizer` en `DictionaryRepository`. `AboutViewModel` ya inyecta `MetadataRepository`, pero `AboutScreen()` no recibe ni observa el ViewModel. `SettingsViewModel` expone `appVersion = "1.0.0"` y `dbVersion = "1.0"` hardcodeados, y `SettingsScreen` no muestra esos valores.
+## Requisitos Funcionales
+
+### RF-001: Validar presencia del repo Android
+
+Dado el directorio de trabajo, cuando inicies la ejecucion, entonces localiza `settings.gradle` o `settings.gradle.kts`, `gradlew`, modulo Android y archivos Kotlin requeridos. Si no existen, bloquea antes de modificar.
+
+### RF-002: Integrar handoff de base de datos
+
+Dado el ZIP canonico, cuando prepares el pipeline, entonces extrae o copia `tools/dictionary-pipeline`, `package.json`, `package-lock.json` y documentos canonicos a una ubicacion permitida del repo. Cuando ejecutes `npm test && npm run validate:transcription`, entonces debe pasar sin red y sin Python.
+
+### RF-003: Generar SQLite no vacio
+
+Dado 6386 entradas JSONL, cuando generes el asset SQLite, entonces crea tablas para entradas, traducciones, variantes, ejemplos, notas, referencias, metadata y FTS/search si el stack lo permite. Entonces verifica que `entries` tenga 6386 filas o justifica cualquier diferencia con regla documentada.
+
+### RF-004: Consumir normalizador y ranker
+
+Dado que existen `MiskitoTextNormalizer.kt` y `SearchRanker.kt`, cuando `DictionaryRepository.search()` reciba una consulta, entonces normaliza la consulta y los campos indexables con el normalizador de dominio. Entonces ordena mediante `SearchRanker` y no mediante `lowercase()` directo.
+
+### RF-005: About con metadata viva
+
+Dado metadata local disponible, cuando abras About, entonces muestra el texto legal obligatorio, `entriesCount` y `databaseVersion`. Si metadata no carga, muestra estado de error no destructivo y registra prueba.
+
+### RF-006: Settings con versiones
+
+Dado `BuildConfig.VERSION_NAME` y metadata local, cuando abras Settings, entonces muestra version de app y version del diccionario. No ocultes esos datos detras de acciones destructivas ni de permisos.
 
 ## Escenarios BDD
 
-### Escenario: Handoff Node validado
+### Escenario: Repo Android ausente
 
-Dado `docs/agent-handoff/extracted/`, cuando el agente valida el handoff, entonces no debe buscar archivos en `C:/Users/...`; debe usar los JSON/JSONL ya presentes en el repo y registrar si no puede ejecutar `npm ci` por falta de red.
+Dado que no se encuentran `DictionaryRepository.kt` ni `gradlew`, cuando el agente seleccione `T001`, entonces no modifica archivos de app y emite `[TASK_BLOCKED: T001]`.
 
-### Escenario: Base SQLite real
+### Escenario: Base local real
 
-Dado los JSONL del handoff con 6386 entradas, cuando el agente genera `tools/dictionary-pipeline/output/dictionary.db`, entonces la consulta `SELECT COUNT(*) FROM entries` debe devolver `6386` o bloquear con causa documentada si hay deduplicacion explicita.
+Dado el handoff con `manifest.status = completed`, cuando el agente genere el asset SQLite, entonces `SELECT COUNT(*) FROM entries;` devuelve `6386` y la app empaqueta el archivo en `src/main/assets/` o la ruta Room equivalente.
 
-### Escenario: Asset compatible con Room
+### Escenario: Busqueda tolerante a diacriticos
 
-Dado `app/src/main/assets/dictionary.db`, cuando se ejecuta `.\gradlew testDebugUnitTest`, entonces la prueba `PrepackagedDatabaseTest` o su reemplazo debe demostrar que Room abre la base, consulta metadata, no encuentra favoritos precargados y no encuentra historial precargado.
+Dado una entrada con diacritico y una consulta sin diacritico, cuando el usuario busca, entonces el resultado aparece y se ordena segun relevancia de `SearchRanker`.
 
-### Escenario: Busqueda tolerante
+### Escenario: About legal y dinamico
 
-Dado una consulta sin circunflejos, cuando `DictionaryRepository.search()` consulta la base, entonces debe usar `TextNormalizer.normalizeForSearch` y ordenar con `SearchRanker`, no con ranking inline simplificado.
+Dado metadata cargada, cuando About se renderiza, entonces muestra exactamente el texto obligatorio y tambien la cantidad de entradas y version de base.
 
-### Escenario: About correcto
+### Escenario: Settings informativo
 
-Dado metadata emitida por `MetadataRepository`, cuando `AboutScreen` se renderiza, entonces muestra el texto legal obligatorio, `entriesCount` y `databaseVersion`.
-
-### Escenario: Settings correcto
-
-Dado `BuildConfig.VERSION_NAME` y metadata local, cuando `SettingsScreen` se renderiza, entonces muestra version de app y version del diccionario como items informativos.
+Dado version de app y version de diccionario, cuando Settings se renderiza, entonces ambos valores son visibles mediante elementos informativos.
 
 ## Criterios De Aceptacion
 
-- `npm test` y `npm run validate:transcription` pasan para el handoff Node.
-- La base generada contiene 6386 entradas y metadata minima.
-- `app/src/main/assets/dictionary.db` no esta corrupta y Room puede abrirla.
-- `DictionaryRepository` recibe `TextNormalizer` por DI.
-- `DictionaryRepository.search()` usa `SearchRanker`.
-- `AboutScreen` deja de mostrar texto inventado y consume `AboutViewModel`.
-- `SettingsViewModel` deja de hardcodear la version de diccionario.
-- `SettingsScreen` muestra versiones.
-- `.\gradlew testDebugUnitTest` pasa.
-- `.\gradlew assembleRelease` pasa despues de validar asset.
+- El pipeline del ZIP valida con `npm test && npm run validate:transcription`.
+- La base SQLite generada no esta vacia y contiene 6386 entradas.
+- `DictionaryRepository.search()` usa `MiskitoTextNormalizer` y `SearchRanker`.
+- `RepositoryModule.kt` inyecta `TextNormalizer` y dependencias necesarias.
+- `AboutScreen.kt` muestra texto legal exacto, entradas y version de base.
+- `SettingsScreen.kt` muestra version de app y version de diccionario.
+- Las pruebas unitarias del modulo Android pasan con comando exacto documentado.

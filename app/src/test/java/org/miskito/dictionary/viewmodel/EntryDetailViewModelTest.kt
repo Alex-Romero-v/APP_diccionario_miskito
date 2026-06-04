@@ -44,10 +44,7 @@ class EntryDetailViewModelTest {
     }
     
     private val mockSearchDao = object : SearchDao {
-        override suspend fun searchAll(normalizedQuery: String, rawQuery: String, limit: Int) = emptyList<org.miskito.dictionary.data.local.relation.SearchResultProjection>()
-        override suspend fun searchMiskito(normalizedQuery: String, rawQuery: String, limit: Int) = emptyList<org.miskito.dictionary.data.local.relation.SearchResultProjection>()
-        override suspend fun searchSpanish(normalizedQuery: String, rawQuery: String, limit: Int) = emptyList<org.miskito.dictionary.data.local.relation.SearchResultProjection>()
-        override suspend fun searchEnglish(normalizedQuery: String, rawQuery: String, limit: Int) = emptyList<org.miskito.dictionary.data.local.relation.SearchResultProjection>()
+        override suspend fun searchAll(query: String, limit: Int) = emptyList<org.miskito.dictionary.data.local.relation.SearchResultProjection>()
     }
 
     private val mockMetadataDao = object : MetadataDao {
@@ -82,7 +79,7 @@ class EntryDetailViewModelTest {
         Dispatchers.setMain(testDispatcher)
         historyAddedId = null
         mockFavoriteDao.isFav = false
-        dictionaryRepository = DictionaryRepository(mockEntryDao, mockSearchDao, mockMetadataDao)
+        dictionaryRepository = DictionaryRepository(mockEntryDao, mockSearchDao, mockMetadataDao, org.miskito.dictionary.domain.normalizer.MiskitoTextNormalizer(), org.miskito.dictionary.domain.search.SearchRanker())
         favoritesRepository = FavoritesRepository(mockFavoriteDao)
         historyRepository = HistoryRepository(mockHistoryDao)
         viewModel = EntryDetailViewModel(dictionaryRepository, favoritesRepository, historyRepository)

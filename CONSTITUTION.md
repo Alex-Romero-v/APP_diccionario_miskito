@@ -1,67 +1,63 @@
 # CONSTITUTION.md
 
-## Identidad Operativa
+## Proposito
 
-Corrige la aplicacion Android `DiccionarioMiskitoOffline` alojada en `https://github.com/Alex-Romero-v/APP_diccionario_miskito`. Trabaja como agente de cierre V1, no como redisenador de producto. Tu objetivo es cerrar las brechas auditadas: busqueda sin normalizador/ranker de dominio, About con texto incorrecto y sin metadata viva, Settings con versiones hardcodeadas, y base `dictionary.db` generada por pipeline Python roto.
+Usa este contrato para corregir la app Android del diccionario miskito y para implementar la base de datos local desde `handoff_database_agent_20260603-211934.zip`. Ejecuta cambios atomicos, con pruebas TDD y validacion exacta. No uses este documento para reabrir la transcripcion del PDF salvo que la validacion del handoff falle.
 
 ## Fuentes Canonicas
 
-Usa como paquete canonico de datos ya disponible en el repositorio:
+1. Usa como fuente de datos el ZIP:
+   `C:/Users/zr_ma/OneDrive/Documentos/dic_miskito/handoff_database_agent_20260603-211934.zip`
+2. Reconoce que el handoff declara:
+   - `manifest.status = completed`
+   - `page_count = 330`
+   - `runtime.engine = node`
+   - `runtime.python_allowed = false`
+   - `runtime.network_allowed = false`
+   - `output_mode = jsonl-partitioned`
+   - `normalization.preserve_diacritics = true`
+   - `normalization.create_diacriticless_search_forms = true`
+3. Trata los artefactos intermedios como entrada inmutable: 330 paginas, 6386 entradas, 24 abreviaturas, 51 referencias, 66 libros biblicos y 282 filas de apendice.
 
-```text
-docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip
-docs/agent-handoff/extracted/
-```
+## Reglas No Negociables
 
-Si ambos faltan en el repo, usa la copia local del usuario:
-
-```text
-C:/Users/zr_ma/OneDrive/Documentos/dic_miskito/handoff_database_agent_20260603-211934.zip
-```
-
-El handoff declara `manifest.status = completed`, `page_count = 330`, `runtime.engine = node`, `python_allowed = false`, `network_allowed = false`, `output_mode = jsonl-partitioned`, `preserve_diacritics = true` y `create_diacriticless_search_forms = true`. Trata sus JSON/JSONL como fuente de datos inmutable salvo que una tarea ordene validarlos.
+1. Lee `CONSTITUTION.md`, `SPEC.md`, `PLAN.md`, `TASKS.md`, `ORCHESTRATION.md` y `MANUAL_DE_USO.md` antes de modificar archivos.
+2. Verifica que existe un repositorio Android antes de aplicar parches Kotlin o Compose.
+3. Bloquea con `[TASK_BLOCKED: T001]` si no existen `settings.gradle`, `build.gradle`, `gradlew`, `DictionaryRepository.kt`, `RepositoryModule.kt`, `AboutScreen.kt` o `SettingsScreen.kt`.
+4. Ejecuta una sola tarea pendiente por ciclo.
+5. Modifica solo los archivos permitidos por la tarea activa.
+6. No uses Python para generar la base de datos. Usa Node.js y SQLite local.
+7. No uses red, OCR remoto, servicios externos ni permisos Android sensibles.
+8. No crees una base vacia ni empaquetes un asset muerto. Bloquea si no puedes demostrar conteo de entradas mayor que 0.
+9. No reemplaces `MiskitoTextNormalizer` ni `SearchRanker` con `lowercase()` directo.
+10. Marca `[x]` solo despues de ejecutar el comando exacto de validacion de la tarea con salida exitosa.
 
 ## Restricciones Globales
 
-No uses Python para cerrar la base. No uses red. No agregues permisos Android sensibles. No agregues backend, IA generativa, OCR runtime, camara, audio, login, anuncios, analiticas ni sincronizacion. No cambies `applicationId`, `namespace`, `minSdk`, rutas de navegacion ni arquitectura MVVM + Repository + DAO/Room. No hagas refactors laterales. No marques tareas como completadas sin ejecutar el comando exacto.
-
-## Arquitectura Obligatoria
-
-Respeta esta cadena:
-
-```text
-UI Compose -> ViewModel -> Repository -> DAO/DataStore -> Room SQLite/assets
-```
-
-Coloca normalizacion en `domain/normalizer`, ranking en `domain/search`, consultas SQL en `data/local/dao`, mapeo en `data/repository`, DI en `di`, estado de UI en `viewmodel`, y render en `ui`. No ejecutes SQL desde composables. No accedas a Room directamente desde UI.
-
-## Reglas De Datos
-
-Reemplaza el camino Python roto del pipeline antiguo por el handoff Node verificado o por adaptadores Node derivados de ese handoff. La base final debe abrirse como SQLite, ser compatible con Room, contener metadata viva y no incluir favoritos ni historial precargados. Los conteos canonicos del handoff son:
-
-- paginas: `330`
-- entradas: `6386`
-- abreviaturas: `24`
-- referencias: `51`
-- libros biblicos: `66`
-- filas de apendice: `282`
-
-La metadata minima de la app debe exponer `dictionaryName`, `dictionarySource`, `dictionaryDate`, `databaseVersion`, `buildDate`, `entriesCount`, `examplesCount` y `appMinSupportedVersion`.
-
-## Reglas De Busqueda
-
-No uses `lowercase()` directo como normalizacion principal en `DictionaryRepository.search()`. Inyecta `TextNormalizer` provisto por `MiskitoTextNormalizer`. Usa `SearchRanker` y `SearchMatchType` para ordenar resultados por relevancia. La tolerancia sin circunflejos debe cubrir consultas con y sin diacriticos. Conserva texto canonico visible con diacriticos.
+No modifiques archivos fuera del alcance de la tarea activa. No uses Python. No uses red. No generes una base SQLite vacia. No empaquetes assets sin conteo verificable. No reemplaces componentes de dominio por logica inline. No alteres el handoff canonico salvo para copiarlo a una ruta permitida. No cambies UI no relacionada con las brechas documentadas.
 
 ## Texto Legal Obligatorio
 
-`AboutScreen.kt` debe mostrar exactamente:
+Usa exactamente este texto visible en `AboutScreen.kt`:
 
 ```text
 Esta aplicación está basada en el diccionario BÎLA YUMHPA – MISKITU-ENGLISH-ESPAÑOL. El contenido fue estructurado para permitir consulta rápida sin conexión a internet. Las traducciones de ejemplos pueden ser literales, siguiendo el estilo del diccionario original.
 ```
 
-No reemplaces ese texto con historia generica, atribuciones inventadas ni texto de Google AI Studio.
+No sustituyas este texto por prosa historica, promocional o inventada.
 
-## Estado Y Tokens
+## Politica De Base De Datos
 
-Ejecuta una sola tarea por ciclo. Modifica solo archivos permitidos por la tarea activa. Si la validacion pasa, marca `[x]` y emite `[TASK_COMPLETE: ID]`. Si falla por causa no corregible dentro del alcance, conserva `[ ]` o marca `[!]` si la tarea lo ordena y emite `[TASK_BLOCKED: ID]`. No avances a tareas posteriores si una precondicion previa falla.
+Genera o integra un asset SQLite/Room verificable desde los JSONL del handoff. La app debe poder consultar sin internet. La base local debe exponer metadata viva con `entriesCount` y `databaseVersion`. La version de base debe derivarse de `manifest.source_date`, `manifest.source_pdf_sha256` o un valor determinista documentado.
+
+## Politica De Busqueda
+
+Usa normalizacion NFC, conserva diacriticos canonicos y crea formas auxiliares sin diacriticos solo para busqueda. Ordena resultados mediante dominio: headword exacto, variante exacta, prefijo de headword, prefijo de variante, traducciones, ejemplos, notas y referencias. No uses ordenamiento alfabetico simple como sustituto de relevancia.
+
+## Politica De UI
+
+Muestra metadata viva en About y Settings. About debe mostrar version de base local y cantidad de entradas. Settings debe mostrar version de app desde `BuildConfig.VERSION_NAME` y version del diccionario desde metadata local. No pidas permisos sensibles.
+
+## Politica De Estado
+
+Al completar una tarea, actualiza `TASKS.md` y emite `[TASK_COMPLETE: ID]`. Al bloquear, conserva `[ ]`, registra causa y emite `[TASK_BLOCKED: ID]`. No emitas ambos tokens para una misma corrida.

@@ -1,70 +1,45 @@
 # MANUAL_DE_USO.md
 
-## Uso Para El Siguiente Agente
+## Como Usar Esta Documentacion
 
-Abre este repo y pide al agente:
+Entrega esta carpeta al agente que corregira la app junto con la ruta del repo Android. Pide: "Lee los seis documentos y ejecuta la primera tarea pendiente". Si el agente no tiene el repo Android, debe bloquear en T001 y no inventar rutas.
 
-```text
-Lee CONSTITUTION.md, SPEC.md, PLAN.md, TASKS.md y ORCHESTRATION.md. Ejecuta solo la primera tarea pendiente. Respeta archivos permitidos/prohibidos, ejecuta el comando exacto, actualiza estado y emite token. Detente.
-```
+## Ruta Del Handoff
 
-No pidas "haz todos los parches". La cola esta disenada para avanzar de forma atomica.
-
-## Archivos De Handoff
-
-El handoff necesario debe estar en:
-
-```text
-docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip
-docs/agent-handoff/extracted/
-```
-
-Si no esta, copialo desde:
+El paquete de base de datos esta en:
 
 ```text
 C:/Users/zr_ma/OneDrive/Documentos/dic_miskito/handoff_database_agent_20260603-211934.zip
 ```
 
-El ZIP contiene pipeline Node, PDF fuente, JSON/JSONL intermedios, checksums, reportes y documentos canonicos de transcripcion. No necesitas rehacer la transcripcion del PDF si `npm run validate:transcription` pasa.
+Ese paquete contiene `tools/dictionary-pipeline`, JSONL intermedios, manifiesto, checksums, reportes, tests Node y documentacion canonica del agente de base.
 
-## Comandos Que Debes Esperar
+## Reanudacion Tras Bloqueo
 
-Para datos:
+Si recibes `[TASK_BLOCKED: T001]`, proporciona la ruta absoluta del repo Android de la app. Luego pide: "Reanuda T001 desde precondiciones". Si recibes bloqueo en tareas de Node, revisa que `npm ci` ya fue ejecutado o que `node_modules` este disponible sin red. Si recibes bloqueo en Gradle, abre el repo correcto y ejecuta desde la raiz donde exista `gradlew`.
+
+## Validacion Manual Minima
+
+Acepta el trabajo solo si hay evidencia de:
+
+- `npm test`
+- `npm run validate:transcription`
+- conteo SQLite `6386`
+- `.\gradlew testDebugUnitTest`
+- About con texto legal exacto y metadata viva
+- Settings con version de app y version de diccionario
+- busqueda con ranking de dominio
+
+## Actualizar Alcance
+
+Para agregar nuevas correcciones, no pidas cambios directos. Agrega una tarea atomica a `TASKS.md` con ID nuevo, archivos permitidos, archivos prohibidos, Red-Green-Refactor, comando exacto y tokens.
+
+## Auditoria De Esta Carpeta
+
+Desde `C:/Users/zr_ma/OneDrive/Documentos/Crear documentación`, ejecuta:
 
 ```powershell
-npm ci
-npm test
-npm run validate:transcription
+powershell -ExecutionPolicy Bypass -File .\crear-documentacion-agente-ia\scripts\verify_agent_docs.ps1 -DocsDir .\documentacion-parches-dic-miskito-app
 ```
 
-Para Android:
-
-```powershell
-.\gradlew testDebugUnitTest
-.\gradlew assembleRelease
-```
-
-Para documentacion:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File "C:\Users\zr_ma\OneDrive\Documentos\Crear documentación\crear-documentacion-agente-ia\scripts\verify_agent_docs.ps1" -DocsDir .
-```
-
-## Interpretacion De Resultados
-
-Acepta una tarea solo si termina con `[TASK_COMPLETE: T###]`. Si termina con `[TASK_BLOCKED: T###]`, lee la evidencia, resuelve la precondicion y reintenta la misma tarea. No cambies `[!]` a `[x]` manualmente.
-
-## Checklist De Cierre
-
-Antes de considerar cerrados los parches, verifica:
-
-- handoff Node validado;
-- base SQLite generada y abrible;
-- asset `app/src/main/assets/dictionary.db` validado;
-- Room abre el asset;
-- busqueda usa `MiskitoTextNormalizer` y `SearchRanker`;
-- About muestra texto legal exacto y metadata viva;
-- Settings muestra version app y version diccionario;
-- `.\gradlew testDebugUnitTest` pasa;
-- `.\gradlew assembleRelease` pasa;
-- no se agregaron permisos sensibles.
+Acepta la documentacion solo si devuelve `[DOCS_VERIFIED]`.

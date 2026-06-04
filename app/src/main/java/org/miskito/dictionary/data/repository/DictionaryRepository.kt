@@ -7,37 +7,70 @@ import org.miskito.dictionary.data.local.dao.MetadataDao
 import org.miskito.dictionary.data.local.dao.SearchDao
 import org.miskito.dictionary.data.local.relation.EntryDetailRelation
 import org.miskito.dictionary.domain.model.*
+import org.miskito.dictionary.domain.normalizer.TextNormalizer
+import org.miskito.dictionary.domain.search.SearchMatchType
+import org.miskito.dictionary.domain.search.SearchRanker
 
 class DictionaryRepository(
     private val entryDao: EntryDao,
     private val searchDao: SearchDao,
-    private val metadataDao: MetadataDao
+    private val metadataDao: MetadataDao,
+    private val normalizer: TextNormalizer,
+    private val ranker: SearchRanker
 ) {
 
     suspend fun search(query: String, filter: SearchFilter = SearchFilter.ALL, limit: Int = 100): List<SearchResult> {
         val trimmedQuery = query.trim()
         if (trimmedQuery.isEmpty()) return emptyList()
         
-        // FTS normalization (simple lowercase for match, remove punctuation)
-        val normalizedQuery = trimmedQuery.lowercase().replace(Regex("[^a-z0-9]"), " ") + "*"
-        val rawQuery = trimmedQuery + "*"
+        val normalizedQueryStr = normalizer.normalizeForSearch(trimmedQuery)
         
-        val results = when (filter) {
-            SearchFilter.ALL -> searchDao.searchAll(normalizedQuery, rawQuery, limit)
-            SearchFilter.MISKITO -> searchDao.searchMiskito(normalizedQuery, rawQuery, limit)
-            SearchFilter.SPANISH -> searchDao.searchSpanish(normalizedQuery, rawQuery, limit)
-            SearchFilter.ENGLISH -> searchDao.searchEnglish(normalizedQuery, rawQuery, limit)
+        val buildScopedFtsQuery = { columnScope: String? ->
+            val scopedNorm = normalizedQueryStr.split(Regex("\\s+")).filter { it.isNotBlank() }
+                .joinToString(" ") { if (columnScope != null) "$columnScope:$it*" else "$it*" }
+            
+            val scopedRaw = trimmedQuery.split(Regex("\\s+")).filter { it.isNotBlank() }
+                .joinToString(" ") { if (columnScope != null) "$columnScope:$it*" else "$it*" }
+                
+            if (normalizedQueryStr.isNotBlank() && normalizedQueryStr != trimmedQuery) {
+                "$scopedNorm OR $scopedRaw"
+            } else {
+                scopedRaw
+            }
         }
         
-        // Ranking: exact match first, prefix match second, general match last
-        return results.map { it.toDomainModel() }
-            .sortedBy { result ->
-                when {
-                    result.headword.equals(trimmedQuery, ignoreCase = true) -> 0
-                    result.headword.startsWith(trimmedQuery, ignoreCase = true) -> 1
-                    else -> 2
-                }
+        val results = when (filter) {
+            SearchFilter.ALL -> searchDao.searchAll(buildScopedFtsQuery(null), limit)
+            SearchFilter.SPANISH -> searchDao.searchAll(buildScopedFtsQuery("spanish_text"), limit)
+            SearchFilter.ENGLISH -> searchDao.searchAll(buildScopedFtsQuery("english_text"), limit)
+            SearchFilter.MISKITO -> searchDao.searchAll(buildScopedFtsQuery("headword"), limit)
+        }
+
+        
+        val matchTypeSelector: (org.miskito.dictionary.data.local.relation.SearchResultProjection) -> SearchMatchType = { result ->
+            when {
+                result.headword.equals(trimmedQuery, ignoreCase = true) -> SearchMatchType.EXACT_HEADWORD
+                result.normalizedHeadword.equals(normalizedQueryStr, ignoreCase = true) -> SearchMatchType.EXACT_NORMALIZED_HEADWORD
+                result.ftsVariantsText?.split(" ")?.any { normalizer.normalizeForSearch(it) == normalizedQueryStr } == true -> SearchMatchType.EXACT_VARIANT
+                result.headword.startsWith(trimmedQuery, ignoreCase = true) -> SearchMatchType.PREFIX_HEADWORD
+                result.normalizedHeadword.startsWith(normalizedQueryStr, ignoreCase = true) -> SearchMatchType.PREFIX_HEADWORD
+                result.ftsVariantsText?.split(" ")?.any { normalizer.normalizeForSearch(it).startsWith(normalizedQueryStr) } == true -> SearchMatchType.PREFIX_VARIANT
+                result.ftsSpanishText?.contains(normalizedQueryStr, ignoreCase = true) == true || result.spanishTranslation?.contains(trimmedQuery, ignoreCase = true) == true -> SearchMatchType.SPANISH_TRANSLATION
+                result.ftsEnglishText?.contains(normalizedQueryStr, ignoreCase = true) == true -> SearchMatchType.ENGLISH_TRANSLATION
+                result.ftsExamplesText?.contains(normalizedQueryStr, ignoreCase = true) == true -> SearchMatchType.EXAMPLES
+                result.ftsNotesText?.contains(normalizedQueryStr, ignoreCase = true) == true -> SearchMatchType.NOTES
+                else -> SearchMatchType.NONE
             }
+        }
+        
+        val rankedResults = ranker.rank(
+            items = results,
+            matchTypeSelector = matchTypeSelector,
+            sortKeySelector = { it.sortKey },
+            entryIdSelector = { it.entryId }
+        )
+        
+        return rankedResults.map { it.toDomainModel() }
     }
 
     suspend fun getEntryDetail(id: Long): DictionaryEntryDetail? {

@@ -25,7 +25,8 @@ class AboutViewModelTest {
         override suspend fun getValue(key: String): String? = null
         override fun observeAllMetadata() = flowOf(listOf(
             MetadataEntity("dictionaryName", "Fake Name"),
-            MetadataEntity("databaseVersion", "1.1")
+            MetadataEntity("databaseVersion", "1.1"),
+            MetadataEntity("entriesCount", "500")
         ))
     }
 
@@ -40,7 +41,7 @@ class AboutViewModelTest {
     }
 
     @Test
-    fun metadata_loadsAndExposesBaseText() = runTest {
+    fun metadata_loadsAndExposesLegalNoticeAndStats() = runTest {
         val repo = MetadataRepository(mockMetadataDao)
         val viewModel = AboutViewModel(repo)
 
@@ -53,11 +54,13 @@ class AboutViewModelTest {
         assertNotNull(state.metadata)
         assertEquals("Fake Name", state.metadata?.dictionaryName)
         assertEquals("1.1", state.metadata?.databaseVersion)
+        assertEquals("500", state.metadata?.entriesCount)
         
-        // ensure baseText and licenseNotice are not empty
-        assertTrue(state.baseText.isNotEmpty())
-        assertTrue(state.licenseNotice.isNotEmpty())
+        // ensure baseText and licenseNotice match exact legal text requirements
+        assertEquals("Módulo de diccionario desarrollado para Google AI Studio.", state.baseText)
+        assertEquals("All terms and rights belong to their respective original authors. No new license is invented or claimed by this software.", state.licenseNotice)
 
         collectJob.cancel()
     }
 }
+

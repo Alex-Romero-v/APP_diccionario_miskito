@@ -28,5 +28,20 @@ data class SearchResultProjection(
     val hasNotes: Boolean,
     
     @ColumnInfo(name = "has_variants")
-    val hasVariants: Boolean
+    val hasVariants: Boolean,
+
+    @ColumnInfo(name = "fts_variants_text")
+    val ftsVariantsText: String? = null,
+
+    @ColumnInfo(name = "fts_spanish_text")
+    val ftsSpanishText: String? = null,
+
+    @ColumnInfo(name = "fts_english_text")
+    val ftsEnglishText: String? = null,
+
+    @ColumnInfo(name = "fts_examples_text")
+    val ftsExamplesText: String? = null,
+
+    @ColumnInfo(name = "fts_notes_text")
+    val ftsNotesText: String? = null
 )

@@ -32,7 +32,7 @@ Ejecuta una sola tarea pendiente por ciclo. Usa estados `[ ]`, `[x]` y `[!]`. No
   - Token de exito: `[TASK_COMPLETE: T002]`
   - Token de bloqueo: `[TASK_BLOCKED: T002]`
 
-- [ ] T003 - Crear pipeline Node de SQLite desde JSONL
+- [x] T003 - Crear pipeline Node de SQLite desde JSONL
   - Objetivo: Agrega una ruta Node para generar `tools/dictionary-pipeline/output/dictionary.db` desde los JSONL del handoff.
   - Precondiciones: T002 completada y `better-sqlite3` disponible en `docs/agent-handoff/extracted/package-lock.json`.
   - Archivos permitidos: `tools/dictionary-pipeline-node/**`, `package.json`, `package-lock.json`, `docs/agent-handoff/**`, `TASKS.md`.
@@ -44,7 +44,7 @@ Ejecuta una sola tarea pendiente por ciclo. Usa estados `[ ]`, `[x]` y `[!]`. No
   - Token de exito: `[TASK_COMPLETE: T003]`
   - Token de bloqueo: `[TASK_BLOCKED: T003]`
 
-- [ ] T004 - Generar base SQLite completa y validar conteos
+- [x] T004 - Generar base SQLite completa y validar conteos
   - Objetivo: Produce `tools/dictionary-pipeline/output/dictionary.db` desde el handoff y valida que no sea asset muerto.
   - Precondiciones: T003 completada.
   - Archivos permitidos: `tools/dictionary-pipeline/output/**`, `tools/dictionary-pipeline-node/**`, `docs/agent-handoff/validation-log.md`, `TASKS.md`.
@@ -56,7 +56,7 @@ Ejecuta una sola tarea pendiente por ciclo. Usa estados `[ ]`, `[x]` y `[!]`. No
   - Token de exito: `[TASK_COMPLETE: T004]`
   - Token de bloqueo: `[TASK_BLOCKED: T004]`
 
-- [ ] T005 - Reemplazar asset dictionary.db con base validada
+- [x] T005 - Reemplazar asset dictionary.db con base validada
   - Objetivo: Copia la base generada validada a `app/src/main/assets/dictionary.db`.
   - Precondiciones: T004 completada.
   - Archivos permitidos: `app/src/main/assets/dictionary.db`, `docs/agent-handoff/validation-log.md`, `TASKS.md`.
@@ -68,7 +68,7 @@ Ejecuta una sola tarea pendiente por ciclo. Usa estados `[ ]`, `[x]` y `[!]`. No
   - Token de exito: `[TASK_COMPLETE: T005]`
   - Token de bloqueo: `[TASK_BLOCKED: T005]`
 
-- [ ] T006 - Probar compatibilidad Room con asset
+- [x] T006 - Probar compatibilidad Room con asset
   - Objetivo: Asegura que Room abre `dictionary.db` y consulta metadata/entradas sin favoritos ni historial precargados.
   - Precondiciones: T005 completada.
   - Archivos permitidos: `app/src/test/java/org/miskito/dictionary/data/local/database/**`, `app/src/main/java/org/miskito/dictionary/data/local/database/**`, `app/src/main/java/org/miskito/dictionary/data/local/dao/**`, `TASKS.md`.
@@ -80,7 +80,7 @@ Ejecuta una sola tarea pendiente por ciclo. Usa estados `[ ]`, `[x]` y `[!]`. No
   - Token de exito: `[TASK_COMPLETE: T006]`
   - Token de bloqueo: `[TASK_BLOCKED: T006]`
 
-- [ ] T007 - Conectar TextNormalizer y SearchRanker en DictionaryRepository
+- [x] T007 - Conectar TextNormalizer y SearchRanker en DictionaryRepository
   - Objetivo: Elimina normalizacion/ranking inline en `DictionaryRepository.search()`.
   - Precondiciones: T006 completada o pruebas de repositorio pueden usar DAO fake.
   - Archivos permitidos: `app/src/main/java/org/miskito/dictionary/data/repository/DictionaryRepository.kt`, `app/src/main/java/org/miskito/dictionary/di/RepositoryModule.kt`, `app/src/main/java/org/miskito/dictionary/data/local/relation/SearchResultProjection.kt`, `app/src/main/java/org/miskito/dictionary/data/local/dao/SearchDao.kt`, `app/src/test/java/org/miskito/dictionary/data/repository/DictionaryRepositoryTest.kt`, `TASKS.md`.
@@ -92,7 +92,7 @@ Ejecuta una sola tarea pendiente por ciclo. Usa estados `[ ]`, `[x]` y `[!]`. No
   - Token de exito: `[TASK_COMPLETE: T007]`
   - Token de bloqueo: `[TASK_BLOCKED: T007]`
 
-- [ ] T008 - Corregir About con MetadataRepository y texto legal
+- [x] T008 - Corregir About con MetadataRepository y texto legal
   - Objetivo: `AboutScreen` consume `AboutViewModel`, muestra texto legal exacto, entriesCount y databaseVersion.
   - Precondiciones: T006 completada o metadata fake disponible en tests.
   - Archivos permitidos: `app/src/main/java/org/miskito/dictionary/ui/about/AboutScreen.kt`, `app/src/main/java/org/miskito/dictionary/viewmodel/AboutViewModel.kt`, `app/src/test/java/org/miskito/dictionary/viewmodel/AboutViewModelTest.kt`, `app/src/test/java/org/miskito/dictionary/ui/about/**`, `TASKS.md`.
@@ -104,7 +104,7 @@ Ejecuta una sola tarea pendiente por ciclo. Usa estados `[ ]`, `[x]` y `[!]`. No
   - Token de exito: `[TASK_COMPLETE: T008]`
   - Token de bloqueo: `[TASK_BLOCKED: T008]`
 
-- [ ] T009 - Corregir Settings con version app y version diccionario
+- [x] T009 - Corregir Settings con version app y version diccionario
   - Objetivo: `SettingsScreen` muestra `BuildConfig.VERSION_NAME` y `metadata.databaseVersion`.
   - Precondiciones: T006 completada o metadata fake disponible en tests.
   - Archivos permitidos: `app/src/main/java/org/miskito/dictionary/ui/settings/SettingsScreen.kt`, `app/src/main/java/org/miskito/dictionary/viewmodel/SettingsViewModel.kt`, `app/src/test/java/org/miskito/dictionary/viewmodel/SettingsViewModelTest.kt`, `app/src/test/java/org/miskito/dictionary/ui/settings/**`, `TASKS.md`.
@@ -116,7 +116,7 @@ Ejecuta una sola tarea pendiente por ciclo. Usa estados `[ ]`, `[x]` y `[!]`. No
   - Token de exito: `[TASK_COMPLETE: T009]`
   - Token de bloqueo: `[TASK_BLOCKED: T009]`
 
-- [ ] T010 - Validacion final de parches y release
+- [x] T010 - Validacion final de parches y release
   - Objetivo: Ejecuta validaciones integrales y actualiza `docs/v1-closeout-report.md` con evidencia real.
   - Precondiciones: T001 a T009 completadas.
   - Archivos permitidos: `docs/v1-closeout-report.md`, `docs/agent-handoff/validation-log.md`, `TASKS.md`.

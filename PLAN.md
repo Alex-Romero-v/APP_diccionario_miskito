@@ -1,110 +1,124 @@
 # PLAN.md
 
-## Arquitectura Real Del Repo
+## Arquitectura Objetivo
 
-El repo clonado tiene raiz Gradle Kotlin DSL con modulo `:app`, `namespace = org.miskito.dictionary`, Hilt, Room, DataStore, Compose y tests locales. La app ya contiene estructura adecuada:
+Integra dos subsistemas: pipeline de datos Node del handoff y app Android Kotlin/Room/Compose. El pipeline produce o valida los JSONL y genera un asset SQLite. La app abre la base local con Room, expone repositories de metadata y diccionario, y renderiza About/Settings con estado vivo.
 
-```text
-app/src/main/java/org/miskito/dictionary/
-  data/local/dao/
-  data/local/database/DictionaryDatabase.kt
-  data/local/entity/
-  data/local/fts/SearchIndexFtsEntity.kt
-  data/local/relation/SearchResultProjection.kt
-  data/repository/
-  di/
-  domain/normalizer/
-  domain/search/
-  ui/about/
-  ui/settings/
-  viewmodel/
-app/src/main/assets/dictionary.db
-tools/dictionary-pipeline/
-docs/
-```
-
-## Decisiones Tecnicas
-
-Usa Node para el handoff de transcripcion y construccion de datos nuevos. Mantiene Kotlin/Room para runtime Android. No uses Python para nuevos parches de base, porque el handoff canonico ya declara `python_allowed = false` y el repo conserva evidencia de fallo Python en `db_build_error.txt`.
-
-## Integracion De Handoff
-
-El handoff canonico ya debe existir en:
+## Arbol De Archivos Esperado
 
 ```text
-docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip
-docs/agent-handoff/extracted/
+<android-repo>/
+  settings.gradle[.kts]
+  build.gradle[.kts]
+  gradlew
+  app/
+    build.gradle[.kts]
+    src/main/
+      assets/
+        miskito_dictionary.db
+      java|kotlin/.../
+        data/
+          DictionaryRepository.kt
+          MetadataRepository.kt
+          local/
+            MetadataDao.kt
+            DictionaryDao.kt
+        domain/
+          TextNormalizer.kt
+          MiskitoTextNormalizer.kt
+          SearchRanker.kt
+        di/
+          RepositoryModule.kt
+        ui/about/
+          AboutScreen.kt
+          AboutViewModel.kt
+        ui/settings/
+          SettingsScreen.kt
+          SettingsViewModel.kt
+  tools/dictionary-pipeline/
+    intermediate/
+    src/
+    tests/
+  package.json
+  package-lock.json
 ```
 
-Usa preferentemente la carpeta ya extraida. No mezcles archivos Node y Python en la misma carpeta sin tarea explicita. Si decides reemplazar `tools/dictionary-pipeline/`, hazlo en una tarea atomica con prueba previa.
+## Handoff De Datos
 
-## Base SQLite Objetivo
-
-La base Android debe seguir el contrato de Room existente:
-
-- `entries`
-- `translations`
-- `variants`
-- `examples`
-- `notes`
-- `references`
-- `entry_references`
-- `favorites`
-- `history`
-- `metadata`
-- `phrases`
-- `search_index`
-
-Valida columnas contra entidades en `app/src/main/java/org/miskito/dictionary/data/local/entity/` y FTS contra `SearchIndexFtsEntity.kt`. No precargues `favorites` ni `history`.
-
-## Busqueda
-
-Refactoriza en esta direccion:
+Extrae desde:
 
 ```text
-RepositoryModule -> DictionaryRepository(entryDao, searchDao, metadataDao, textNormalizer)
-DictionaryRepository.search()
-  -> trim
-  -> textNormalizer.normalizeForSearch(query)
-  -> construir query FTS segura
-  -> searchDao segun filtro
-  -> mapear a dominio
-  -> asignar SearchMatchType por headword/normalizedHeadword/variant/translation/example/note cuando haya datos disponibles
-  -> SearchRanker.rank(...)
+C:/Users/zr_ma/OneDrive/Documentos/dic_miskito/handoff_database_agent_20260603-211934.zip
 ```
 
-Si `SearchResultProjection` no contiene campos suficientes para distinguir variantes, ingles, ejemplos o notas, crea tarea especifica para ampliar proyeccion/DAO antes de afirmar ranking completo.
+Conserva como fuente los artefactos:
 
-## About
+- `tools/dictionary-pipeline/intermediate/manifest.json`
+- `tools/dictionary-pipeline/intermediate/dictionary_entries/*.jsonl`
+- `tools/dictionary-pipeline/intermediate/catalog/*.jsonl`
+- `tools/dictionary-pipeline/intermediate/appendix/*.jsonl`
+- `tools/dictionary-pipeline/intermediate/checksums.json`
 
-`AboutViewModel` ya existe e inyecta `MetadataRepository`. Ajusta `AboutScreen` para usar `hiltViewModel()`, `collectAsStateWithLifecycle()` y `AboutUiState`. Renderiza texto legal exacto, cantidad de entradas y version de base. Agrega tests en `app/src/test/java/org/miskito/dictionary/viewmodel/AboutViewModelTest.kt` y/o prueba Compose local si la infraestructura existente lo permite.
+## Modelo SQLite Minimo
 
-## Settings
+Implementa tablas:
 
-Inyecta `MetadataRepository` en `SettingsViewModel` y usa `BuildConfig.VERSION_NAME` para `appVersion`. Combina preferencias con metadata mediante Flow. Renderiza items informativos en `SettingsScreen` sin accion destructiva. Mantiene DataStore para preferencias.
+- `metadata(key TEXT PRIMARY KEY, value TEXT NOT NULL)`
+- `entries(uid TEXT PRIMARY KEY, headword TEXT NOT NULL, normalized_headword TEXT NOT NULL, sort_key TEXT, raw_text TEXT, source_page INTEGER, entry_type TEXT)`
+- `translations(id INTEGER PRIMARY KEY AUTOINCREMENT, entry_uid TEXT NOT NULL, english_text TEXT, spanish_text TEXT, translation_order INTEGER, is_literal INTEGER, raw_text TEXT)`
+- `variants(id INTEGER PRIMARY KEY AUTOINCREMENT, entry_uid TEXT NOT NULL, variant_text TEXT NOT NULL, normalized_variant TEXT, variant_type TEXT, raw_text TEXT)`
+- `examples(id INTEGER PRIMARY KEY AUTOINCREMENT, entry_uid TEXT NOT NULL, miskito_text TEXT, english_text TEXT, spanish_text TEXT, is_literal_translation INTEGER, raw_text TEXT)`
+- `notes(id INTEGER PRIMARY KEY AUTOINCREMENT, entry_uid TEXT NOT NULL, note_type TEXT, note_text TEXT, raw_text TEXT)`
+- `search_documents(entry_uid TEXT PRIMARY KEY, headword_norm TEXT, variants_norm TEXT, translations_norm TEXT, examples_norm TEXT, notes_norm TEXT)`
 
-## Comandos Normativos
+Usa FTS solo si ya existe patron local o si la tarea lo autoriza con prueba. Si no, usa indices B-tree y ranking en Kotlin.
 
-Desde el repo Android:
+## Convenciones De Normalizacion
 
-```powershell
-.\gradlew testDebugUnitTest
-.\gradlew assembleRelease
-```
+Preserva texto canonico con diacriticos. Genera campos normalizados auxiliares. Usa `MiskitoTextNormalizer` para consulta y datos indexables. No apliques conversion sin diacriticos a `headword`, ejemplos ni notas canonicas.
 
-Desde el handoff Node extraido o pipeline Node copiado:
+## Inyeccion
+
+En `RepositoryModule.kt`, provee:
+
+- `TextNormalizer = MiskitoTextNormalizer()`
+- `SearchRanker` si no es objeto puro.
+- `DictionaryRepository(dictionaryDao, metadataDao, textNormalizer, searchRanker)`
+- `MetadataRepository(metadataDao)`
+
+## Estrategia TDD
+
+Para cada parche Kotlin:
+
+1. Escribe prueba que falle.
+2. Implementa el minimo cambio.
+3. Refactoriza sin ampliar alcance.
+4. Ejecuta `.\gradlew testDebugUnitTest`.
+
+Para datos:
+
+1. Ejecuta validacion del handoff.
+2. Genera SQLite.
+3. Ejecuta consulta de conteo.
+4. Ejecuta pruebas Android que abren la DB.
+
+## Comandos Exactos
+
+Desde el directorio donde se extrae el handoff:
 
 ```powershell
 npm test
 npm run validate:transcription
 ```
 
-Validacion documental:
+Desde el repo Android:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File "C:\Users\zr_ma\OneDrive\Documentos\Crear documentación\crear-documentacion-agente-ia\scripts\verify_agent_docs.ps1" -DocsDir .
+.\gradlew testDebugUnitTest
 ```
 
-## Riesgos
+Para auditar esta documentacion:
 
-El principal riesgo es aceptar un asset corrupto porque el archivo existe. Mitigalo con apertura SQLite, conteo de entradas, metadata y prueba Room. El segundo riesgo es mezclar pipeline Python roto con handoff Node verificado. Mitigalo manteniendo tareas separadas. El tercer riesgo es afirmar ranking completo sin datos suficientes en la proyeccion. Mitigalo agregando campos o bloqueando con evidencia.
+```powershell
+powershell -ExecutionPolicy Bypass -File ..\Crear documentación\crear-documentacion-agente-ia\scripts\verify_agent_docs.ps1 -DocsDir ..\Crear documentación\documentacion-parches-dic-miskito-app
+```

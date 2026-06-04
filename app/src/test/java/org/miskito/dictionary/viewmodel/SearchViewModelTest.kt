@@ -50,7 +50,7 @@ class SearchViewModelTest {
     fun setup() {
         Dispatchers.setMain(testDispatcher)
         searchDao = MockSearchDao()
-        repository = DictionaryRepository(mockEntryDao, searchDao, mockMetadataDao)
+        repository = DictionaryRepository(mockEntryDao, searchDao, mockMetadataDao, org.miskito.dictionary.domain.normalizer.MiskitoTextNormalizer(), org.miskito.dictionary.domain.search.SearchRanker())
         viewModel = SearchViewModel(repository)
     }
 
@@ -106,10 +106,7 @@ class SearchViewModelTest {
 
     class MockSearchDao : SearchDao {
         var results = emptyList<SearchResultProjection>()
-        override suspend fun searchAll(normalizedQuery: String, rawQuery: String, limit: Int) = results
-        override suspend fun searchMiskito(normalizedQuery: String, rawQuery: String, limit: Int) = results
-        override suspend fun searchSpanish(normalizedQuery: String, rawQuery: String, limit: Int) = results
-        override suspend fun searchEnglish(normalizedQuery: String, rawQuery: String, limit: Int) = results
+        override suspend fun searchAll(query: String, limit: Int) = results
     }
 
     private fun createMockResult(text: String) = SearchResultProjection(

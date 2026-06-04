@@ -11,6 +11,8 @@ import org.miskito.dictionary.data.local.entity.*
 import org.miskito.dictionary.data.local.relation.EntryDetailRelation
 import org.miskito.dictionary.data.local.relation.SearchResultProjection
 import org.miskito.dictionary.domain.model.SearchFilter
+import org.miskito.dictionary.domain.normalizer.MiskitoTextNormalizer
+import org.miskito.dictionary.domain.search.SearchRanker
 
 class DictionaryRepositoryTest {
 
@@ -62,10 +64,37 @@ class DictionaryRepositoryTest {
     }
     
     private val mockSearchDao = object : SearchDao {
-        override suspend fun searchAll(normalizedQuery: String, rawQuery: String, limit: Int): List<SearchResultProjection> = listOf(createMockResult())
-        override suspend fun searchMiskito(normalizedQuery: String, rawQuery: String, limit: Int): List<SearchResultProjection> = emptyList()
-        override suspend fun searchSpanish(normalizedQuery: String, rawQuery: String, limit: Int): List<SearchResultProjection> = emptyList()
-        override suspend fun searchEnglish(normalizedQuery: String, rawQuery: String, limit: Int): List<SearchResultProjection> = emptyList()
+        override suspend fun searchAll(query: String, limit: Int): List<SearchResultProjection> {
+            if (query.contains("test*")) return listOf(createMockResult())
+            if (query.contains("ba*")) {
+                return listOf(
+                    SearchResultProjection(
+                        entryId = 2,
+                        headword = "aba",
+                        normalizedHeadword = "aba",
+                        sortKey = "aba",
+                        partOfSpeech = "n",
+                        spanishTranslation = "baka", // translation
+                        hasExamples = false,
+                        hasNotes = false,
+                        hasVariants = false,
+                        ftsSpanishText = "baka"
+                    ),
+                    SearchResultProjection(
+                        entryId = 3,
+                        headword = "bâ",
+                        normalizedHeadword = "ba",
+                        sortKey = "bâ",
+                        partOfSpeech = "n",
+                        spanishTranslation = "prueba",
+                        hasExamples = false,
+                        hasNotes = false,
+                        hasVariants = false
+                    )
+                )
+            }
+            return emptyList()
+        }
         
         private fun createMockResult() = SearchResultProjection(
             entryId = 1,
@@ -85,7 +114,7 @@ class DictionaryRepositoryTest {
         override fun observeAllMetadata() = flowOf(emptyList<MetadataEntity>())
     }
 
-    private val repository = DictionaryRepository(mockEntryDao, mockSearchDao, mockMetadataDao)
+    private val repository = DictionaryRepository(mockEntryDao, mockSearchDao, mockMetadataDao, MiskitoTextNormalizer(), SearchRanker())
 
     @Test
     fun search_returnsRankedResults() = runBlocking {
@@ -99,5 +128,15 @@ class DictionaryRepositoryTest {
         val detail = repository.getEntryDetail(1L)
         assertEquals(1L, detail?.entry?.id)
         assertEquals("test", detail?.entry?.headword)
+    }
+
+    @Test
+    fun search_normalizesQuery_andRanksExactMatchFirst() = runBlocking {
+        // user enters "ba", mock returns two records, "aba" where translation is "baka", and "bâ" where headword is "bâ".
+        // The exact normalized headword should score higher than string in translation.
+        val results = repository.search("ba")
+        assertEquals(2, results.size)
+        assertEquals("bâ", results[0].headword)
+        assertEquals("aba", results[1].headword)
     }
 }

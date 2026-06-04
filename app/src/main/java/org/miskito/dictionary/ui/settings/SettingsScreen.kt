@@ -62,6 +62,20 @@ fun SettingsScreen(
                 subtitle = "Eliminar todas las búsquedas guardadas",
                 onClick = viewModel::clearHistory
             )
+            
+            Divider(modifier = Modifier.padding(vertical = 8.dp))
+            
+            SettingItem(
+                title = "Versión de la aplicación",
+                subtitle = uiState.appVersion,
+                onClick = {}
+            )
+            
+            SettingItem(
+                title = "Versión del diccionario",
+                subtitle = uiState.dbVersion,
+                onClick = {}
+            )
         }
     }
     

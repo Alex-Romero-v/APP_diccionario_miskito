@@ -5,11 +5,13 @@ import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import org.miskito.dictionary.data.repository.HistoryRepository
+import org.miskito.dictionary.data.repository.MetadataRepository
 import org.miskito.dictionary.data.repository.SettingsRepository
+import org.miskito.dictionary.BuildConfig
 import org.miskito.dictionary.domain.model.EnglishVisibility
 import org.miskito.dictionary.domain.model.FontSizePreference
 import org.miskito.dictionary.domain.model.ThemePreference
@@ -26,23 +28,26 @@ data class SettingsUiState(
 @HiltViewModel
 class SettingsViewModel @Inject constructor(
     private val settingsRepository: SettingsRepository,
-    private val historyRepository: HistoryRepository
+    private val historyRepository: HistoryRepository,
+    private val metadataRepository: MetadataRepository
 ) : ViewModel() {
 
-    val uiState: StateFlow<SettingsUiState> = settingsRepository.userPreferencesFlow
-        .map { prefs ->
-            SettingsUiState(
-                fontSize = prefs.fontSize,
-                theme = prefs.theme,
-                englishVisibility = prefs.englishVisibility,
-                appVersion = "1.0.0",
-                dbVersion = "1.0"
-            )
-        }.stateIn(
-            scope = viewModelScope,
-            started = SharingStarted.WhileSubscribed(5000),
-            initialValue = SettingsUiState()
+    val uiState: StateFlow<SettingsUiState> = combine(
+        settingsRepository.userPreferencesFlow,
+        metadataRepository.observeMetadata()
+    ) { prefs, metadata ->
+        SettingsUiState(
+            fontSize = prefs.fontSize,
+            theme = prefs.theme,
+            englishVisibility = prefs.englishVisibility,
+            appVersion = BuildConfig.VERSION_NAME,
+            dbVersion = metadata.databaseVersion
         )
+    }.stateIn(
+        scope = viewModelScope,
+        started = SharingStarted.WhileSubscribed(5000),
+        initialValue = SettingsUiState(appVersion = BuildConfig.VERSION_NAME)
+    )
 
     fun changeFontSize(size: FontSizePreference) {
         viewModelScope.launch {

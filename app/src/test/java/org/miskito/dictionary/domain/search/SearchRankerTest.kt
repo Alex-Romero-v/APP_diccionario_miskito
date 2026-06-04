@@ -13,7 +13,8 @@ class SearchRankerTest {
     )
 
     private fun rankItems(items: List<TestItem>): List<TestItem> {
-        return SearchRanker.rank(
+        val searchRanker = SearchRanker()
+        return searchRanker.rank(
             items = items,
             matchTypeSelector = { it.matchType },
             sortKeySelector = { it.sortKey },

@@ -7,6 +7,8 @@ import dagger.hilt.components.SingletonComponent
 import org.miskito.dictionary.data.local.dao.*
 import org.miskito.dictionary.data.preferences.UserPreferencesDataSource
 import org.miskito.dictionary.data.repository.*
+import org.miskito.dictionary.domain.normalizer.TextNormalizer
+import org.miskito.dictionary.domain.search.SearchRanker
 import javax.inject.Singleton
 
 @Module
@@ -18,8 +20,10 @@ object RepositoryModule {
     fun provideDictionaryRepository(
         entryDao: EntryDao,
         searchDao: SearchDao,
-        metadataDao: MetadataDao
-    ): DictionaryRepository = DictionaryRepository(entryDao, searchDao, metadataDao)
+        metadataDao: MetadataDao,
+        textNormalizer: TextNormalizer,
+        searchRanker: SearchRanker
+    ): DictionaryRepository = DictionaryRepository(entryDao, searchDao, metadataDao, textNormalizer, searchRanker)
 
     @Provides
     @Singleton

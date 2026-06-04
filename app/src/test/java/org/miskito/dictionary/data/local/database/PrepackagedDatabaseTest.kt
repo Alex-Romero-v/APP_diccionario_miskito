@@ -17,7 +17,6 @@ import java.io.FileOutputStream
 
 import org.junit.Ignore
 
-@Ignore("Blocked by TASK-107, dictionary.db asset is empty")
 @RunWith(RobolectricTestRunner::class)
 class PrepackagedDatabaseTest {
 
@@ -69,5 +68,31 @@ class PrepackagedDatabaseTest {
         
         assertTrue("Entries must exist but was $count. Asset size: ${assetFile.length()}", count > 0)
         cursor.close()
+        
+        // Tests: Let's see what matches FTS
+        fun tryMatch(q: String) {
+            var count = 0
+            try {
+                val cursor = db.openHelper.readableDatabase.query("SELECT COUNT(*) FROM search_index WHERE search_index MATCH '" + q.replace("'", "''") + "'")
+                cursor.moveToFirst()
+                count = cursor.getInt(0)
+                cursor.close()
+            } catch (e: Exception) {
+                println("MATCH ERROR for [$q]: ${e.message}")
+                return
+            }
+            println("MATCH RESULT for [$q]: $count")
+        }
+        
+        tryMatch("ba* de*")
+        tryMatch("headword:ba* OR normalized_headword:ba*")
+        tryMatch("spanish_text:la*")
+        
+        try {
+            val cur = db.openHelper.readableDatabase.query("SELECT COUNT(*) FROM search_index WHERE spanish_text IS NOT NULL AND spanish_text != ''")
+            cur.moveToFirst()
+            println("COUNT OF SPANISH TEXT: " + cur.getInt(0))
+            cur.close()
+        } catch(e: Exception){}
     }
 }

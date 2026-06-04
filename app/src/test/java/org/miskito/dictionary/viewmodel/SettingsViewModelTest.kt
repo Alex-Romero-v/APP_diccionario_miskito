@@ -9,13 +9,17 @@ import kotlinx.coroutines.test.*
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
+import org.junit.Assert.assertNotEquals
 import org.junit.Before
 import org.junit.Test
 import org.miskito.dictionary.data.local.dao.HistoryDao
+import org.miskito.dictionary.data.local.dao.MetadataDao
 import org.miskito.dictionary.data.local.entity.HistoryEntity
+import org.miskito.dictionary.data.local.entity.MetadataEntity
 import org.miskito.dictionary.data.preferences.UserPreferences
 import org.miskito.dictionary.data.preferences.UserPreferencesDataSource
 import org.miskito.dictionary.data.repository.HistoryRepository
+import org.miskito.dictionary.data.repository.MetadataRepository
 import org.miskito.dictionary.data.repository.SettingsRepository
 import org.miskito.dictionary.domain.model.EnglishVisibility
 import org.miskito.dictionary.domain.model.FontSizePreference
@@ -37,8 +41,16 @@ class SettingsViewModelTest {
         override suspend fun clearHistory() { cleared = true }
     }
 
+    private val mockMetadataDao = object : MetadataDao {
+        override suspend fun getValue(key: String): String? = null
+        override fun observeAllMetadata() = flowOf(listOf(
+            MetadataEntity("databaseVersion", "9.9")
+        ))
+    }
+
     private lateinit var settingsRepository: SettingsRepository
     private lateinit var historyRepository: HistoryRepository
+    private lateinit var metadataRepository: MetadataRepository
     private lateinit var viewModel: SettingsViewModel
     private val tempFile = java.io.File.createTempFile("test_prefs", ".preferences_pb")
 
@@ -53,7 +65,8 @@ class SettingsViewModelTest {
         val dataSource = UserPreferencesDataSource(testDataStore)
         settingsRepository = SettingsRepository(dataSource)
         historyRepository = HistoryRepository(mockHistoryDao)
-        viewModel = SettingsViewModel(settingsRepository, historyRepository)
+        metadataRepository = MetadataRepository(mockMetadataDao)
+        viewModel = SettingsViewModel(settingsRepository, historyRepository, metadataRepository)
     }
 
     @After
@@ -89,5 +102,15 @@ class SettingsViewModelTest {
         viewModel.clearHistory()
         advanceUntilIdle()
         assertTrue(cleared)
+    }
+
+    @Test
+    fun fetchMetadata_updatesDbVersionFlow() = runTest {
+        val collectJob = launch(UnconfinedTestDispatcher(testScheduler)) {
+            viewModel.uiState.collect {}
+        }
+        advanceUntilIdle()
+        assertEquals("9.9", viewModel.uiState.value.dbVersion)
+        collectJob.cancel()
     }
 }

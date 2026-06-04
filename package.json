@@ -11,7 +11,7 @@
         "transcribe:appendix": "node tools/dictionary-pipeline/src/cli.mjs parse-appendix",
         "transcribe:checksums": "node tools/dictionary-pipeline/src/cli.mjs checksums",
         "validate:transcription": "node tools/dictionary-pipeline/src/cli.mjs validate-transcription",
-        "test": "node --test tools/dictionary-pipeline/tests/**/*.test.mjs"
+        "test": "node --test tools/dictionary-pipeline-node/tests/**/*.test.mjs"
     },
     "dependencies": {
         "better-sqlite3": "^12.10.0",
