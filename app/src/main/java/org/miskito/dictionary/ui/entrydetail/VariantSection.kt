@@ -1,0 +1,45 @@
+package org.miskito.dictionary.ui.entrydetail
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+import org.miskito.dictionary.domain.model.Variant
+import org.miskito.dictionary.ui.common.SectionTitle
+
+@Composable
+fun VariantSection(
+    variants: List<Variant>,
+    modifier: Modifier = Modifier
+) {
+    if (variants.isEmpty()) return
+
+    Column(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp, vertical = 8.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
+        SectionTitle(title = "Variantes")
+        variants.forEach { variant ->
+            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                Text(
+                    text = variant.variantText,
+                    style = MaterialTheme.typography.bodyLarge
+                )
+                if (!variant.note.isNullOrBlank()) {
+                    Text(
+                        text = "Nota: ${variant.note}",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            }
+        }
+    }
+}
