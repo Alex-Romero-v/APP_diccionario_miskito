@@ -1,0 +1,538 @@
+{
+  "object_type": "page",
+  "uid": "page-p0003",
+  "pdf_page_number": 3,
+  "printed_page_number": null,
+  "section": "regular_verbs",
+  "secondary_sections": [],
+  "raw_text": "3\n\nUSING THE DICTIONARY / USANDO EL DICCIONARIO\n\nIt is recommended to use the Search or Find feature when searching for a Miskito word as not all constructed\nor conjugated forms are listed alphabetically. While an effort is made to list all conjugated forms of irregular\nverbs, most conjugated forms of regular verbs are not listed. For these, consult the conjugation of regular\nverbs chart on page 303.\n\nUse your application’s Search or Find also to find English or Spanish words, some of which will be found within\n\nexamples.\n\nIn English definitions, American English spelling is used.\n\nNote that the English and Spanish translations from Miskito example sentences are translated as literally as\npossible. For this reason, many sentences are not translated in the most common way that they would be\nsaid in English or Spanish.\n\nSe recomienda utilizar la función Buscar al buscar una palabra miskito\n, ya que no todas las formas construidas\n\no conjugadas se enumeran alfabéticamente. Si bien se hace un esfuerzo para enumerar todas las formas\n\nconjugadas de verbos irregulares, la mayoría de las formas conjugadas de verbos regulares no se enumeran.\n\nPara es\ntos, consulte la tabla de conjugación de verbos regulares en la página\n \n30\n3\n.\n\nUse Buscar de su aplicación también para buscar palabras en inglés o español, algunas de las cuales se\n\nencontrarán en ejemplos.\n\nEn las definiciones en inglés, se usa la ortografía del inglés americano.\n\nTenga en cuenta que las traducciones al inglés y al español de las oraciones de ejemplo en miskito\n \nse traducen\n\nlo más literalmente posible. Por esta razón, muchas oraciones no se traducen de la forma más común en que\n\nse dirían en inglés o español.",
+  "raw_text_sha256": "d05fa8e17ad5076e68590a921934efe7e06b0fea0261708ee7f5b1db176405a1",
+  "blocks": [
+    {
+      "block_id": "p0003-b0001",
+      "page_number": 3,
+      "text": "3",
+      "block_type": "page_number",
+      "bbox": {
+        "x": 570.5,
+        "y": 758.8,
+        "width": 5.577,
+        "height": 11
+      },
+      "reading_order": 1,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0002",
+      "page_number": 3,
+      "text": "USING THE DICTIONARY / USANDO EL DICCIONARIO",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 727.2,
+        "width": 345.12,
+        "height": 16
+      },
+      "reading_order": 2,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0003",
+      "page_number": 3,
+      "text": "It is recommended to use the Search or Find feature when searching for a Miskito word as not all constructed",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 36,
+        "y": 696.88,
+        "width": 533.016,
+        "height": 12
+      },
+      "reading_order": 3,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0004",
+      "page_number": 3,
+      "text": "or conjugated forms are listed alphabetically. While an effort is made to list all conjugated forms of irregular",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 682.17,
+        "width": 529.128,
+        "height": 12
+      },
+      "reading_order": 4,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0005",
+      "page_number": 3,
+      "text": "verbs, most conjugated forms of regular verbs are not listed. For these, consult the conjugation of regular",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 667.58,
+        "width": 516.966,
+        "height": 12
+      },
+      "reading_order": 5,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0006",
+      "page_number": 3,
+      "text": "verbs chart on page 303.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 652.88,
+        "width": 120.454,
+        "height": 12
+      },
+      "reading_order": 6,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0007",
+      "page_number": 3,
+      "text": "Use your application’s Search or Find also to find English or Spanish words, some of which will be found within",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 36,
+        "y": 624.78,
+        "width": 536.52,
+        "height": 12
+      },
+      "reading_order": 7,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0008",
+      "page_number": 3,
+      "text": "examples.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 610.17,
+        "width": 49.284,
+        "height": 12
+      },
+      "reading_order": 8,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0009",
+      "page_number": 3,
+      "text": "In English definitions, American English spelling is used.",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 36,
+        "y": 582.08,
+        "width": 269.076,
+        "height": 12
+      },
+      "reading_order": 9,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0010",
+      "page_number": 3,
+      "text": "Note that the English and Spanish translations from Miskito example sentences are translated as literally as",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 36,
+        "y": 553.97,
+        "width": 522.424,
+        "height": 12
+      },
+      "reading_order": 10,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0011",
+      "page_number": 3,
+      "text": "possible. For this reason, many sentences are not translated in the most common way that they would be",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 539.38,
+        "width": 517.164,
+        "height": 12
+      },
+      "reading_order": 11,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0012",
+      "page_number": 3,
+      "text": "said in English or Spanish.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 524.67,
+        "width": 124.836,
+        "height": 12
+      },
+      "reading_order": 12,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0013",
+      "page_number": 3,
+      "text": "Se recomienda utilizar la función Buscar al buscar una palabra miskito , ya que no todas las formas construidas",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 36,
+        "y": 480.75,
+        "width": 534.648,
+        "height": 12
+      },
+      "reading_order": 13,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0014",
+      "page_number": 3,
+      "text": "o conjugadas se enumeran alfabéticamente. Si bien se hace un esfuerzo para enumerar todas las formas",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 466.15,
+        "width": 510.792,
+        "height": 12
+      },
+      "reading_order": 14,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0015",
+      "page_number": 3,
+      "text": "conjugadas de verbos irregulares, la mayoría de las formas conjugadas de verbos regulares no se enumeran.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 451.45,
+        "width": 526.356,
+        "height": 12
+      },
+      "reading_order": 15,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0016",
+      "page_number": 3,
+      "text": "Para es tos, consulte la tabla de conjugación de verbos regulares en la página 30 3 .",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 436.85,
+        "width": 396.694,
+        "height": 12
+      },
+      "reading_order": 16,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0017",
+      "page_number": 3,
+      "text": "Use Buscar de su aplicación también para buscar palabras en inglés o español, algunas de las cuales se",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 36,
+        "y": 408.75,
+        "width": 497.124,
+        "height": 12
+      },
+      "reading_order": 17,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0018",
+      "page_number": 3,
+      "text": "encontrarán en ejemplos.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 394.05,
+        "width": 125.376,
+        "height": 12
+      },
+      "reading_order": 18,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0019",
+      "page_number": 3,
+      "text": "En las definiciones en inglés, se usa la ortografía del inglés americano.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 36,
+        "y": 366.05,
+        "width": 339.54,
+        "height": 12
+      },
+      "reading_order": 19,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0020",
+      "page_number": 3,
+      "text": "Tenga en cuenta que las traducciones al inglés y al español de las oraciones de ejemplo en miskito se traducen",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 36,
+        "y": 337.95,
+        "width": 537.472,
+        "height": 12
+      },
+      "reading_order": 20,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0021",
+      "page_number": 3,
+      "text": "lo más literalmente posible. Por esta razón, muchas oraciones no se traducen de la forma más común en que",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 323.25,
+        "width": 533.148,
+        "height": 12
+      },
+      "reading_order": 21,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0003-b0022",
+      "page_number": 3,
+      "text": "se dirían en inglés o español.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 308.63,
+        "width": 140.124,
+        "height": 12
+      },
+      "reading_order": 22,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    }
+  ],
+  "visual_elements": [
+    {
+      "uid": "visual-p0003-unknown-0001",
+      "object_type": "visual_element",
+      "visual_type": "unknown",
+      "source_page": 3,
+      "bbox": null,
+      "description": "Elemento visual detectado en la página.",
+      "associated_text": "",
+      "requires_manual_review": false
+    }
+  ],
+  "derived_objects": [],
+  "coverage": {
+    "raw_chars": 1697,
+    "assigned_chars": 1697,
+    "unassigned_chars": 0
+  },
+  "verification_status": "parsed",
+  "extraction_confidence": 1
+}

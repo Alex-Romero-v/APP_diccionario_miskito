@@ -29,13 +29,14 @@ Usa Node para el handoff de transcripcion y construccion de datos nuevos. Mantie
 
 ## Integracion De Handoff
 
-Coloca el ZIP canonico en:
+El handoff canonico ya debe existir en:
 
 ```text
-docs/agent-handoff/handoff_database_agent_20260603-211934.zip
+docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip
+docs/agent-handoff/extracted/
 ```
 
-Extraelo solo en ruta temporal o en `tools/dictionary-pipeline-node/` si una tarea lo autoriza. No mezcles archivos Node y Python en la misma carpeta sin tarea explicita. Si decides reemplazar `tools/dictionary-pipeline/`, hazlo en una tarea atomica con prueba previa.
+Usa preferentemente la carpeta ya extraida. No mezcles archivos Node y Python en la misma carpeta sin tarea explicita. Si decides reemplazar `tools/dictionary-pipeline/`, hazlo en una tarea atomica con prueba previa.
 
 ## Base SQLite Objetivo
 

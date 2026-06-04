@@ -1,0 +1,25 @@
+{
+  "schema_version": "transcription-intermediate-v1",
+  "source_name": "BYD Bila Yumhpa Diccionario Miskito Dictionary",
+  "source_date": "2024-12-20",
+  "source_pdf_path": "tools/dictionary-pipeline/input/BYD Bila Yumhpa Diccionario Miskito dictionary 20 diciembre 2024.pdf",
+  "source_pdf_sha256": "21808b8959b471a93a6f09ed2a25dfdc6dec5ca4c138a6ecf52ab627f8ceaf99",
+  "page_count": 330,
+  "language_scope": [
+    "miskito",
+    "english",
+    "spanish"
+  ],
+  "runtime": {
+    "engine": "node",
+    "python_allowed": false,
+    "network_allowed": false
+  },
+  "output_mode": "jsonl-partitioned",
+  "normalization": {
+    "unicode": "NFC",
+    "preserve_diacritics": true,
+    "create_diacriticless_search_forms": true
+  },
+  "status": "completed"
+}

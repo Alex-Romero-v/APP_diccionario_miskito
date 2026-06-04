@@ -12,10 +12,11 @@ No pidas "haz todos los parches". La cola esta disenada para avanzar de forma at
 
 ## Archivos De Handoff
 
-El ZIP necesario debe estar en:
+El handoff necesario debe estar en:
 
 ```text
 docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip
+docs/agent-handoff/extracted/
 ```
 
 Si no esta, copialo desde:

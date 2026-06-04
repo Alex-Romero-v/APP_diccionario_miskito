@@ -1,0 +1,790 @@
+{
+  "object_type": "page",
+  "uid": "page-p0324",
+  "pdf_page_number": 324,
+  "printed_page_number": null,
+  "section": "pronunciation",
+  "secondary_sections": [],
+  "raw_text": "324\n\nPRONUNCIATION & LOCAL VARIATIONS /\n\nPRONUNCIACIÓN Y VARIACIONES LOCALES\n\nWord Stress\n \n/ Estrés de la palabra\n\nWord stress is generally on the first syllable of each word.\n \n/\n \nEl énfasis de la palabra generalmente está en la primera\n\nsílaba de cada\n \npalabra.\n\nFor example, although there is no circumflex (ˆ) on the first “\na\n” in the verbs “\nPrakaia\n” and “\nSakaia\n”, th\na\nt\n \n“\na\n” is\n\nemphasized a\n \nlittle more than the other syllables.\n \n/\n \nPor ejemplo, aunque no hay circunflejo (ˆ) en la primera \"\na\n\" en\n\nlos\n \nverbos \"\nPrakaia\n\" y \"\nSakaia\n\", esa \"\na\n\" se enfatiza un poco más que las otras sílabas.\n\nWords that are said together / Palabras que se dicen juntas\n\nSome words that connect to the previous word or phrase are said together as if they were one word. / Algunas\npalabras que se conectan a la palabra o frase anterior se dicen juntas como si fueran una sola palabra.\n\nExamples\n/Ejemplos\n:\n \nnani\n,\n \nra\n,\n \nba\n,\n \nkum\n\nVariations in pronunciation\n \n/ Variaciones en la pronunciación\n\nThere are variations in\n \npronunciation from place to place\n.\n \n/\n \nHay variaciones en la pronunciación de un lugar a otro.\n\nExamples\n/Ejemplos\n:\n\nIn Karawala, the “\nt\n” in “\ntnata\n” is pronounced but in many other places it isn’t.\n \n/ En Karawala, la \"\nt\n\" en \"\ntnata\n\" se\n\npronuncia\n \npero en muchos otros lugares no lo es.\n\nIn Karawala, the word “\nPamilika\n”\n \nis prounounced\n \n“\nFamilika\n”.\n \n/ En Karawala, la palabra \"\nPamilika\n\" se pronuncia\n\"\nFamilika\n\".\n\n“\nTaim\n”\n \nis prounounced “\nTem\n” by some, but like English “\nTime\n”\n \nby others. / \"\nTaim\n\" se pronuncia \"\nTem\n\" por\nalgunos, pero al igual que Inglés \"\nTime\n\" por otros.\n\n“sp” & “st”\n\nAccording to American Anthropologist Issue 1, 1913, the “\nsp\n” and “\nst\n” combinations are “not permissible at the\n\nbeginning of words\n \n–\n \nthe “\ns\n” is simply dropped. It seems that all the words starting with “\nsp\n” and “st” have come\n\nfrom English. It is noteworthy that people often\n \nsay “\nTuri\n” instead of “\nSturi\n”.\n\nSegún el número 1 de American Anthropologist, 1913, las combinaciones \"\nsp\n\" y \"\nst\n\" no son \"admisibles al comienzo\n\nde las palabras: la\n \n\"\ns\n\"\n \nsimplemente se descarta. Parece que todas las palabras que comienzan con \"\nsp\n\" y \"\nst\n\"\n\nprovienen del inglés. Es de destacar que la gente suele decir \"\nTuri\n\" en lugar de \"\nSturi\n\".\n\n“sh”\n\n“\nsh\n” is not a sound in the Miskito language. There do not appear to be many exceptions.\n\n“\nsh\n”\n \nno es un sonido en el idioma miskito. No parece haber muchas excepciones.",
+  "raw_text_sha256": "0af5c01e60108950586abddc556818868b2bbb52a94bcf1e79458a5c35fd1314",
+  "blocks": [
+    {
+      "block_id": "p0324-b0001",
+      "page_number": 324,
+      "text": "324",
+      "block_type": "page_number",
+      "bbox": {
+        "x": 559.4,
+        "y": 758.8,
+        "width": 16.777,
+        "height": 11
+      },
+      "reading_order": 1,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0002",
+      "page_number": 324,
+      "text": "PRONUNCIATION & LOCAL VARIATIONS /",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 727.2,
+        "width": 274.208,
+        "height": 16
+      },
+      "reading_order": 2,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0003",
+      "page_number": 324,
+      "text": "PRONUNCIACIÓN Y VARIACIONES LOCALES",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 46.8,
+        "y": 707.7,
+        "width": 284.96,
+        "height": 16
+      },
+      "reading_order": 3,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0004",
+      "page_number": 324,
+      "text": "Word Stress / Estrés de la palabra",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 680.97,
+        "width": 168.189,
+        "height": 12
+      },
+      "reading_order": 4,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0005",
+      "page_number": 324,
+      "text": "Word stress is generally on the first syllable of each word. / El énfasis de la palabra generalmente está en la primera",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.7,
+        "y": 667.17,
+        "width": 516.993,
+        "height": 11
+      },
+      "reading_order": 5,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0006",
+      "page_number": 324,
+      "text": "sílaba de cada palabra.",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47.3,
+        "y": 653.78,
+        "width": 101.962,
+        "height": 11
+      },
+      "reading_order": 6,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0007",
+      "page_number": 324,
+      "text": "For example, although there is no circumflex (ˆ) on the first “ a ” in the verbs “ Prakaia ” and “ Sakaia ”, th a t “ a ” is",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47.4,
+        "y": 640.38,
+        "width": 493.015,
+        "height": 11
+      },
+      "reading_order": 7,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0008",
+      "page_number": 324,
+      "text": "emphasized a little more than the other syllables. / Por ejemplo, aunque no hay circunflejo (ˆ) en la primera \" a \" en",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 53,
+        "y": 626.97,
+        "width": 511.55,
+        "height": 11
+      },
+      "reading_order": 8,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0009",
+      "page_number": 324,
+      "text": "los verbos \" Prakaia \" y \" Sakaia \", esa \" a \" se enfatiza un poco más que las otras sílabas.",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 53,
+        "y": 613.47,
+        "width": 378.04,
+        "height": 11
+      },
+      "reading_order": 9,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0010",
+      "page_number": 324,
+      "text": "Words that are said together / Palabras que se dicen juntas",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 572.38,
+        "width": 295.222,
+        "height": 12
+      },
+      "reading_order": 10,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0011",
+      "page_number": 324,
+      "text": "Some words that connect to the previous word or phrase are said together as if they were one word. / Algunas",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.7,
+        "y": 558.58,
+        "width": 495.077,
+        "height": 11
+      },
+      "reading_order": 11,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0012",
+      "page_number": 324,
+      "text": "palabras que se conectan a la palabra o frase anterior se dicen juntas como si fueran una sola palabra.",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47.3,
+        "y": 545.17,
+        "width": 455.433,
+        "height": 11
+      },
+      "reading_order": 12,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0013",
+      "page_number": 324,
+      "text": "Examples /Ejemplos : nani , ra , ba , kum",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 53,
+        "y": 529.28,
+        "width": 168.96,
+        "height": 11
+      },
+      "reading_order": 13,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0014",
+      "page_number": 324,
+      "text": "Variations in pronunciation / Variaciones en la pronunciación",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 488.05,
+        "width": 305.166,
+        "height": 12
+      },
+      "reading_order": 14,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0015",
+      "page_number": 324,
+      "text": "There are variations in pronunciation from place to place . / Hay variaciones en la pronunciación de un lugar a otro.",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.7,
+        "y": 474.35,
+        "width": 511.463,
+        "height": 11
+      },
+      "reading_order": 15,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0016",
+      "page_number": 324,
+      "text": "Examples /Ejemplos :",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 53,
+        "y": 460.85,
+        "width": 90.278,
+        "height": 11
+      },
+      "reading_order": 16,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0017",
+      "page_number": 324,
+      "text": "In Karawala, the “ t ” in “ tnata ” is pronounced but in many other places it isn’t. / En Karawala, la \" t \" en \" tnata \" se",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 70.025,
+        "y": 447.45,
+        "width": 500.951,
+        "height": 11
+      },
+      "reading_order": 17,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0018",
+      "page_number": 324,
+      "text": "pronuncia pero en muchos otros lugares no lo es.",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 75.625,
+        "y": 434.05,
+        "width": 220.593,
+        "height": 11
+      },
+      "reading_order": 18,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0019",
+      "page_number": 324,
+      "text": "In Karawala, the word “ Pamilika ” is prounounced “ Familika ”. / En Karawala, la palabra \" Pamilika \" se pronuncia",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 70.025,
+        "y": 420.65,
+        "width": 496.904,
+        "height": 11
+      },
+      "reading_order": 19,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0020",
+      "page_number": 324,
+      "text": "\" Familika \".",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 75.625,
+        "y": 407.15,
+        "width": 49.877,
+        "height": 11
+      },
+      "reading_order": 20,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0021",
+      "page_number": 324,
+      "text": "“ Taim ” is prounounced “ Tem ” by some, but like English “ Time ” by others. / \" Taim \" se pronuncia \" Tem \" por",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 70.025,
+        "y": 393.75,
+        "width": 479.483,
+        "height": 11
+      },
+      "reading_order": 21,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0022",
+      "page_number": 324,
+      "text": "algunos, pero al igual que Inglés \" Time \" por otros.",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 75.625,
+        "y": 380.35,
+        "width": 223.41,
+        "height": 11
+      },
+      "reading_order": 22,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0023",
+      "page_number": 324,
+      "text": "“sp” & “st”",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 339.15,
+        "width": 54.9,
+        "height": 12
+      },
+      "reading_order": 23,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f5"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0024",
+      "page_number": 324,
+      "text": "According to American Anthropologist Issue 1, 1913, the “ sp ” and “ st ” combinations are “not permissible at the",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 41.6,
+        "y": 325.45,
+        "width": 498.355,
+        "height": 11
+      },
+      "reading_order": 24,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0025",
+      "page_number": 324,
+      "text": "beginning of words – the “ s ” is simply dropped. It seems that all the words starting with “ sp ” and “st” have come",
+      "block_type": "entry_candidate",
+      "bbox": {
+        "x": 58.6,
+        "y": 311.92,
+        "width": 505.99,
+        "height": 11
+      },
+      "reading_order": 25,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0026",
+      "page_number": 324,
+      "text": "from English. It is noteworthy that people often say “ Turi ” instead of “ Sturi ”.",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 58.6,
+        "y": 298.52,
+        "width": 344.94,
+        "height": 11
+      },
+      "reading_order": 26,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0027",
+      "page_number": 324,
+      "text": "Según el número 1 de American Anthropologist, 1913, las combinaciones \" sp \" y \" st \" no son \"admisibles al comienzo",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47.4,
+        "y": 285.13,
+        "width": 517.553,
+        "height": 11
+      },
+      "reading_order": 27,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0028",
+      "page_number": 324,
+      "text": "de las palabras: la \" s \" simplemente se descarta. Parece que todas las palabras que comienzan con \" sp \" y \" st \"",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 70.125,
+        "y": 271.63,
+        "width": 484.786,
+        "height": 11
+      },
+      "reading_order": 28,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0029",
+      "page_number": 324,
+      "text": "provienen del inglés. Es de destacar que la gente suele decir \" Turi \" en lugar de \" Sturi \".",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 70.125,
+        "y": 258.22,
+        "width": 385.627,
+        "height": 11
+      },
+      "reading_order": 29,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0030",
+      "page_number": 324,
+      "text": "“sh”",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 229.22,
+        "width": 21.624,
+        "height": 12
+      },
+      "reading_order": 30,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f5"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0031",
+      "page_number": 324,
+      "text": "“ sh ” is not a sound in the Miskito language. There do not appear to be many exceptions.",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 41.7,
+        "y": 215.52,
+        "width": 396.82,
+        "height": 11
+      },
+      "reading_order": 31,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0324-b0032",
+      "page_number": 324,
+      "text": "“ sh ” no es un sonido en el idioma miskito. No parece haber muchas excepciones.",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47.4,
+        "y": 202.13,
+        "width": 361.441,
+        "height": 11
+      },
+      "reading_order": 32,
+      "section": "pronunciation",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    }
+  ],
+  "visual_elements": [
+    {
+      "uid": "visual-p0324-unknown-0001",
+      "object_type": "visual_element",
+      "visual_type": "unknown",
+      "source_page": 324,
+      "bbox": null,
+      "description": "Elemento visual detectado en la página.",
+      "associated_text": "",
+      "requires_manual_review": false
+    }
+  ],
+  "derived_objects": [],
+  "coverage": {
+    "raw_chars": 2498,
+    "assigned_chars": 2498,
+    "unassigned_chars": 0
+  },
+  "verification_status": "parsed",
+  "extraction_confidence": 1
+}

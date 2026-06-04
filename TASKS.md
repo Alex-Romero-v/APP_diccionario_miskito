@@ -6,33 +6,35 @@ Ejecuta una sola tarea pendiente por ciclo. Usa estados `[ ]`, `[x]` y `[!]`. No
 
 ## Cola Atomica Para Cerrar Parches V1
 
-- [ ] T001 - Asegurar handoff de base de datos dentro del repo
-  - Objetivo: Copia el ZIP canonico completo a `docs/agent-handoff/` y deja README de uso para el agente siguiente.
+- [x] T001 - Asegurar handoff de base de datos dentro del repo
+  - Objetivo: Copia el ZIP canonico completo a `docs/agent-handoff/`, extrae su contenido y deja README de uso para el agente siguiente.
   - Precondiciones: Existe `C:/Users/zr_ma/OneDrive/Documentos/dic_miskito/handoff_database_agent_20260603-211934.zip`.
   - Archivos permitidos: `docs/agent-handoff/**`, `TASKS.md`.
   - Archivos prohibidos: `app/**`, `tools/**`, `build.gradle.kts`, `settings.gradle.kts`, `gradle.properties`.
   - Red: Verifica que `docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip` existe e incluye `tools/dictionary-pipeline/src/cli.mjs`.
-  - Green: Copia el ZIP y crea/actualiza `docs/agent-handoff/README_NEXT_AGENT.md`.
+  - Green: Copia el ZIP, extrae `docs/agent-handoff/extracted/` y crea/actualiza `docs/agent-handoff/README_NEXT_AGENT.md`.
   - Refactor: No aplica.
-  - Comando de validacion: `powershell -NoProfile -Command "Test-Path 'docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip'; Test-Path 'docs/agent-handoff/README_NEXT_AGENT.md'"`
+  - Comando de validacion: `powershell -NoProfile -Command "Test-Path 'docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip'; Test-Path 'docs/agent-handoff/extracted/tools/dictionary-pipeline/src/cli.mjs'; Test-Path 'docs/agent-handoff/README_NEXT_AGENT.md'"`
+  - Evidencia: `docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip`, `docs/agent-handoff/extracted/` y `README_NEXT_AGENT.md` existen.
   - Token de exito: `[TASK_COMPLETE: T001]`
   - Token de bloqueo: `[TASK_BLOCKED: T001]`
 
-- [ ] T002 - Validar handoff Node fuera del runtime Android
-  - Objetivo: Extrae el ZIP a una ruta temporal y valida transcripcion Node sin modificar Android.
+- [x] T002 - Validar handoff Node fuera del runtime Android
+  - Objetivo: Valida transcripcion Node sin modificar Android.
   - Precondiciones: T001 completada.
   - Archivos permitidos: `docs/agent-handoff/validation-log.md`, `TASKS.md`.
   - Archivos prohibidos: `app/**`, `tools/**`, `package.json`, `package-lock.json`, `build.gradle.kts`, `settings.gradle.kts`.
-  - Red: Ejecuta `npm test` en la extraccion temporal y registra si excede tiempo o falla.
+  - Red: Ejecuta `npm test` en `docs/agent-handoff/extracted/` y registra si excede tiempo o falla.
   - Green: Ejecuta `npm run validate:transcription` y registra resultado.
   - Refactor: No aplica.
-  - Comando de validacion: `powershell -NoProfile -Command "$d=Join-Path $env:TEMP 'miskito-handoff-check'; if(Test-Path $d){Remove-Item $d -Recurse -Force}; Expand-Archive 'docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip' $d; Push-Location $d; npm ci; npm run validate:transcription; Pop-Location"`
+  - Comando de validacion: `powershell -NoProfile -Command "Push-Location 'docs/agent-handoff/extracted'; npm ci; npm run validate:transcription; Pop-Location"`
+  - Evidencia: Validacion limpia registrada en `docs/agent-handoff/validation-log.md`; `npm ci` y `npm run validate:transcription` pasaron.
   - Token de exito: `[TASK_COMPLETE: T002]`
   - Token de bloqueo: `[TASK_BLOCKED: T002]`
 
 - [ ] T003 - Crear pipeline Node de SQLite desde JSONL
   - Objetivo: Agrega una ruta Node para generar `tools/dictionary-pipeline/output/dictionary.db` desde los JSONL del handoff.
-  - Precondiciones: T002 completada y `better-sqlite3` disponible en el handoff.
+  - Precondiciones: T002 completada y `better-sqlite3` disponible en `docs/agent-handoff/extracted/package-lock.json`.
   - Archivos permitidos: `tools/dictionary-pipeline-node/**`, `package.json`, `package-lock.json`, `docs/agent-handoff/**`, `TASKS.md`.
   - Archivos prohibidos: `app/src/main/java/**`, `app/src/main/assets/**`, `app/build.gradle.kts`, `settings.gradle.kts`.
   - Red: Agrega prueba Node que falla si no se puede generar una DB temporal desde fixtures/JSONL minimos.
@@ -50,7 +52,7 @@ Ejecuta una sola tarea pendiente por ciclo. Usa estados `[ ]`, `[x]` y `[!]`. No
   - Red: Ejecuta el generador contra datos incompletos y confirma que falla.
   - Green: Genera DB completa con `entriesCount = 6386` en metadata y tabla `entries` con 6386 filas.
   - Refactor: Elimina temporales fuera de `output`.
-  - Comando de validacion: `node tools/dictionary-pipeline-node/scripts/build-sqlite.mjs --handoff docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip --out tools/dictionary-pipeline/output/dictionary.db && node tools/dictionary-pipeline-node/scripts/validate-sqlite.mjs --db tools/dictionary-pipeline/output/dictionary.db --entries 6386`
+  - Comando de validacion: `node tools/dictionary-pipeline-node/scripts/build-sqlite.mjs --handoff docs/agent-handoff/extracted --out tools/dictionary-pipeline/output/dictionary.db && node tools/dictionary-pipeline-node/scripts/validate-sqlite.mjs --db tools/dictionary-pipeline/output/dictionary.db --entries 6386`
   - Token de exito: `[TASK_COMPLETE: T004]`
   - Token de bloqueo: `[TASK_BLOCKED: T004]`
 

@@ -1,0 +1,136 @@
+{
+  "object_type": "page",
+  "uid": "page-p0001",
+  "pdf_page_number": 1,
+  "printed_page_number": null,
+  "section": "cover",
+  "secondary_sections": [],
+  "raw_text": "B\nÎ\nLA YUMHPA\n\nMISKIT\nU\n-\nENGLISH\n-\nESPA\nÑ\nOL\n\nDiccionario Miskito Dictionary\n\nDiciem\nbre\n \n2\n0\n, 202\n4",
+  "raw_text_sha256": "c3ef34007a59e883007d014a4ed88de8b503b12870d1621ee7e07134cc6658bf",
+  "blocks": [
+    {
+      "block_id": "p0001-b0001",
+      "page_number": 1,
+      "text": "B Î LA YUMHPA",
+      "block_type": "cover_subtitle",
+      "bbox": {
+        "x": 85.325,
+        "y": 659.78,
+        "width": 441.081,
+        "height": 52
+      },
+      "reading_order": 1,
+      "section": "cover",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f1"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0001-b0002",
+      "page_number": 1,
+      "text": "MISKIT U - ENGLISH - ESPA Ñ OL",
+      "block_type": "entry_candidate",
+      "bbox": {
+        "x": 111.02,
+        "y": 561.17,
+        "width": 390.04,
+        "height": 34
+      },
+      "reading_order": 2,
+      "section": "cover",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0001-b0003",
+      "page_number": 1,
+      "text": "Diccionario Miskito Dictionary",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 98.625,
+        "y": 519.67,
+        "width": 414.766,
+        "height": 34
+      },
+      "reading_order": 3,
+      "section": "cover",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0001-b0004",
+      "page_number": 1,
+      "text": "Diciem bre 2 0 , 202 4",
+      "block_type": "cover_subtitle",
+      "bbox": {
+        "x": 402.17,
+        "y": 61.5,
+        "width": 173.984,
+        "height": 22
+      },
+      "reading_order": 4,
+      "section": "cover",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    }
+  ],
+  "visual_elements": [
+    {
+      "uid": "visual-p0001-image-0001",
+      "object_type": "visual_element",
+      "visual_type": "image",
+      "source_page": 1,
+      "bbox": null,
+      "description": "Imagen detectada en la página.",
+      "associated_text": "",
+      "requires_manual_review": false
+    },
+    {
+      "uid": "visual-p0001-unknown-0001",
+      "object_type": "visual_element",
+      "visual_type": "unknown",
+      "source_page": 1,
+      "bbox": null,
+      "description": "Elemento visual detectado en la página.",
+      "associated_text": "",
+      "requires_manual_review": false
+    }
+  ],
+  "derived_objects": [],
+  "coverage": {
+    "raw_chars": 103,
+    "assigned_chars": 103,
+    "unassigned_chars": 0
+  },
+  "verification_status": "parsed",
+  "extraction_confidence": 1
+}

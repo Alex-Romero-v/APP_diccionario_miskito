@@ -1,0 +1,657 @@
+{
+  "object_type": "page",
+  "uid": "page-p0325",
+  "pdf_page_number": 325,
+  "printed_page_number": null,
+  "section": "short_forms",
+  "secondary_sections": [],
+  "raw_text": "325\n\nSHORT FORMS OF WORDS / FORMAS CORTAS DE PALABRAS\n\nExamples\n/Ejemplos:\n\nRegular form /\n\nForma regular\n\nShort form /\n\nForma corta\n\nDefinition / Definición\n\nBahak\n \nBâk\n \nthrough, by, by way of, through that\n \n/ a\ntravés de, a través de eso\n\nBahara\n \nBâra\n \nthere, therein, thereon, to that place\n \n/ allí,\nahí, al respecto, a ese lugar\n\nBaku\n \nBak\n \nso, thus, like that, as, likely, probably\n \n/ así,\n\nde esa masnera, como, probablemente\n\nBaman\n \nMan\n \nonly, just\n \n/ solo,\n \nú\nnico, solamente\n\nDîa takisa?\n \nDîa taksa?\n \nWhat’s happening?\n \n/ Qué esta pasando?\n\nKaina\n \nKan\n \nahead, in front\n \n/ adelante, delante\n\nKainara\n \nKanra\n \nahead of, in front of, in front, in the future,\n\nbeyond /\n \ndelante,\n \nen el futuro, más allá\n\nMununhta\n \nMuhnta\n \nbottom, under, below, down\n \n/ abajo\n\nMununhtara\n \nMunhtara\n \nat the bottom, underneath, down below\n \n/\n\nen la parte inferior, debajo, abajo\n\nNahamuna, Naha\nmuna\n\nNahmuna\n \nof this kind, this kind, like this\n \n/ de este tipo,\n\nasí\n\nNahara\n \nNâra\n \nhere, in here\n \n/ aquí\n\nSakuna\n \nKuna\n \nbut, however, so, although\n \n/ pero, sin\n\nembargo, entonces, aunque\n\nWapni\n \nWap\n \nupright, honest, correct, just\n \n/ recto,\n\nhonesto, correcto, justo",
+  "raw_text_sha256": "50cea19956abd0f5a03e8e997dea563159b5aa8e2f02ba6074ee5e7d583edada",
+  "blocks": [
+    {
+      "block_id": "p0325-b0001",
+      "page_number": 325,
+      "text": "325",
+      "block_type": "page_number",
+      "bbox": {
+        "x": 559.4,
+        "y": 758.8,
+        "width": 16.777,
+        "height": 11
+      },
+      "reading_order": 1,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0002",
+      "page_number": 325,
+      "text": "SHORT FORMS OF WORDS / FORMAS CORTAS DE PALABRAS",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 727.2,
+        "width": 399.728,
+        "height": 16
+      },
+      "reading_order": 2,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0003",
+      "page_number": 325,
+      "text": "Examples /Ejemplos:",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 701.38,
+        "width": 90.252,
+        "height": 11
+      },
+      "reading_order": 3,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0004",
+      "page_number": 325,
+      "text": "Regular form / Short form / Definition / Definición",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 686.58,
+        "width": 369.166,
+        "height": 12
+      },
+      "reading_order": 4,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0005",
+      "page_number": 325,
+      "text": "Forma regular Forma corta",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47,
+        "y": 671.97,
+        "width": 168.412,
+        "height": 12
+      },
+      "reading_order": 5,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0006",
+      "page_number": 325,
+      "text": "Bahak Bâk through, by, by way of, through that / a",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 657.67,
+        "width": 434.737,
+        "height": 11
+      },
+      "reading_order": 6,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0007",
+      "page_number": 325,
+      "text": "través de, a través de eso",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 305.45,
+        "y": 644.28,
+        "width": 113.487,
+        "height": 11
+      },
+      "reading_order": 7,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0008",
+      "page_number": 325,
+      "text": "Bahara Bâra there, therein, thereon, to that place / allí,",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 630.28,
+        "width": 445.833,
+        "height": 11
+      },
+      "reading_order": 8,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0009",
+      "page_number": 325,
+      "text": "ahí, al respecto, a ese lugar",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 305.45,
+        "y": 616.88,
+        "width": 121.33,
+        "height": 11
+      },
+      "reading_order": 9,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0010",
+      "page_number": 325,
+      "text": "Baku Bak so, thus, like that, as, likely, probably / así,",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 602.97,
+        "width": 446.439,
+        "height": 11
+      },
+      "reading_order": 10,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0011",
+      "page_number": 325,
+      "text": "de esa masnera, como, probablemente",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 302.35,
+        "y": 589.58,
+        "width": 174.878,
+        "height": 11
+      },
+      "reading_order": 11,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0012",
+      "page_number": 325,
+      "text": "Baman Man only, just / solo, ú nico, solamente",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 575.58,
+        "width": 408.339,
+        "height": 11
+      },
+      "reading_order": 12,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0013",
+      "page_number": 325,
+      "text": "Dîa takisa? Dîa taksa? What’s happening? / Qué esta pasando?",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 41.6,
+        "y": 561.67,
+        "width": 439.673,
+        "height": 11
+      },
+      "reading_order": 13,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4",
+          "g_d0_f8"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0014",
+      "page_number": 325,
+      "text": "Kaina Kan ahead, in front / adelante, delante",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 547.78,
+        "width": 411.898,
+        "height": 11
+      },
+      "reading_order": 14,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0015",
+      "page_number": 325,
+      "text": "Kainara Kanra ahead of, in front of, in front, in the future,",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 533.88,
+        "width": 448.209,
+        "height": 11
+      },
+      "reading_order": 15,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0016",
+      "page_number": 325,
+      "text": "beyond / delante, en el futuro, más allá",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 302.35,
+        "y": 520.38,
+        "width": 175.436,
+        "height": 11
+      },
+      "reading_order": 16,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0017",
+      "page_number": 325,
+      "text": "Mununhta Muhnta bottom, under, below, down / abajo",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 506.45,
+        "width": 418.784,
+        "height": 11
+      },
+      "reading_order": 17,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0018",
+      "page_number": 325,
+      "text": "Mununhtara Munhtara at the bottom, underneath, down below /",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 492.55,
+        "width": 443.616,
+        "height": 11
+      },
+      "reading_order": 18,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0019",
+      "page_number": 325,
+      "text": "en la parte inferior, debajo, abajo",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 302.35,
+        "y": 479.05,
+        "width": 149.644,
+        "height": 11
+      },
+      "reading_order": 19,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0020",
+      "page_number": 325,
+      "text": "Nahamuna, Naha Nahmuna of this kind, this kind, like this / de este tipo,",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 41.6,
+        "y": 465.15,
+        "width": 454.05,
+        "height": 11
+      },
+      "reading_order": 20,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0021",
+      "page_number": 325,
+      "text": "muna así",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 41.6,
+        "y": 451.75,
+        "width": 272.85,
+        "height": 11
+      },
+      "reading_order": 21,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0022",
+      "page_number": 325,
+      "text": "Nahara Nâra here, in here / aquí",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 437.85,
+        "width": 342.684,
+        "height": 11
+      },
+      "reading_order": 22,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0023",
+      "page_number": 325,
+      "text": "Sakuna Kuna but, however, so, although / pero, sin",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 423.85,
+        "width": 425.255,
+        "height": 11
+      },
+      "reading_order": 23,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0024",
+      "page_number": 325,
+      "text": "embargo, entonces, aunque",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 302.35,
+        "y": 410.45,
+        "width": 125.411,
+        "height": 11
+      },
+      "reading_order": 24,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0025",
+      "page_number": 325,
+      "text": "Wapni Wap upright, honest, correct, just / recto,",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 396.55,
+        "width": 419.703,
+        "height": 11
+      },
+      "reading_order": 25,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0325-b0026",
+      "page_number": 325,
+      "text": "honesto, correcto, justo",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 302.35,
+        "y": 383.05,
+        "width": 106.942,
+        "height": 11
+      },
+      "reading_order": 26,
+      "section": "short_forms",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    }
+  ],
+  "visual_elements": [
+    {
+      "uid": "visual-p0325-unknown-0001",
+      "object_type": "visual_element",
+      "visual_type": "unknown",
+      "source_page": 325,
+      "bbox": null,
+      "description": "Elemento visual detectado en la página.",
+      "associated_text": "",
+      "requires_manual_review": false
+    }
+  ],
+  "derived_objects": [],
+  "coverage": {
+    "raw_chars": 1190,
+    "assigned_chars": 1190,
+    "unassigned_chars": 0
+  },
+  "verification_status": "parsed",
+  "extraction_confidence": 1
+}

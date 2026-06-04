@@ -1,0 +1,640 @@
+{
+  "object_type": "page",
+  "uid": "page-p0310",
+  "pdf_page_number": 310,
+  "printed_page_number": null,
+  "section": "appendix_overview",
+  "secondary_sections": [],
+  "raw_text": "310\n\nVERBS THAT CAN INDICATE THE OBJECT /\n\nVERBOS QUE PUEDEN INDICAR EL OBJETO\n\nThese are verbs where the root of the verb changes to indicate who the action is happening to. /\n\nEstos son verbos donde la raíz del verbo cambia para indicar a quién le está sucediendo la acción.\n\nExamples/Ejemplos:\n\nFrom/De:\n \nMayunaia\n \n–\n \nto praise, to worship\n \n/ alabar, adorar\n\nFirst person object / Objeto en primera persona:\n\nMaiyunaia\n \n–\n \nto praise me, to worship me\n \n/ alabarme, adorarme\n\nSecond person object / Objeto en segunda persona:\n\nMamyunaia\n \n–\n \nto\n \npraise you, to worship you\n \n/ alabarte, adorarte\n\nThird\n \nperson object / Objeto en\n \ntercera\n \npersona:\n\nAimayunaia\n \n–\n \nto praise\n/worship\n \nhimself/herself\n \n/\n \nalabarse a sí mismo, adorarse a sí mismo\n\nFrom\n/De\n:\n \nMarikaia\n \n–\n \nto show\n \n/ mostrar\n\nFirst person object / Objeto en primera persona:\n\nMairikaia\n \n–\n \nto show me\n \n/ mostrarme\n\nSecond person object / Objeto en segunda persona:\n\nMamrikaia\n \n–\n \nto show you\n \n/ mostrarte\n\nFrom/De:\n \nYabaia\n \n–\n \nto give\n \n/ dar\n\nFirst person object / Objeto en primera persona:\n\nAikaia\n \n–\n \nto give me\n \n/\n \ndarme\n\nSecond\n \nperson object / Objeto en\n \nsegunda\n \npersona:\n\nMaikaia\n \n–\n \nto give you\n \n/ darte\n\nIf the object is “us” / Si el objeto es \"nosotros\":\n\nWankaia\n \n–\n \nto give us\n \n/ darnos",
+  "raw_text_sha256": "46d83957846159ed20c166744bb4b74b3ea340af08624ea15ecac7c5bc298ca7",
+  "blocks": [
+    {
+      "block_id": "p0310-b0001",
+      "page_number": 310,
+      "text": "310",
+      "block_type": "page_number",
+      "bbox": {
+        "x": 559.4,
+        "y": 758.8,
+        "width": 16.777,
+        "height": 11
+      },
+      "reading_order": 1,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0002",
+      "page_number": 310,
+      "text": "VERBS THAT CAN INDICATE THE OBJECT /",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 727.2,
+        "width": 273.76,
+        "height": 16
+      },
+      "reading_order": 2,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0003",
+      "page_number": 310,
+      "text": "VERBOS QUE PUEDEN INDICAR EL OBJETO",
+      "block_type": "appendix_heading",
+      "bbox": {
+        "x": 46.8,
+        "y": 707.7,
+        "width": 278.608,
+        "height": 16
+      },
+      "reading_order": 3,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0004",
+      "page_number": 310,
+      "text": "These are verbs where the root of the verb changes to indicate who the action is happening to. /",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 689.17,
+        "width": 431.216,
+        "height": 11
+      },
+      "reading_order": 4,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0005",
+      "page_number": 310,
+      "text": "Estos son verbos donde la raíz del verbo cambia para indicar a quién le está sucediendo la acción.",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 41.7,
+        "y": 675.78,
+        "width": 434.324,
+        "height": 11
+      },
+      "reading_order": 5,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0006",
+      "page_number": 310,
+      "text": "Examples/Ejemplos:",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 647.67,
+        "width": 90.2,
+        "height": 11
+      },
+      "reading_order": 6,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0007",
+      "page_number": 310,
+      "text": "From/De: Mayunaia – to praise, to worship / alabar, adorar",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 628.17,
+        "width": 265.149,
+        "height": 11
+      },
+      "reading_order": 7,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f8"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0008",
+      "page_number": 310,
+      "text": "First person object / Objeto en primera persona:",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 104.12,
+        "y": 614.78,
+        "width": 216.778,
+        "height": 11
+      },
+      "reading_order": 8,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0009",
+      "page_number": 310,
+      "text": "Maiyunaia – to praise me, to worship me / alabarme, adorarme",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 115.42,
+        "y": 601.28,
+        "width": 283.883,
+        "height": 11
+      },
+      "reading_order": 9,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0010",
+      "page_number": 310,
+      "text": "Second person object / Objeto en segunda persona:",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 104.12,
+        "y": 585.47,
+        "width": 231.704,
+        "height": 11
+      },
+      "reading_order": 10,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0011",
+      "page_number": 310,
+      "text": "Mamyunaia – to praise you, to worship you / alabarte, adorarte",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 115.42,
+        "y": 571.97,
+        "width": 284.38,
+        "height": 11
+      },
+      "reading_order": 11,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0012",
+      "page_number": 310,
+      "text": "Third person object / Objeto en tercera persona:",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 104.12,
+        "y": 556.17,
+        "width": 217.368,
+        "height": 11
+      },
+      "reading_order": 12,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0013",
+      "page_number": 310,
+      "text": "Aimayunaia – to praise /worship himself/herself / alabarse a sí mismo, adorarse a sí mismo",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 115.42,
+        "y": 542.67,
+        "width": 403.803,
+        "height": 11
+      },
+      "reading_order": 13,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0014",
+      "page_number": 310,
+      "text": "From /De : Marikaia – to show / mostrar",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 515.88,
+        "width": 176.404,
+        "height": 11
+      },
+      "reading_order": 14,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0015",
+      "page_number": 310,
+      "text": "First person object / Objeto en primera persona:",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 104.12,
+        "y": 502.45,
+        "width": 216.678,
+        "height": 11
+      },
+      "reading_order": 15,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0016",
+      "page_number": 310,
+      "text": "Mairikaia – to show me / mostrarme",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 115.42,
+        "y": 488.95,
+        "width": 164.415,
+        "height": 11
+      },
+      "reading_order": 16,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0017",
+      "page_number": 310,
+      "text": "Second person object / Objeto en segunda persona:",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 104.12,
+        "y": 473.15,
+        "width": 231.704,
+        "height": 11
+      },
+      "reading_order": 17,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0018",
+      "page_number": 310,
+      "text": "Mamrikaia – to show you / mostrarte",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 115.42,
+        "y": 459.65,
+        "width": 167.823,
+        "height": 11
+      },
+      "reading_order": 18,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0019",
+      "page_number": 310,
+      "text": "From/De: Yabaia – to give / dar",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 430.35,
+        "width": 143.345,
+        "height": 11
+      },
+      "reading_order": 19,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0020",
+      "page_number": 310,
+      "text": "First person object / Objeto en primera persona:",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 104.12,
+        "y": 416.95,
+        "width": 216.678,
+        "height": 11
+      },
+      "reading_order": 20,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0021",
+      "page_number": 310,
+      "text": "Aikaia – to give me / darme",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 115.42,
+        "y": 403.55,
+        "width": 123.673,
+        "height": 11
+      },
+      "reading_order": 21,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0022",
+      "page_number": 310,
+      "text": "Second person object / Objeto en segunda persona:",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 104.12,
+        "y": 387.65,
+        "width": 231.868,
+        "height": 11
+      },
+      "reading_order": 22,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0023",
+      "page_number": 310,
+      "text": "Maikaia – to give you / darte",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 115.42,
+        "y": 374.25,
+        "width": 129.276,
+        "height": 11
+      },
+      "reading_order": 23,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0024",
+      "page_number": 310,
+      "text": "If the object is “us” / Si el objeto es \"nosotros\":",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 104.12,
+        "y": 358.35,
+        "width": 209.737,
+        "height": 11
+      },
+      "reading_order": 24,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0310-b0025",
+      "page_number": 310,
+      "text": "Wankaia – to give us / darnos",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 115.42,
+        "y": 344.95,
+        "width": 133.186,
+        "height": 11
+      },
+      "reading_order": 25,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    }
+  ],
+  "visual_elements": [
+    {
+      "uid": "visual-p0310-unknown-0001",
+      "object_type": "visual_element",
+      "visual_type": "unknown",
+      "source_page": 310,
+      "bbox": null,
+      "description": "Elemento visual detectado en la página.",
+      "associated_text": "",
+      "requires_manual_review": false
+    }
+  ],
+  "derived_objects": [],
+  "coverage": {
+    "raw_chars": 1310,
+    "assigned_chars": 1310,
+    "unassigned_chars": 0
+  },
+  "verification_status": "parsed",
+  "extraction_confidence": 1
+}

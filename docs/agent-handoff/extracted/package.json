@@ -1,0 +1,20 @@
+{
+    "name": "dic-miskito",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "validate:env": "node tools/dictionary-pipeline/src/cli.mjs validate-env",
+        "transcribe:init": "node tools/dictionary-pipeline/src/cli.mjs init",
+        "transcribe:pages": "node tools/dictionary-pipeline/src/cli.mjs extract-pages",
+        "transcribe:catalog": "node tools/dictionary-pipeline/src/cli.mjs parse-catalog",
+        "transcribe:dictionary": "node tools/dictionary-pipeline/src/cli.mjs parse-dictionary",
+        "transcribe:appendix": "node tools/dictionary-pipeline/src/cli.mjs parse-appendix",
+        "transcribe:checksums": "node tools/dictionary-pipeline/src/cli.mjs checksums",
+        "validate:transcription": "node tools/dictionary-pipeline/src/cli.mjs validate-transcription",
+        "test": "node --test tools/dictionary-pipeline/tests/**/*.test.mjs"
+    },
+    "dependencies": {
+        "better-sqlite3": "^12.10.0",
+        "pdfjs-dist": "^6.0.227"
+    }
+}

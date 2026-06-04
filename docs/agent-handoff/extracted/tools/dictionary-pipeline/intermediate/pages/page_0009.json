@@ -1,0 +1,788 @@
+{
+  "object_type": "page",
+  "uid": "page-p0009",
+  "pdf_page_number": 9,
+  "printed_page_number": null,
+  "section": "bible_books",
+  "secondary_sections": [],
+  "raw_text": "9\n\nGRIK ULBANKA NANI\n\nMiskito\n \nTnatka prahni\n \nEnglish\n \nEspañol\n\nMatiu\n \nMt.\n \nMatthew\n \nMateo\n\nMark\n \nMk.\n \nMark\n \nMarcos\n\nLuk\n \nLk.\n \nLuke\n \nLucas\n\nJan\n \nJn.\n \nJohn\n \nJuan\n\nApastil Nani Sturka\n \nAp.St.\n \nActs\n \nHechos\n\nRoman\n \nRo.\n \nRomans\n \nRomanos\n\n1 Korint\n \n1Ko.\n \n1 Corinthians\n \n1 Corintios\n\n2 Korint\n \n2Ko.\n \n2 Corinthians\n \n2 Corintios\n\nGalesha\n \nGal.\n \nGalatians\n \nGálatas\n\nEpesus\n \nEpe.\n \nEphesians\n \nEfesios\n\nPilipai\n \nPil.\n \nPhilippians\n \nFilipenses\n\nKolosi\n \nKol.\n \nColossians\n \nColosenses\n\n1 Tesalonika\n \n1Tes.\n \n1 Thessalonians\n \n1 Tesalonicenses\n\n2 Tesalonika\n \n2Tes.\n \n2 Thessalonians\n \n2 Tesalonicenses\n\n1 Timoti\n \n1Ti.\n \n1 Timothy\n \n1 Timoteo\n\n2 Timoti\n \n2Ti.\n \n2 Timothy\n \n2 Timoteo\n\nTaitus\n \nTai.\n \nTitus\n \nTito\n\nPilimon\n \nPlm.\n \nPhilemon\n \nFilemón\n\nHibru Nani\n \nHib.\n \nHebrews\n \nHebreos\n\nJems\n \nJe.\n \nJames\n \nSantiago\n\n1 Pita\n \n1Pi.\n \n1 Peter\n \n1 Pedro\n\n2 Pita\n \n2Pi.\n \n2 Peter\n \n2 Pedro\n\n1 Jan\n \n1Jn.\n \n1 John\n \n1 Juan\n\n2 Jan\n \n2Jn.\n \n2 John\n \n2 Juan\n\n3 Jan\n \n3Jn.\n \n3 John\n \n3 Juan\n\nJudas\n \nJud.\n \nJude\n \nJudas\n\nParam Marikan\n \nPar.M.\n \nRevelation\n \nApocalipsis",
+  "raw_text_sha256": "84fd3b2b31567cb1463eb85afe42807f79cf5d8fe256533bca1a201016a00537",
+  "blocks": [
+    {
+      "block_id": "p0009-b0001",
+      "page_number": 9,
+      "text": "9",
+      "block_type": "page_number",
+      "bbox": {
+        "x": 570.5,
+        "y": 758.8,
+        "width": 5.577,
+        "height": 11
+      },
+      "reading_order": 1,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0002",
+      "page_number": 9,
+      "text": "GRIK ULBANKA NANI",
+      "block_type": "appendix_heading",
+      "bbox": {
+        "x": 36,
+        "y": 716.4,
+        "width": 104.484,
+        "height": 12
+      },
+      "reading_order": 2,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0003",
+      "page_number": 9,
+      "text": "Miskito Tnatka prahni English Español",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 701.17,
+        "width": 434.744,
+        "height": 12
+      },
+      "reading_order": 3,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0004",
+      "page_number": 9,
+      "text": "Matiu Mt. Matthew Mateo",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 677.97,
+        "width": 426.347,
+        "height": 11
+      },
+      "reading_order": 4,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0005",
+      "page_number": 9,
+      "text": "Mark Mk. Mark Marcos",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 664.08,
+        "width": 429.966,
+        "height": 11
+      },
+      "reading_order": 5,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0006",
+      "page_number": 9,
+      "text": "Luk Lk. Luke Lucas",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 650.08,
+        "width": 421.342,
+        "height": 11
+      },
+      "reading_order": 6,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0007",
+      "page_number": 9,
+      "text": "Jan Jn. John Juan",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 636.17,
+        "width": 417.041,
+        "height": 11
+      },
+      "reading_order": 7,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0008",
+      "page_number": 9,
+      "text": "Apastil Nani Sturka Ap.St. Acts Hechos",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 622.28,
+        "width": 429.625,
+        "height": 11
+      },
+      "reading_order": 8,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0009",
+      "page_number": 9,
+      "text": "Roman Ro. Romans Romanos",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 608.38,
+        "width": 438.458,
+        "height": 11
+      },
+      "reading_order": 9,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0010",
+      "page_number": 9,
+      "text": "1 Korint 1Ko. 1 Corinthians 1 Corintios",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 594.38,
+        "width": 444.886,
+        "height": 11
+      },
+      "reading_order": 10,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0011",
+      "page_number": 9,
+      "text": "2 Korint 2Ko. 2 Corinthians 2 Corintios",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 580.47,
+        "width": 444.871,
+        "height": 11
+      },
+      "reading_order": 11,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0012",
+      "page_number": 9,
+      "text": "Galesha Gal. Galatians Gálatas",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 566.58,
+        "width": 429.933,
+        "height": 11
+      },
+      "reading_order": 12,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0013",
+      "page_number": 9,
+      "text": "Epesus Epe. Ephesians Efesios",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 552.58,
+        "width": 427.876,
+        "height": 11
+      },
+      "reading_order": 13,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0014",
+      "page_number": 9,
+      "text": "Pilipai Pil. Philippians Filipenses",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 538.67,
+        "width": 440.449,
+        "height": 11
+      },
+      "reading_order": 14,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0015",
+      "page_number": 9,
+      "text": "Kolosi Kol. Colossians Colosenses",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 524.78,
+        "width": 446.356,
+        "height": 11
+      },
+      "reading_order": 15,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0016",
+      "page_number": 9,
+      "text": "1 Tesalonika 1Tes. 1 Thessalonians 1 Tesalonicenses",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 510.88,
+        "width": 471.799,
+        "height": 11
+      },
+      "reading_order": 16,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0017",
+      "page_number": 9,
+      "text": "2 Tesalonika 2Tes. 2 Thessalonians 2 Tesalonicenses",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 496.85,
+        "width": 471.799,
+        "height": 11
+      },
+      "reading_order": 17,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0018",
+      "page_number": 9,
+      "text": "1 Timoti 1Ti. 1 Timothy 1 Timoteo",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 482.95,
+        "width": 442.231,
+        "height": 11
+      },
+      "reading_order": 18,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0019",
+      "page_number": 9,
+      "text": "2 Timoti 2Ti. 2 Timothy 2 Timoteo",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 469.05,
+        "width": 442.231,
+        "height": 11
+      },
+      "reading_order": 19,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0020",
+      "page_number": 9,
+      "text": "Taitus Tai. Titus Tito",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 455.15,
+        "width": 414.082,
+        "height": 11
+      },
+      "reading_order": 20,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0021",
+      "page_number": 9,
+      "text": "Pilimon Plm. Philemon Filemón",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 441.15,
+        "width": 432.639,
+        "height": 11
+      },
+      "reading_order": 21,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0022",
+      "page_number": 9,
+      "text": "Hibru Nani Hib. Hebrews Hebreos",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 427.25,
+        "width": 434.223,
+        "height": 11
+      },
+      "reading_order": 22,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0023",
+      "page_number": 9,
+      "text": "Jems Je. James Santiago",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 413.35,
+        "width": 435.345,
+        "height": 11
+      },
+      "reading_order": 23,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0024",
+      "page_number": 9,
+      "text": "1 Pita 1Pi. 1 Peter 1 Pedro",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 399.35,
+        "width": 431.363,
+        "height": 11
+      },
+      "reading_order": 24,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0025",
+      "page_number": 9,
+      "text": "2 Pita 2Pi. 2 Peter 2 Pedro",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 385.45,
+        "width": 431.363,
+        "height": 11
+      },
+      "reading_order": 25,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0026",
+      "page_number": 9,
+      "text": "1 Jan 1Jn. 1 John 1 Juan",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 371.55,
+        "width": 425.126,
+        "height": 11
+      },
+      "reading_order": 26,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0027",
+      "page_number": 9,
+      "text": "2 Jan 2Jn. 2 John 2 Juan",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 357.65,
+        "width": 425.126,
+        "height": 11
+      },
+      "reading_order": 27,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0028",
+      "page_number": 9,
+      "text": "3 Jan 3Jn. 3 John 3 Juan",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 343.65,
+        "width": 425.126,
+        "height": 11
+      },
+      "reading_order": 28,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0029",
+      "page_number": 9,
+      "text": "Judas Jud. Jude Judas",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 329.75,
+        "width": 421.342,
+        "height": 11
+      },
+      "reading_order": 29,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0009-b0030",
+      "page_number": 9,
+      "text": "Param Marikan Par.M. Revelation Apocalipsis",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 315.83,
+        "width": 446.565,
+        "height": 11
+      },
+      "reading_order": 30,
+      "section": "bible_books",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    }
+  ],
+  "visual_elements": [
+    {
+      "uid": "visual-p0009-table-0001",
+      "object_type": "visual_element",
+      "visual_type": "table",
+      "source_page": 9,
+      "bbox": null,
+      "description": "Tabla detectable por estructura de la página.",
+      "associated_text": "",
+      "requires_manual_review": false
+    },
+    {
+      "uid": "visual-p0009-unknown-0001",
+      "object_type": "visual_element",
+      "visual_type": "unknown",
+      "source_page": 9,
+      "bbox": null,
+      "description": "Elemento visual detectado en la página.",
+      "associated_text": "",
+      "requires_manual_review": false
+    }
+  ],
+  "derived_objects": [],
+  "coverage": {
+    "raw_chars": 1089,
+    "assigned_chars": 1089,
+    "unassigned_chars": 0
+  },
+  "verification_status": "parsed",
+  "extraction_confidence": 1
+}

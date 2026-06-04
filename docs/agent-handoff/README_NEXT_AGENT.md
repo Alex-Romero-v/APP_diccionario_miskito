@@ -2,13 +2,14 @@
 
 ## Proposito
 
-Usa esta carpeta para cerrar los parches V1 de la app Android sin depender del pipeline Python roto que genero `db_build_error.txt`. El archivo principal versionable es:
+Usa esta carpeta para cerrar los parches V1 de la app Android sin depender del pipeline Python roto que genero `db_build_error.txt`. El handoff ya esta disponible de dos formas:
 
 ```text
 docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip
+docs/agent-handoff/extracted/
 ```
 
-Tambien se conserva `handoff_database_agent_20260603-211934.zip` como paquete original recibido, pero ese ZIP no incluye todos los archivos necesarios para ejecutar `npm run validate:transcription` en una carpeta limpia. Usa el paquete `complete`.
+Tambien se conserva `handoff_database_agent_20260603-211934.zip` como paquete original recibido, pero ese ZIP no incluye todos los archivos necesarios para ejecutar `npm run validate:transcription` en una carpeta limpia. Usa el paquete `complete` o, preferiblemente, la carpeta `extracted/`.
 
 ## Contenido Del ZIP
 
@@ -49,7 +50,7 @@ Conteos verificados durante preparacion del handoff:
 
 ## Validacion Recomendada
 
-Extrae el ZIP en una carpeta temporal y ejecuta:
+Si el entorno tiene red o cache npm, valida desde `docs/agent-handoff/extracted/` con:
 
 ```powershell
 npm ci
@@ -57,7 +58,9 @@ npm test
 npm run validate:transcription
 ```
 
-Si el entorno ya tiene `node_modules` copiado desde `C:/Users/zr_ma/OneDrive/Documentos/dic_miskito/node_modules`, puedes omitir `npm ci`. Si `npm test` tarda demasiado en el entorno, no lo marques como pasado. Registra timeout y ejecuta al menos:
+Si el entorno ya tiene `node_modules` copiado desde `C:/Users/zr_ma/OneDrive/Documentos/dic_miskito/node_modules`, puedes omitir `npm ci`. Si el entorno no tiene red ni cache npm, no bloquees por ausencia del ZIP: usa directamente los JSON/JSONL extraidos y registra que la validacion de transcripcion ya fue ejecutada en `docs/agent-handoff/validation-log.md`.
+
+Si `npm test` tarda demasiado en el entorno, no lo marques como pasado. Registra timeout y ejecuta al menos:
 
 ```powershell
 npm run validate:transcription

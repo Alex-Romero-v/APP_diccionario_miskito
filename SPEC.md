@@ -8,7 +8,7 @@ Define los requisitos funcionales para que otro agente cierre los parches pendie
 
 Incluye solo:
 
-1. Validar y usar `docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip`.
+1. Validar y usar `docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip` o la carpeta ya extraida `docs/agent-handoff/extracted/`.
 2. Reemplazar o aislar el pipeline Python roto que produjo `database disk image is malformed`.
 3. Generar `tools/dictionary-pipeline/output/dictionary.db` desde JSONL canonicos.
 4. Copiar una base validada a `app/src/main/assets/dictionary.db`.
@@ -30,7 +30,7 @@ El repo contiene `app/src/main/assets/dictionary.db`, pero existe `db_build_erro
 
 ### Escenario: Handoff Node validado
 
-Dado `docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip`, cuando el agente lo extrae en una ruta temporal, entonces `npm ci`, `npm test` y `npm run validate:transcription` deben ejecutarse desde el contenido extraido o desde el pipeline copiado al repo.
+Dado `docs/agent-handoff/extracted/`, cuando el agente valida el handoff, entonces no debe buscar archivos en `C:/Users/...`; debe usar los JSON/JSONL ya presentes en el repo y registrar si no puede ejecutar `npm ci` por falta de red.
 
 ### Escenario: Base SQLite real
 

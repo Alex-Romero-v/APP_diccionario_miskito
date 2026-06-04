@@ -1,0 +1,660 @@
+{
+  "object_type": "page",
+  "uid": "page-p0296",
+  "pdf_page_number": 296,
+  "printed_page_number": null,
+  "section": "phrases",
+  "secondary_sections": [],
+  "raw_text": "296\n\nAPPENDIX / APÉNDICE\n\nPg./pág.\n\n297\n \nVERB SECTION OVERVIEW /\n \nRESUMEN DE LA SECCIÓN DE VERBOS\n\n298\n \nVERB TABL\nE\nS /\n \nTABLAS DE VERBOS\n\n299\n \nVERB TENSE GUIDE / GUÍA DE TIEMPOS VERBALES\n\n303\n \nREGULAR VERBS / VERBOS REGULARES\n\n304\n \nKAIA\n \n–\n \nTO BE / SER, ESTAR\n\n308\n \nBALAIA & WAIA\n \n–\n \nTO COME & TO GO / VENIR & IR\n\n309\n \nVERBS WITH ROOTS THAT END WITH AN \"I\" / VERBOS CON RAÍCES QUE TERMINAN CON UNA \"I\"\n\n310\n \nVERBS THAT CAN INDICATE THE OBJECT / VERBOS QUE PUEDEN INDICAR EL OBJETO\n\n311\n \nPLURAL PRONOUNS CHANGE THE VERB / PRONOMBRES PLURALES CAMBIAN EL VERBO\n\n312\n \nVERB IRREGULARITIES / IRREGULARIDADES VERBALES\n\n313\n \nVERBS\n \n–\n \nOTHER NOTES / VERBOS\n \n–\n \nOTRAS NOTAS\n\n314\n \nNOUNS / SUSTANTIVOS\n\n315\n \nVERBS TO NOUNS /\n \nDE\n \nVERBOS A\n \nSUSTANTIVOS\n\n315\n \n#1\n \n–\n \nAGENT FORM / FORMA AGENTE\n\n316\n \n#2\n \n–\n \nCONCEPT FORM / FORMA CONCEPTO\n\n317\n \n#3\n \n–\n \nINSTRUMENT FORM / FORMA INSTRUMENTO\n\n318\n \n#4\n \n–\n \nACTION FORM (ACTION NOUN) / FORMA DE ACCIÓN (SUSTANTIVO DE ACCIÓN)\n\n319\n \nNOUN CONSTRUCT FORMS / FORMAS CONSTRUCTIVAS DE SUSTANTIVOS\n\n322\n \nCOMPARISONS / COMPARACIONES\n\n323\n \nNUMBERS & YEARS / NÚMEROS Y AÑOS\n\n324\n \nPRONUNCIATION & LOCAL\n \nVARIATIONS / PRONUNCIACIÓN Y VARIACIONES LOCALES\n\n325\n \nSHORT FORMS OF WORDS / FORMAS CORTAS DE PALABRAS\n\n326\n \nOTHER NOTES & GRAMMAR RULES / OTRAS NOTAS Y REGLAS GRAMÁTICAS\n\n328\n \nPHRASES, EXPRESSIONS, GREETINGS / FRASES, EXPRESIONES, SALUDOS",
+  "raw_text_sha256": "66644bd97eb974926fcaebb1dd02b7bc35d12be62344199ae9b63876f58e6e00",
+  "blocks": [
+    {
+      "block_id": "p0296-b0001",
+      "page_number": 296,
+      "text": "296",
+      "block_type": "page_number",
+      "bbox": {
+        "x": 559.4,
+        "y": 758.8,
+        "width": 16.777,
+        "height": 11
+      },
+      "reading_order": 1,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0002",
+      "page_number": 296,
+      "text": "APPENDIX / APÉNDICE",
+      "block_type": "appendix_heading",
+      "bbox": {
+        "x": 36,
+        "y": 712,
+        "width": 298.976,
+        "height": 32
+      },
+      "reading_order": 2,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0003",
+      "page_number": 296,
+      "text": "Pg./pág.",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 47,
+        "y": 664.78,
+        "width": 36.997,
+        "height": 11
+      },
+      "reading_order": 3,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0004",
+      "page_number": 296,
+      "text": "297 VERB SECTION OVERVIEW / RESUMEN DE LA SECCIÓN DE VERBOS",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 649.88,
+        "width": 340.621,
+        "height": 11
+      },
+      "reading_order": 4,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0005",
+      "page_number": 296,
+      "text": "298 VERB TABL E S / TABLAS DE VERBOS",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 634.88,
+        "width": 207.098,
+        "height": 11
+      },
+      "reading_order": 5,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0006",
+      "page_number": 296,
+      "text": "299 VERB TENSE GUIDE / GUÍA DE TIEMPOS VERBALES",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 619.58,
+        "width": 276.612,
+        "height": 11
+      },
+      "reading_order": 6,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0007",
+      "page_number": 296,
+      "text": "303 REGULAR VERBS / VERBOS REGULARES",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 604.28,
+        "width": 226.265,
+        "height": 11
+      },
+      "reading_order": 7,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0008",
+      "page_number": 296,
+      "text": "304 KAIA – TO BE / SER, ESTAR",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 588.97,
+        "width": 168.578,
+        "height": 11
+      },
+      "reading_order": 8,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f5"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0009",
+      "page_number": 296,
+      "text": "308 BALAIA & WAIA – TO COME & TO GO / VENIR & IR",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 573.67,
+        "width": 279.743,
+        "height": 11
+      },
+      "reading_order": 9,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f5"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0010",
+      "page_number": 296,
+      "text": "309 VERBS WITH ROOTS THAT END WITH AN \"I\" / VERBOS CON RAÍCES QUE TERMINAN CON UNA \"I\"",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 558.38,
+        "width": 489.397,
+        "height": 11
+      },
+      "reading_order": 10,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0011",
+      "page_number": 296,
+      "text": "310 VERBS THAT CAN INDICATE THE OBJECT / VERBOS QUE PUEDEN INDICAR EL OBJETO",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 543.08,
+        "width": 430.513,
+        "height": 11
+      },
+      "reading_order": 11,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0012",
+      "page_number": 296,
+      "text": "311 PLURAL PRONOUNS CHANGE THE VERB / PRONOMBRES PLURALES CAMBIAN EL VERBO",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 527.78,
+        "width": 446.903,
+        "height": 11
+      },
+      "reading_order": 12,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0013",
+      "page_number": 296,
+      "text": "312 VERB IRREGULARITIES / IRREGULARIDADES VERBALES",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 512.47,
+        "width": 293.849,
+        "height": 11
+      },
+      "reading_order": 13,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0014",
+      "page_number": 296,
+      "text": "313 VERBS – OTHER NOTES / VERBOS – OTRAS NOTAS",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 497.15,
+        "width": 275.024,
+        "height": 11
+      },
+      "reading_order": 14,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f5"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0015",
+      "page_number": 296,
+      "text": "314 NOUNS / SUSTANTIVOS",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 471.85,
+        "width": 149.124,
+        "height": 11
+      },
+      "reading_order": 15,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0016",
+      "page_number": 296,
+      "text": "315 VERBS TO NOUNS / DE VERBOS A SUSTANTIVOS",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 456.95,
+        "width": 267.223,
+        "height": 11
+      },
+      "reading_order": 16,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0017",
+      "page_number": 296,
+      "text": "315 #1 – AGENT FORM / FORMA AGENTE",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 441.65,
+        "width": 223.926,
+        "height": 11
+      },
+      "reading_order": 17,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f5"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0018",
+      "page_number": 296,
+      "text": "316 #2 – CONCEPT FORM / FORMA CONCEPTO",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 426.35,
+        "width": 248.522,
+        "height": 11
+      },
+      "reading_order": 18,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f5"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0019",
+      "page_number": 296,
+      "text": "317 #3 – INSTRUMENT FORM / FORMA INSTRUMENTO",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 411.05,
+        "width": 286.318,
+        "height": 11
+      },
+      "reading_order": 19,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f5"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0020",
+      "page_number": 296,
+      "text": "318 #4 – ACTION FORM (ACTION NOUN) / FORMA DE ACCIÓN (SUSTANTIVO DE ACCIÓN)",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 395.75,
+        "width": 439.603,
+        "height": 11
+      },
+      "reading_order": 20,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f5"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0021",
+      "page_number": 296,
+      "text": "319 NOUN CONSTRUCT FORMS / FORMAS CONSTRUCTIVAS DE SUSTANTIVOS",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 380.45,
+        "width": 382.641,
+        "height": 11
+      },
+      "reading_order": 21,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0022",
+      "page_number": 296,
+      "text": "322 COMPARISONS / COMPARACIONES",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 360.05,
+        "width": 202.243,
+        "height": 11
+      },
+      "reading_order": 22,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0023",
+      "page_number": 296,
+      "text": "323 NUMBERS & YEARS / NÚMEROS Y AÑOS",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 343.65,
+        "width": 224.595,
+        "height": 11
+      },
+      "reading_order": 23,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0024",
+      "page_number": 296,
+      "text": "324 PRONUNCIATION & LOCAL VARIATIONS / PRONUNCIACIÓN Y VARIACIONES LOCALES",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 327.15,
+        "width": 427.552,
+        "height": 11
+      },
+      "reading_order": 24,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0025",
+      "page_number": 296,
+      "text": "325 SHORT FORMS OF WORDS / FORMAS CORTAS DE PALABRAS",
+      "block_type": "phrase",
+      "bbox": {
+        "x": 60.2,
+        "y": 310.73,
+        "width": 315.532,
+        "height": 11
+      },
+      "reading_order": 25,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0026",
+      "page_number": 296,
+      "text": "326 OTHER NOTES & GRAMMAR RULES / OTRAS NOTAS Y REGLAS GRAMÁTICAS",
+      "block_type": "appendix_heading",
+      "bbox": {
+        "x": 60.2,
+        "y": 294.22,
+        "width": 386.57,
+        "height": 11
+      },
+      "reading_order": 26,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0296-b0027",
+      "page_number": 296,
+      "text": "328 PHRASES, EXPRESSIONS, GREETINGS / FRASES, EXPRESIONES, SALUDOS",
+      "block_type": "appendix_heading",
+      "bbox": {
+        "x": 60.2,
+        "y": 273.42,
+        "width": 365.813,
+        "height": 11
+      },
+      "reading_order": 27,
+      "section": "phrases",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    }
+  ],
+  "visual_elements": [
+    {
+      "uid": "visual-p0296-unknown-0001",
+      "object_type": "visual_element",
+      "visual_type": "unknown",
+      "source_page": 296,
+      "bbox": null,
+      "description": "Elemento visual detectado en la página.",
+      "associated_text": "",
+      "requires_manual_review": false
+    }
+  ],
+  "derived_objects": [],
+  "coverage": {
+    "raw_chars": 1405,
+    "assigned_chars": 1405,
+    "unassigned_chars": 0
+  },
+  "verification_status": "parsed",
+  "extraction_confidence": 1
+}

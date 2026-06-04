@@ -1,0 +1,788 @@
+{
+  "object_type": "page",
+  "uid": "page-p0004",
+  "pdf_page_number": 4,
+  "printed_page_number": null,
+  "section": "regular_verbs",
+  "secondary_sections": [],
+  "raw_text": "4\n\nDICTIONARY NOTES / NOTAS DEL DICCIONARIO\n\nConjugations\n: Most conjugations of regular verbs are not listed in this dictionary. Refer to the regular verb conjugation\ntable in the appendix.\n\nConjugaciones\n:\n \nL\na mayoría de las conjugaciones de los verbos regulares no se enumeran en este diccionario. Consulte la\n\nt\nabla de\n \nc\nonjugación de\n \nv\nerbos regulares en\n \nel apéndice.\n\nConstruct Forms\n: An attempt is made to include all irregular construct forms of nouns. Regular construct forms\n(ki,kam,ka) are not necessarily noted. Refer to page 319 for further explanation of construct forms.\n\nFormas construc\ntivas\n: Se intenta incluir todas las formas\n \nconstructivas\n \nirregulares de sustantivos.\n \nLas formas\n\nconstuctivas\n \nregulares (ki, kam, ka\n) no se indican necesariamente. Consulte la página\n \n3\n1\n9\n \npara obtener más\n\nexplicaciones sobre los form\nas constructivas\n.\n\nDiacritic Marks\n: To allow the searching of words with diacritics, these word entries are also written (in small font)\nwithout the marks.\n\nThere is only one accent mark used in most Miskito reference works to indicate where greater stress should be in the\npronunciation. In this reference and in most other references, the circumflex is used: â, ê, î, ô, û.\n\nDawan Bîla (\ndb\n) uses the circumflex. However, the acute accent mark is used with names.\n\nMarcas diacríticas\n:\n \nP\nara permitir la búsqueda de palabras con signos diacríticos, estas\n \nentradas de las\n \npalabras también\n\nse escriben (en letra pequeña) sin las marcas.\n\nSolo se usa un acento en la mayoría de los trabajos de referencia de Miskito\n \npara indicar dónde debería\n \nestar el mayor\n\nénfasis en la pronunciación. En esta referencia y en la mayoría de las otras referencias, se utiliza el circunflejo: â, ê, î,\n\nô, û.\n\nDawan Bîla (\ndb\n) usa el circunflejo. Sin embargo, el acento agudo se usa con nombres.\n\nSpelling Variations\n: Spelling variations are in brackets after the word entry.\n\nNote that the spelling variation of the\n \nkira\n/\nkirra\n \nsuffix is not included. The\n \nkira\n \nsuffix has been chosen in this document\nas the\n \nkirra\n \nspelling does not appear to be in use any longer.\n\nThe more commonly used spelling of the verb ending\n \naia\n \nis used in this document instead of\n \naya\n.\n \nReferences to\n \ndict\n\nreplace\n \naya\n \nwith\n \naia\n.\n\nVariaciones de\n \nortografía\n: Las variaciones de ortografía están entre paréntesis después de la\n \nentrada de la palabra.\n\nTenga en cuenta que la variación ortográfica del sufijo\n \nkira\n/\nkirra\n \nno se incluye. El sufijo\n \nkira\n \nse ha elegido en este\n\ndocumento ya que la ortografía\n \nkirra\n \nya no parece estar en uso.\n\nLa ortografía más comúnmente\n \nutilizada del verbo que termina con\n \naia\n \nse usa en este documento en lugar de\n \naya\n. Las\n\nreferencias a\n \ndict\n \nreemplazan\n \naya\n \ncon\n \naia\n.",
+  "raw_text_sha256": "30a24a9e7bc3f404c7a58d5ac89042c3c5ec99016a3b98b1db84cf43f8dcf194",
+  "blocks": [
+    {
+      "block_id": "p0004-b0001",
+      "page_number": 4,
+      "text": "4",
+      "block_type": "page_number",
+      "bbox": {
+        "x": 570.5,
+        "y": 758.8,
+        "width": 5.577,
+        "height": 11
+      },
+      "reading_order": 1,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0002",
+      "page_number": 4,
+      "text": "DICTIONARY NOTES / NOTAS DEL DICCIONARIO",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 727.2,
+        "width": 314.884,
+        "height": 16
+      },
+      "reading_order": 2,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0003",
+      "page_number": 4,
+      "text": "Conjugations : Most conjugations of regular verbs are not listed in this dictionary. Refer to the regular verb conjugation",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 36,
+        "y": 710,
+        "width": 533.08,
+        "height": 11
+      },
+      "reading_order": 3,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0004",
+      "page_number": 4,
+      "text": "table in the appendix.",
+      "block_type": "appendix_heading",
+      "bbox": {
+        "x": 41.6,
+        "y": 696.47,
+        "width": 97.502,
+        "height": 11
+      },
+      "reading_order": 4,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0005",
+      "page_number": 4,
+      "text": "Conjugaciones : L a mayoría de las conjugaciones de los verbos regulares no se enumeran en este diccionario. Consulte la",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 36,
+        "y": 681.88,
+        "width": 536.634,
+        "height": 11
+      },
+      "reading_order": 5,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0006",
+      "page_number": 4,
+      "text": "t abla de c onjugación de v erbos regulares en el apéndice.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 668.47,
+        "width": 253.449,
+        "height": 11
+      },
+      "reading_order": 6,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0007",
+      "page_number": 4,
+      "text": "Construct Forms : An attempt is made to include all irregular construct forms of nouns. Regular construct forms",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 36,
+        "y": 645.28,
+        "width": 498.463,
+        "height": 11
+      },
+      "reading_order": 7,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0008",
+      "page_number": 4,
+      "text": "(ki,kam,ka) are not necessarily noted. Refer to page 319 for further explanation of construct forms.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 631.78,
+        "width": 444.087,
+        "height": 11
+      },
+      "reading_order": 8,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0009",
+      "page_number": 4,
+      "text": "Formas construc tivas : Se intenta incluir todas las formas constructivas irregulares de sustantivos. Las formas",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 36,
+        "y": 617.17,
+        "width": 485.362,
+        "height": 11
+      },
+      "reading_order": 9,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0010",
+      "page_number": 4,
+      "text": "constuctivas regulares (ki, kam, ka ) no se indican necesariamente. Consulte la página 3 1 9 para obtener más",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 603.78,
+        "width": 479.534,
+        "height": 11
+      },
+      "reading_order": 10,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0011",
+      "page_number": 4,
+      "text": "explicaciones sobre los form as constructivas .",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 590.28,
+        "width": 200.722,
+        "height": 11
+      },
+      "reading_order": 11,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0012",
+      "page_number": 4,
+      "text": "Diacritic Marks : To allow the searching of words with diacritics, these word entries are also written (in small font)",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 36,
+        "y": 563.47,
+        "width": 507.142,
+        "height": 11
+      },
+      "reading_order": 12,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0013",
+      "page_number": 4,
+      "text": "without the marks.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 550.08,
+        "width": 85.008,
+        "height": 11
+      },
+      "reading_order": 13,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0014",
+      "page_number": 4,
+      "text": "There is only one accent mark used in most Miskito reference works to indicate where greater stress should be in the",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.7,
+        "y": 536.58,
+        "width": 523.374,
+        "height": 11
+      },
+      "reading_order": 14,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0015",
+      "page_number": 4,
+      "text": "pronunciation. In this reference and in most other references, the circumflex is used: â, ê, î, ô, û.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 47.3,
+        "y": 523.18,
+        "width": 432.439,
+        "height": 11
+      },
+      "reading_order": 15,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0016",
+      "page_number": 4,
+      "text": "Dawan Bîla ( db ) uses the circumflex. However, the acute accent mark is used with names.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 509.75,
+        "width": 399.44,
+        "height": 11
+      },
+      "reading_order": 16,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0017",
+      "page_number": 4,
+      "text": "Marcas diacríticas : P ara permitir la búsqueda de palabras con signos diacríticos, estas entradas de las palabras también",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 36,
+        "y": 495.05,
+        "width": 533.418,
+        "height": 11
+      },
+      "reading_order": 17,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0018",
+      "page_number": 4,
+      "text": "se escriben (en letra pequeña) sin las marcas.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.6,
+        "y": 481.65,
+        "width": 202.554,
+        "height": 11
+      },
+      "reading_order": 18,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0019",
+      "page_number": 4,
+      "text": "Solo se usa un acento en la mayoría de los trabajos de referencia de Miskito para indicar dónde debería estar el mayor",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.7,
+        "y": 468.25,
+        "width": 528.807,
+        "height": 11
+      },
+      "reading_order": 19,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0020",
+      "page_number": 4,
+      "text": "énfasis en la pronunciación. En esta referencia y en la mayoría de las otras referencias, se utiliza el circunflejo: â, ê, î,",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 47.3,
+        "y": 454.75,
+        "width": 519.453,
+        "height": 11
+      },
+      "reading_order": 20,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0021",
+      "page_number": 4,
+      "text": "ô, û.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 47.3,
+        "y": 441.35,
+        "width": 19.569,
+        "height": 11
+      },
+      "reading_order": 21,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0022",
+      "page_number": 4,
+      "text": "Dawan Bîla ( db ) usa el circunflejo. Sin embargo, el acento agudo se usa con nombres.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.7,
+        "y": 427.95,
+        "width": 379.705,
+        "height": 11
+      },
+      "reading_order": 22,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0023",
+      "page_number": 4,
+      "text": "Spelling Variations : Spelling variations are in brackets after the word entry.",
+      "block_type": "bible_book_row",
+      "bbox": {
+        "x": 36,
+        "y": 401.05,
+        "width": 338.952,
+        "height": 11
+      },
+      "reading_order": 23,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0024",
+      "page_number": 4,
+      "text": "Note that the spelling variation of the kira / kirra suffix is not included. The kira suffix has been chosen in this document",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.7,
+        "y": 387.65,
+        "width": 533.529,
+        "height": 11
+      },
+      "reading_order": 24,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0025",
+      "page_number": 4,
+      "text": "as the kirra spelling does not appear to be in use any longer.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 47.3,
+        "y": 374.25,
+        "width": 269.646,
+        "height": 11
+      },
+      "reading_order": 25,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0026",
+      "page_number": 4,
+      "text": "The more commonly used spelling of the verb ending aia is used in this document instead of aya . References to dict",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.7,
+        "y": 360.85,
+        "width": 516.178,
+        "height": 11
+      },
+      "reading_order": 26,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0027",
+      "page_number": 4,
+      "text": "replace aya with aia .",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 47.3,
+        "y": 347.35,
+        "width": 92.802,
+        "height": 11
+      },
+      "reading_order": 27,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0028",
+      "page_number": 4,
+      "text": "Variaciones de ortografía : Las variaciones de ortografía están entre paréntesis después de la entrada de la palabra.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 36,
+        "y": 332.75,
+        "width": 515.068,
+        "height": 11
+      },
+      "reading_order": 28,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0029",
+      "page_number": 4,
+      "text": "Tenga en cuenta que la variación ortográfica del sufijo kira / kirra no se incluye. El sufijo kira se ha elegido en este",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.7,
+        "y": 319.23,
+        "width": 503.668,
+        "height": 11
+      },
+      "reading_order": 29,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0030",
+      "page_number": 4,
+      "text": "documento ya que la ortografía kirra ya no parece estar en uso.",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 47.3,
+        "y": 305.83,
+        "width": 284.611,
+        "height": 11
+      },
+      "reading_order": 30,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0031",
+      "page_number": 4,
+      "text": "La ortografía más comúnmente utilizada del verbo que termina con aia se usa en este documento en lugar de aya . Las",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 41.7,
+        "y": 292.42,
+        "width": 527.081,
+        "height": 11
+      },
+      "reading_order": 31,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0004-b0032",
+      "page_number": 4,
+      "text": "referencias a dict reemplazan aya con aia .",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 47.3,
+        "y": 279.03,
+        "width": 187.822,
+        "height": 11
+      },
+      "reading_order": 32,
+      "section": "regular_verbs",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    }
+  ],
+  "visual_elements": [
+    {
+      "uid": "visual-p0004-unknown-0001",
+      "object_type": "visual_element",
+      "visual_type": "unknown",
+      "source_page": 4,
+      "bbox": null,
+      "description": "Elemento visual detectado en la página.",
+      "associated_text": "",
+      "requires_manual_review": false
+    }
+  ],
+  "derived_objects": [],
+  "coverage": {
+    "raw_chars": 2797,
+    "assigned_chars": 2797,
+    "unassigned_chars": 0
+  },
+  "verification_status": "parsed",
+  "extraction_confidence": 1
+}

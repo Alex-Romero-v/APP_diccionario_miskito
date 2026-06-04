@@ -1,0 +1,526 @@
+{
+  "object_type": "page",
+  "uid": "page-p0314",
+  "pdf_page_number": 314,
+  "printed_page_number": null,
+  "section": "nouns",
+  "secondary_sections": [],
+  "raw_text": "314\n\nNOUNS / SUSTANTIVOS\n\nVERBS TO NOUNS /\n \nDE\n \nVERBOS A SUSTANTIVOS\n\nIt is helpful to be aware that\n \n4 types of nouns that can be formed from a verb\n. /\n\nEs útil tener en cuenta que 4 tipos de sustantivos que se pueden formar a partir de un verbo.\n\nFor\n \nexample\n, using / Por ejemplo, usando:\n \nPru\naia\n \n–\n \nto die\n \n/ morir\n\nVerb to Noun\n \n#1 / Verbo a un Sustantivo\n \n#1\n \n–\n \nAgent\n \nform\n \n/ Forma\n \nA\ngente\n:\n\nPra\npru\nra\n \n–\n \nsomeone who dies,\n \nsomeone who is\n \nmortal\n \n/\n \nalguien que muere, alguien que es mortal\n\nEx/Ej(\nbh59\n):\n \nYawan upla praprura sa\n \n–\n \nWe are\n \nmortal humans\n \n/ Somos humanos mortales\n\nVerb to Noun #\n2\n \n/ Verbo a un Sustantivo #2\n \n–\n \nConcept\n \nform\n \n/ Forma\n \nC\noncepto\n:\n\nPru\nra\n \n–\n \ndeath\n \n/ muerte\n\nEx/Ej(\nmwb\n-\n04/19\n):\n \nPrura ba\n \nâ\npu kabia\n \n–\n \nD\ne\nath will be no more\n \n/\n \nLa muerte ya no existirá\n\nVerb to Noun #\n3\n \n/ Verbo a un Sustantivo #3\n \n–\n \nInstrument\n \nform /\n \nF\norma\n \nI\nnstrumento\n:\n\nPru\naika\n \n–\n \nsomething that\n \ncause\ns\n \ndeath\n \n/\n \nalgo que causa la\n \nmuerte\n\nVerb to Noun #\n4\n \n/ Verbo a un Sustantivo #4\n \n–\n \nAction form (Action noun)\n \n/\n \nF\norma de\n \nA\ncción (\nsustantivo de\n\nA\ncción\n)\n:\n\nPru\nanka\n \n–\n \ndeath\n \n/ muerte\n\nEx/Ej:\n \nJisas pruanka\n \n–\n \ndeath of Jesus\n \n/\n \nmuerte de Jesús\n\n* The following pages give a more detailed explanation for each of these types /\n\nLas siguientes páginas ofrecen una explicación más detallada de cada uno de estos tipos",
+  "raw_text_sha256": "f934f3ffb91640c6fcf9b4d7f6f68dbfd3aa3a144926b998e964f074ed010abf",
+  "blocks": [
+    {
+      "block_id": "p0314-b0001",
+      "page_number": 314,
+      "text": "314",
+      "block_type": "page_number",
+      "bbox": {
+        "x": 559.4,
+        "y": 758.8,
+        "width": 16.777,
+        "height": 11
+      },
+      "reading_order": 1,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0002",
+      "page_number": 314,
+      "text": "NOUNS / SUSTANTIVOS",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 715.8,
+        "width": 276.136,
+        "height": 28
+      },
+      "reading_order": 2,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0003",
+      "page_number": 314,
+      "text": "VERBS TO NOUNS / DE VERBOS A SUSTANTIVOS",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 686.97,
+        "width": 318.666,
+        "height": 16
+      },
+      "reading_order": 3,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0004",
+      "page_number": 314,
+      "text": "It is helpful to be aware that 4 types of nouns that can be formed from a verb . /",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 668.47,
+        "width": 359.326,
+        "height": 11
+      },
+      "reading_order": 4,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0005",
+      "page_number": 314,
+      "text": "Es útil tener en cuenta que 4 tipos de sustantivos que se pueden formar a partir de un verbo.",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 41,
+        "y": 654.97,
+        "width": 414.524,
+        "height": 11
+      },
+      "reading_order": 5,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0006",
+      "page_number": 314,
+      "text": "For example , using / Por ejemplo, usando: Pru aia – to die / morir",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 628.17,
+        "width": 292.376,
+        "height": 11
+      },
+      "reading_order": 6,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0007",
+      "page_number": 314,
+      "text": "Verb to Noun #1 / Verbo a un Sustantivo #1 – Agent form / Forma A gente :",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 600.38,
+        "width": 364.786,
+        "height": 12
+      },
+      "reading_order": 7,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0008",
+      "page_number": 314,
+      "text": "Pra pru ra – someone who dies, someone who is mortal / alguien que muere, alguien que es mortal",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 586.67,
+        "width": 437.097,
+        "height": 11
+      },
+      "reading_order": 8,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0009",
+      "page_number": 314,
+      "text": "Ex/Ej( bh59 ): Yawan upla praprura sa – We are mortal humans / Somos humanos mortales",
+      "block_type": "example",
+      "bbox": {
+        "x": 41.7,
+        "y": 574.28,
+        "width": 366.74,
+        "height": 10
+      },
+      "reading_order": 9,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0010",
+      "page_number": 314,
+      "text": "Verb to Noun # 2 / Verbo a un Sustantivo #2 – Concept form / Forma C oncepto :",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 546.67,
+        "width": 387.696,
+        "height": 12
+      },
+      "reading_order": 10,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0011",
+      "page_number": 314,
+      "text": "Pru ra – death / muerte",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 532.97,
+        "width": 103.591,
+        "height": 11
+      },
+      "reading_order": 11,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0012",
+      "page_number": 314,
+      "text": "Ex/Ej( mwb - 04/19 ): Prura ba â pu kabia – D e ath will be no more / La muerte ya no existirá",
+      "block_type": "example",
+      "bbox": {
+        "x": 41.7,
+        "y": 520.47,
+        "width": 361.06,
+        "height": 10
+      },
+      "reading_order": 12,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0013",
+      "page_number": 314,
+      "text": "Verb to Noun # 3 / Verbo a un Sustantivo #3 – Instrument form / F orma I nstrumento :",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 492.95,
+        "width": 417.386,
+        "height": 12
+      },
+      "reading_order": 13,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0014",
+      "page_number": 314,
+      "text": "Pru aika – something that cause s death / algo que causa la muerte",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 479.25,
+        "width": 295.016,
+        "height": 11
+      },
+      "reading_order": 14,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0015",
+      "page_number": 314,
+      "text": "Verb to Noun # 4 / Verbo a un Sustantivo #4 – Action form (Action noun) / F orma de A cción ( sustantivo de",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 451.45,
+        "width": 521.284,
+        "height": 12
+      },
+      "reading_order": 15,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0016",
+      "page_number": 314,
+      "text": "A cción ) :",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 41.6,
+        "y": 436.85,
+        "width": 40.141,
+        "height": 12
+      },
+      "reading_order": 16,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0017",
+      "page_number": 314,
+      "text": "Pru anka – death / muerte",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 423.05,
+        "width": 116.385,
+        "height": 11
+      },
+      "reading_order": 17,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0018",
+      "page_number": 314,
+      "text": "Ex/Ej: Jisas pruanka – death of Jesus / muerte de Jesús",
+      "block_type": "example",
+      "bbox": {
+        "x": 41.7,
+        "y": 410.65,
+        "width": 221.71,
+        "height": 10
+      },
+      "reading_order": 18,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0019",
+      "page_number": 314,
+      "text": "* The following pages give a more detailed explanation for each of these types /",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 357.15,
+        "width": 357.326,
+        "height": 11
+      },
+      "reading_order": 19,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0314-b0020",
+      "page_number": 314,
+      "text": "Las siguientes páginas ofrecen una explicación más detallada de cada uno de estos tipos",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 51,
+        "y": 343.75,
+        "width": 392.744,
+        "height": 11
+      },
+      "reading_order": 20,
+      "section": "nouns",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    }
+  ],
+  "visual_elements": [
+    {
+      "uid": "visual-p0314-unknown-0001",
+      "object_type": "visual_element",
+      "visual_type": "unknown",
+      "source_page": 314,
+      "bbox": null,
+      "description": "Elemento visual detectado en la página.",
+      "associated_text": "",
+      "requires_manual_review": false
+    }
+  ],
+  "derived_objects": [],
+  "coverage": {
+    "raw_chars": 1442,
+    "assigned_chars": 1442,
+    "unassigned_chars": 0
+  },
+  "verification_status": "parsed",
+  "extraction_confidence": 1
+}

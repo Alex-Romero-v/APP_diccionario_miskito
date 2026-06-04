@@ -1,0 +1,808 @@
+{
+  "object_type": "page",
+  "uid": "page-p0316",
+  "pdf_page_number": 316,
+  "printed_page_number": null,
+  "section": "verb_to_noun",
+  "secondary_sections": [],
+  "raw_text": "316\n\nExamples where the verb starts with a vowel\n \n/\n \nEjemplos donde el verbo comienza con una vocal:\n\nAibapaia\n \n–\n \nto pay\n \n/ pagar\n \nÂi\n \n+\n \naibap\n \n+\n \nra\n \n→\n \nÂ\ni\naibapra\n \n–\n \none who\n \npays\n \n/ alguien\n\nque paga\n\nAmaia\n \n–\n \nto burn\n \n/ qumar\n \nÂi\n \n+\n \nam\n \n+\n \nra\n \n→\n \nÂiamra\n \n–\n \nsomeone who burns,\n\nsomething that burns\n \n/ alguien que\n\nquema, algo que arde\n\nAuhbaia\n \n–\n \nto fill, to store\n \n/\n\nllenar, almacenar\n\nÂi\n \n+\n \nauhb\n \n+\n \nra\n \n→\n \nÂ\ni\nauhbra\n \n–\n \nsomeone who fills, someone\n\nwho stores\n \n/ alguien que llena cubos,\n\nal\nguien que almacena trigo\n\nIkaia\n \n–\n \nto kill\n \n/ matar\n \nÂi\n \n+\n \nik\n \n+\n \nra\n \n→\n \nÂiikra\n \n–\n \nsomeone who kills, murderer\n \n/\n\nalguien que mata, asesino\n\nImplikaia\n \n–\n \nto steal\n \n/ robar\n \nÂi\n \n+\n \nimplik\n \n+\n \nra\n \n→\n \nÂiimplikra\n \n–\n \nsomeone who steals, thief\n\n/ alguien que roba, ladrón\n\nUlaia\n \n–\n \nto ride, to climb\n \n/\n\nmontar, escalar\n\nÂi\n \n+\n \nul\n \n+\n \nra\n \n→\n \nÂ\ni\nulra\n \n–\n \nrider, climber\n \n/ jinete,\n\ne\nscalador\n\nUlbaia\n \n–\n \nto write\n \n/ escribir\n \nÂi\n \n+\n \nulb\n \n+\n \nra\n \n→\n \nÂiulbra\n \n–\n \nwriter\n \n/ escritor\n\nExceptions / Excepciones:\n\nAiklabaia\n \n–\n \nto fight\n \n/ luchar\n\nA\ngent form /\n \nF\norma agente:\n \nAiklaklabra\n \n(\nnot\n/no\n:\n \nÂ\ni\na\niklabra\n)\n \n–\n \nfighter\n \n/\n \nlucha\ndor\n\nKaikaia\n \n–\n \nto watch\n \n/ ver\n\nAgent form / Forma agente:\n \nKakaira\n \n(not/no:\n \nKakaikra)\n \n–\n \nwatcher\n \n/ vigilante\n\nVERB TO NOUN #2 /\n \nDE\n \nVERBO\n \nA\n \nSUSTANTIVO #2\n \n–\n\nCONCEPT FORM / FORMA CONCEPTO\n\nFrom a verb can come\n \na\n \nconcept form noun\n \n/\n \nDe un verbo puede venir un concepto forma sustantivo\n\nExamples/Ejemplos:\n\nPruaia\n \n–\n \nto die\n \n/ morir\n \nPru\n \n+\n \nra\n \n→\n \nPrura\n \n–\n \ndeath\n \n/ muerte\n\nPura sunaia\n \n–\n \nto pray\n \n/ orar\n \nPura sun\n \n+\n \nra\n \n→\n \nPura sunra\n \n–\n \nprayer\n \n/ oración\n\nMayunaia\n \n–\n \nto worship\n \n/ adorar\n \nMayun\n \n+\n \nra\n \n→\n \nMayunra\n \n–\n \nworship\n \n/\n \nadoración\n\nMaisa nihkaia\n \n–\n \nto comfort\n \n/ consolar\n \nMaisa nihk\n \n+\n \nra\n \n→\n \nMaisa nihkra\n \n–\n \ncomfort\n \n/ consuelo\n\nYapaia\n \n–\n \nto sleep\n \n/ dormir\n \nYap\n \n+\n \nra\n \n→\n \nYapra\n \n–\n \nsleep\n \n/\n \nsueño",
+  "raw_text_sha256": "37179486e1d1e17ade66efc152212f2b4aa3fc3e513087e8ce931a38902e9800",
+  "blocks": [
+    {
+      "block_id": "p0316-b0001",
+      "page_number": 316,
+      "text": "316",
+      "block_type": "page_number",
+      "bbox": {
+        "x": 559.4,
+        "y": 758.8,
+        "width": 16.777,
+        "height": 11
+      },
+      "reading_order": 1,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0002",
+      "page_number": 316,
+      "text": "Examples where the verb starts with a vowel / Ejemplos donde el verbo comienza con una vocal:",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 70.025,
+        "y": 731.9,
+        "width": 431.591,
+        "height": 11
+      },
+      "reading_order": 2,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0003",
+      "page_number": 316,
+      "text": "Aibapaia – to pay / pagar Âi + aibap + ra → Â i aibapra – one who pays / alguien",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 77.625,
+        "y": 718,
+        "width": 449.614,
+        "height": 11.3
+      },
+      "reading_order": 3,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0004",
+      "page_number": 316,
+      "text": "que paga",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 372.18,
+        "y": 704.6,
+        "width": 41.03,
+        "height": 11
+      },
+      "reading_order": 4,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0005",
+      "page_number": 316,
+      "text": "Amaia – to burn / qumar Âi + am + ra → Âiamra – someone who burns,",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 77.625,
+        "y": 690.67,
+        "width": 428.125,
+        "height": 11.3
+      },
+      "reading_order": 5,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0006",
+      "page_number": 316,
+      "text": "something that burns / alguien que",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 372.18,
+        "y": 677.17,
+        "width": 157.028,
+        "height": 11
+      },
+      "reading_order": 6,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0007",
+      "page_number": 316,
+      "text": "quema, algo que arde",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 372.18,
+        "y": 663.78,
+        "width": 97.416,
+        "height": 11
+      },
+      "reading_order": 7,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0008",
+      "page_number": 316,
+      "text": "Auhbaia – to fill, to store / Âi + auhb + ra → Â i auhbra – someone who fills, someone",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 77.625,
+        "y": 649.88,
+        "width": 469.733,
+        "height": 11.29
+      },
+      "reading_order": 8,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0009",
+      "page_number": 316,
+      "text": "llenar, almacenar who stores / alguien que llena cubos,",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 80.125,
+        "y": 636.47,
+        "width": 457.523,
+        "height": 11
+      },
+      "reading_order": 9,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0010",
+      "page_number": 316,
+      "text": "al guien que almacena trigo",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 372.18,
+        "y": 622.97,
+        "width": 120.924,
+        "height": 11
+      },
+      "reading_order": 10,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0011",
+      "page_number": 316,
+      "text": "Ikaia – to kill / matar Âi + ik + ra → Âiikra – someone who kills, murderer /",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 77.625,
+        "y": 609.08,
+        "width": 464.521,
+        "height": 11.3
+      },
+      "reading_order": 11,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0012",
+      "page_number": 316,
+      "text": "alguien que mata, asesino",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 372.18,
+        "y": 595.67,
+        "width": 116.149,
+        "height": 11
+      },
+      "reading_order": 12,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0013",
+      "page_number": 316,
+      "text": "Implikaia – to steal / robar Âi + implik + ra → Âiimplikra – someone who steals, thief",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 77.625,
+        "y": 581.67,
+        "width": 465.341,
+        "height": 11.3
+      },
+      "reading_order": 13,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0014",
+      "page_number": 316,
+      "text": "/ alguien que roba, ladrón",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 372.18,
+        "y": 568.28,
+        "width": 116.185,
+        "height": 11
+      },
+      "reading_order": 14,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0015",
+      "page_number": 316,
+      "text": "Ulaia – to ride, to climb / Âi + ul + ra → Â i ulra – rider, climber / jinete,",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 77.625,
+        "y": 554.38,
+        "width": 426.657,
+        "height": 11.29
+      },
+      "reading_order": 15,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0016",
+      "page_number": 316,
+      "text": "montar, escalar e scalador",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 80.125,
+        "y": 540.97,
+        "width": 335.065,
+        "height": 11
+      },
+      "reading_order": 16,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0017",
+      "page_number": 316,
+      "text": "Ulbaia – to write / escribir Âi + ulb + ra → Âiulbra – writer / escritor",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 77.625,
+        "y": 526.97,
+        "width": 405.844,
+        "height": 11.31
+      },
+      "reading_order": 17,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0018",
+      "page_number": 316,
+      "text": "Exceptions / Excepciones:",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 70.025,
+        "y": 486.15,
+        "width": 114.781,
+        "height": 11
+      },
+      "reading_order": 18,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0019",
+      "page_number": 316,
+      "text": "Aiklabaia – to fight / luchar",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 75.725,
+        "y": 472.75,
+        "width": 122.511,
+        "height": 11
+      },
+      "reading_order": 19,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0020",
+      "page_number": 316,
+      "text": "A gent form / F orma agente: Aiklaklabra ( not /no : Â i a iklabra ) – fighter / lucha dor",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 87.125,
+        "y": 459.35,
+        "width": 358.056,
+        "height": 11
+      },
+      "reading_order": 20,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0021",
+      "page_number": 316,
+      "text": "Kaikaia – to watch / ver",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 75.725,
+        "y": 441.05,
+        "width": 106.207,
+        "height": 11
+      },
+      "reading_order": 21,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0022",
+      "page_number": 316,
+      "text": "Agent form / Forma agente: Kakaira (not/no: Kakaikra) – watcher / vigilante",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 87.125,
+        "y": 427.65,
+        "width": 339.305,
+        "height": 11
+      },
+      "reading_order": 22,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0023",
+      "page_number": 316,
+      "text": "VERB TO NOUN #2 / DE VERBO A SUSTANTIVO #2 –",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 362.55,
+        "width": 297.122,
+        "height": 14
+      },
+      "reading_order": 23,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f5"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0024",
+      "page_number": 316,
+      "text": "CONCEPT FORM / FORMA CONCEPTO",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 70.025,
+        "y": 345.45,
+        "width": 218.134,
+        "height": 14
+      },
+      "reading_order": 24,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0025",
+      "page_number": 316,
+      "text": "From a verb can come a concept form noun / De un verbo puede venir un concepto forma sustantivo",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 317.72,
+        "width": 450.959,
+        "height": 11
+      },
+      "reading_order": 25,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0026",
+      "page_number": 316,
+      "text": "Examples/Ejemplos:",
+      "block_type": "verb_table_row",
+      "bbox": {
+        "x": 36,
+        "y": 290.83,
+        "width": 90.2,
+        "height": 11
+      },
+      "reading_order": 26,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0027",
+      "page_number": 316,
+      "text": "Pruaia – to die / morir Pru + ra → Prura – death / muerte",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 263.53,
+        "width": 443.849,
+        "height": 11.3
+      },
+      "reading_order": 27,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0028",
+      "page_number": 316,
+      "text": "Pura sunaia – to pray / orar Pura sun + ra → Pura sunra – prayer / oración",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 249.52,
+        "width": 471.775,
+        "height": 11.31
+      },
+      "reading_order": 28,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0029",
+      "page_number": 316,
+      "text": "Mayunaia – to worship / adorar Mayun + ra → Mayunra – worship / adoración",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 235.63,
+        "width": 481.473,
+        "height": 11.29
+      },
+      "reading_order": 29,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0030",
+      "page_number": 316,
+      "text": "Maisa nihkaia – to comfort / consolar Maisa nihk + ra → Maisa nihkra – comfort / consuelo",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 221.73,
+        "width": 494.643,
+        "height": 11.3
+      },
+      "reading_order": 30,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0316-b0031",
+      "page_number": 316,
+      "text": "Yapaia – to sleep / dormir Yap + ra → Yapra – sleep / sueño",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 207.83,
+        "width": 436.539,
+        "height": 11.3
+      },
+      "reading_order": 31,
+      "section": "verb_to_noun",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    }
+  ],
+  "visual_elements": [
+    {
+      "uid": "visual-p0316-unknown-0001",
+      "object_type": "visual_element",
+      "visual_type": "unknown",
+      "source_page": 316,
+      "bbox": null,
+      "description": "Elemento visual detectado en la página.",
+      "associated_text": "",
+      "requires_manual_review": false
+    }
+  ],
+  "derived_objects": [],
+  "coverage": {
+    "raw_chars": 2061,
+    "assigned_chars": 2061,
+    "unassigned_chars": 0
+  },
+  "verification_status": "parsed",
+  "extraction_confidence": 1
+}

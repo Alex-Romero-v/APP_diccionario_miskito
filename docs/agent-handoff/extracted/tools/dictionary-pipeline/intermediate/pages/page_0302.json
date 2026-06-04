@@ -1,0 +1,820 @@
+{
+  "object_type": "page",
+  "uid": "page-p0302",
+  "pdf_page_number": 302,
+  "printed_page_number": null,
+  "section": "appendix_overview",
+  "secondary_sections": [],
+  "raw_text": "302\n\nPresent Participles / Participio Presente\n\nThe present particple i\ns usually formed by adding “\ni\n” to the root of the verb\n \n/\n\nLa\n \nparticipio presente\n \ngeneralmente se forma agregando \"\ni\n\" a la raíz del verbo\n\nExamples/Ejemplos:\n\nWalaia\n \n–\n \nto listen\n \n/ escuchar\n \n→\n \nWali\n \n–\n \nlisteni\nng\n \n/ escucha\nndo\n\nPlapaia\n \n–\n \nto run\n \n/ correr\n \n→\n \nPlapi\n \n–\n \nrunning\n \n/ corriendo\n\nExceptions/Excepciones:\n\nKaia\n \n–\n \nto be\n \n/ ser, estar\n \n→\n \nSi\n \n–\n \nbeing\n \n/ siendo\n\nWaia\n \n–\n \nto go\n \n/ ir\n \n→\n \nWih\n \n–\n \ngoing\n \n/ yendo\n\nAlternate Spelling/Ortografía alternativa:\n\nDiaia\n \n→\n \nDi\n,\n \nDih\n\nPiaia\n \n→\n \nPi\n,\n \nPih\n\nContinuous Forms / Formas Continuas\n\nUse the present participle combined with the verb\n \nKaia\n \nin the conjugation you wish to use /\n\nUse el participio presente combinado con el verbo\n \nKaia\n \nen la conjugación que desea usar\n\nExamples/Ejemplos:\n\nNa minit, kwala tuski sna\n \n–\n \nI am washing clothes\n \nright now\n \n/ Estoy lavando ropa ahora\n\nNahuala titan sut, kwala tuski kapri\n \n–\n \nYesterday, I was washing clothes all morning\n \n/ Ayer estuve lavando ropa toda la\n\nmañana\n\nYauhka tutni sut, kwala tuski\n \nkamna\n \n–\n \nTomorrow, I will be washing clothes all afternoon\n \n/ Mañana estaré\n \nlavando\n \nropa\n\ntoda la tarde\n\nNa minit, kwala tuski sma\n \n–\n \nYou are washing clothes right now\n \n/\n \nEstás lavando ropa ahora\n\nNahuala titan sut, kwala tuski kapram\n \n–\n \nYesterday, you were washing clothes all morning\n \n/\n \nAyer estuviste lavando\n\nropa toda la mañana\n\nYauhka tutni sut, kwala tuski kama\n \n–\n \nTomorrow, you will be washing clothes all afternoon\n \n/\n \nMañana serás lavando\n\nropa toda la tarde\n\nNa minit, kwala tuski sa\n \n–\n \nHe is washing clothes right now\n \n/\n \nEl esta lavando ropa ahora\n\nNahuala\n \ntitan sut, kwala tuski kan\n \n–\n \nYesterday, he was washing clothes all morning\n \n/\n \nAyer estuvo lavando ropa toda la\n\nmañana\n\nYauhka tutni sut, kwala tuski kabia\n \n–\n \nTomorrow, he will be washing clothes all afternoon\n \n/\n \nMañana será lavando ropa\n\ntoda la tarde",
+  "raw_text_sha256": "747c4ede04d3195b00c2d3e7f13ed960e6e811d0062d93738fabe8e934bcc13b",
+  "blocks": [
+    {
+      "block_id": "p0302-b0001",
+      "page_number": 302,
+      "text": "302",
+      "block_type": "page_number",
+      "bbox": {
+        "x": 559.4,
+        "y": 758.8,
+        "width": 16.777,
+        "height": 11
+      },
+      "reading_order": 1,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0002",
+      "page_number": 302,
+      "text": "Present Participles / Participio Presente",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 731,
+        "width": 197.7,
+        "height": 12
+      },
+      "reading_order": 2,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0003",
+      "page_number": 302,
+      "text": "The present particple i s usually formed by adding “ i ” to the root of the verb /",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 41.6,
+        "y": 717.3,
+        "width": 343.726,
+        "height": 11
+      },
+      "reading_order": 3,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0004",
+      "page_number": 302,
+      "text": "La participio presente generalmente se forma agregando \" i \" a la raíz del verbo",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47.4,
+        "y": 703.9,
+        "width": 349.309,
+        "height": 11
+      },
+      "reading_order": 4,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0005",
+      "page_number": 302,
+      "text": "Examples/Ejemplos:",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 41.6,
+        "y": 687.97,
+        "width": 90.2,
+        "height": 11
+      },
+      "reading_order": 5,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0006",
+      "page_number": 302,
+      "text": "Walaia – to listen / escuchar → Wali – listeni ng / escucha ndo",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 47.4,
+        "y": 674.58,
+        "width": 295.647,
+        "height": 11
+      },
+      "reading_order": 6,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0007",
+      "page_number": 302,
+      "text": "Plapaia – to run / correr → Plapi – running / corriendo",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 47.4,
+        "y": 661.08,
+        "width": 265.022,
+        "height": 11
+      },
+      "reading_order": 7,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0008",
+      "page_number": 302,
+      "text": "Exceptions/Excepciones:",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 41.6,
+        "y": 645.28,
+        "width": 109.846,
+        "height": 11
+      },
+      "reading_order": 8,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0009",
+      "page_number": 302,
+      "text": "Kaia – to be / ser, estar → Si – being / siendo",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 46.6,
+        "y": 631.78,
+        "width": 222.627,
+        "height": 11
+      },
+      "reading_order": 9,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0010",
+      "page_number": 302,
+      "text": "Waia – to go / ir → Wih – going / yendo",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 47.4,
+        "y": 618.38,
+        "width": 201.114,
+        "height": 11
+      },
+      "reading_order": 10,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0011",
+      "page_number": 302,
+      "text": "Alternate Spelling/Ortografía alternativa:",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 602.58,
+        "width": 183.425,
+        "height": 11
+      },
+      "reading_order": 11,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0012",
+      "page_number": 302,
+      "text": "Diaia → Di , Dih",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47.4,
+        "y": 589.08,
+        "width": 80.83,
+        "height": 11
+      },
+      "reading_order": 12,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0013",
+      "page_number": 302,
+      "text": "Piaia → Pi , Pih",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47.4,
+        "y": 575.67,
+        "width": 80.218,
+        "height": 11
+      },
+      "reading_order": 13,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f15",
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0014",
+      "page_number": 302,
+      "text": "Continuous Forms / Formas Continuas",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 547.88,
+        "width": 190.248,
+        "height": 12
+      },
+      "reading_order": 14,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0015",
+      "page_number": 302,
+      "text": "Use the present participle combined with the verb Kaia in the conjugation you wish to use /",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 41.6,
+        "y": 534.17,
+        "width": 409.526,
+        "height": 11
+      },
+      "reading_order": 15,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0016",
+      "page_number": 302,
+      "text": "Use el participio presente combinado con el verbo Kaia en la conjugación que desea usar",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47.4,
+        "y": 520.78,
+        "width": 397.079,
+        "height": 11
+      },
+      "reading_order": 16,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0017",
+      "page_number": 302,
+      "text": "Examples/Ejemplos:",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 503.65,
+        "width": 90.2,
+        "height": 11
+      },
+      "reading_order": 17,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0018",
+      "page_number": 302,
+      "text": "Na minit, kwala tuski sna – I am washing clothes right now / Estoy lavando ropa ahora",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 489.25,
+        "width": 387.368,
+        "height": 12
+      },
+      "reading_order": 18,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0019",
+      "page_number": 302,
+      "text": "Nahuala titan sut, kwala tuski kapri – Yesterday, I was washing clothes all morning / Ayer estuve lavando ropa toda la",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.7,
+        "y": 474.65,
+        "width": 528.548,
+        "height": 12
+      },
+      "reading_order": 19,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0020",
+      "page_number": 302,
+      "text": "mañana",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47.3,
+        "y": 460.85,
+        "width": 36.223,
+        "height": 11
+      },
+      "reading_order": 20,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0021",
+      "page_number": 302,
+      "text": "Yauhka tutni sut, kwala tuski kamna – Tomorrow, I will be washing clothes all afternoon / Mañana estaré lavando ropa",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.7,
+        "y": 446.55,
+        "width": 533.636,
+        "height": 12
+      },
+      "reading_order": 21,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0022",
+      "page_number": 302,
+      "text": "toda la tarde",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47.3,
+        "y": 432.85,
+        "width": 57.343,
+        "height": 11
+      },
+      "reading_order": 22,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0023",
+      "page_number": 302,
+      "text": "Na minit, kwala tuski sma – You are washing clothes right now / Estás lavando ropa ahora",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 403.85,
+        "width": 403.482,
+        "height": 12
+      },
+      "reading_order": 23,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0024",
+      "page_number": 302,
+      "text": "Nahuala titan sut, kwala tuski kapram – Yesterday, you were washing clothes all morning / Ayer estuviste lavando",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.7,
+        "y": 389.15,
+        "width": 511.815,
+        "height": 12
+      },
+      "reading_order": 24,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0025",
+      "page_number": 302,
+      "text": "ropa toda la mañana",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47.3,
+        "y": 375.45,
+        "width": 92.609,
+        "height": 11
+      },
+      "reading_order": 25,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0026",
+      "page_number": 302,
+      "text": "Yauhka tutni sut, kwala tuski kama – Tomorrow, you will be washing clothes all afternoon / Mañana serás lavando",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.7,
+        "y": 361.15,
+        "width": 513.112,
+        "height": 12
+      },
+      "reading_order": 26,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0027",
+      "page_number": 302,
+      "text": "ropa toda la tarde",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47.3,
+        "y": 347.35,
+        "width": 80.52,
+        "height": 11
+      },
+      "reading_order": 27,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0028",
+      "page_number": 302,
+      "text": "Na minit, kwala tuski sa – He is washing clothes right now / El esta lavando ropa ahora",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.6,
+        "y": 318.33,
+        "width": 388.275,
+        "height": 12
+      },
+      "reading_order": 28,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0029",
+      "page_number": 302,
+      "text": "Nahuala titan sut, kwala tuski kan – Yesterday, he was washing clothes all morning / Ayer estuvo lavando ropa toda la",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.7,
+        "y": 303.73,
+        "width": 530.148,
+        "height": 12
+      },
+      "reading_order": 29,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0030",
+      "page_number": 302,
+      "text": "mañana",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47.3,
+        "y": 290.02,
+        "width": 36.223,
+        "height": 11
+      },
+      "reading_order": 30,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0031",
+      "page_number": 302,
+      "text": "Yauhka tutni sut, kwala tuski kabia – Tomorrow, he will be washing clothes all afternoon / Mañana será lavando ropa",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 41.7,
+        "y": 275.63,
+        "width": 526.266,
+        "height": 12
+      },
+      "reading_order": 31,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0302-b0032",
+      "page_number": 302,
+      "text": "toda la tarde",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47.3,
+        "y": 261.92,
+        "width": 57.343,
+        "height": 11
+      },
+      "reading_order": 32,
+      "section": "appendix_overview",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    }
+  ],
+  "visual_elements": [
+    {
+      "uid": "visual-p0302-unknown-0001",
+      "object_type": "visual_element",
+      "visual_type": "unknown",
+      "source_page": 302,
+      "bbox": null,
+      "description": "Elemento visual detectado en la página.",
+      "associated_text": "",
+      "requires_manual_review": false
+    }
+  ],
+  "derived_objects": [],
+  "coverage": {
+    "raw_chars": 2008,
+    "assigned_chars": 2008,
+    "unassigned_chars": 0
+  },
+  "verification_status": "parsed",
+  "extraction_confidence": 1
+}

@@ -1,0 +1,712 @@
+{
+  "object_type": "page",
+  "uid": "page-p0322",
+  "pdf_page_number": 322,
+  "printed_page_number": null,
+  "section": "comparisons",
+  "secondary_sections": [],
+  "raw_text": "322\n\nCOMPARISONS / COMPARACIONES\n\nEqual or similar to / Igual o similar a:\n\nPlace \"\nbaku sa\n\" after the 2 things that are to be compared to /\n\nColo\nque\n \n\"\nbaku sa\n\" después de las 2 cosas que se están comparando\n\nExamples/Ejemplos:\n\n(Ex/Ej(\nmwb\n-\n10/19\n):\n \n“\nDîa muni\n \nBaibil ba wan mawan kaiki glaska kum baku sa ki\n?\n \n–\n \nWhy is the Bible like a mirror?\n \n/\n\n¿Por qué la Biblia es como un espejo?\n)\n\n(Ex/Ej(\nwqu\n-\n11/19\n):\n \nNahki tnatka ra spirit holikira ba pâsa krawi ba baku sa ki?\n \n–\n \nIn what way is holy spirit like a\n\nblowing wind?\n \n/ ¿De qué manera el espíritu santo es como un viento que sopla?\n)\n\n(Ex/Ej(\ndb-1 Korint 3:19\n):\n \nKan naha tasba sinska lâka ba Gâd mapara sins âpu dukia baku sa\n \n–\n \nBecause the wisdom of\nthis world is like something foolish to God\n)\n\nSuperior to / Superior a:\n\nPlace “\nkau\n” right before the positive adjective, and add “\nwal\n” a\nfter the thing being described as inferior. /\n\nColoque \"\nkau\n\" justo antes del adjetivo positivo y agregue \"\nwal\n\" después de que la cosa se describa como inferior.\n\nExamples/Ejemplos:\n\n(\nEx/Ej(\nmy56\n):\n \nJehova bila wali daukaia ba kau yamni sa, s\nyîp\n \npainkira nani sakripaiska daukaia ba wal.\n \n–\n \nIt is better\n\nto obey Jehovah than to sacrifice good sheep.\n \n/ Es mejor obedecer a Jehová que sacrificar buenas ovejas.\n)\n\n(Ex/Ej(\nlfb81\n):\n \nJehova pânika kaia ba kau pain sa lalah ailal briaia ba wal.\n \n–\n \nTo be Jehovah’s friend is better than to\n\nhave a lot of money.\n \n/ Ser amigo de Jehová es mejor que tener mucho dinero.\n)\n\nDifferent than / Diferente que:\n\nPlace\n \n“\nsât wala sa\n” after\n \none of the things being compared to and\n \n“\nba wal\n” after the\n \nother. /\n\nColoque\n \n\"\nsât wala sa\n\" después de una de las cosas que se comparan y \"\nba wal\n\" después de la otra.\n\nExamples/Ejemplos:\n\n(Ex/Ej(\nwqu\n-\n04/20\n):\n \nJoel tristrisia nani kaikan ba bara Jan kaikan ba wal, nahki sât\n \nwala sa ki?\n \n–\n \nHow are the locu\ns\nts\n\nthat Joel saw different from the ones John saw?\n \n/ ¿En qué se diferencian las langostas que vio Joel de las que vio\n\nJuan?\n)\n)\n\n(Ex/Ej:\n \nJehova Gâd sât wala sa gâd bahki nani ba wal\n \n–\n \nJehovah is different than the worthless gods\n.\n)",
+  "raw_text_sha256": "9bf12a31e429fc04aaa191fedeaf9039de6a31605b28635914155f46ea2dadb3",
+  "blocks": [
+    {
+      "block_id": "p0322-b0001",
+      "page_number": 322,
+      "text": "322",
+      "block_type": "page_number",
+      "bbox": {
+        "x": 559.4,
+        "y": 758.8,
+        "width": 16.777,
+        "height": 11
+      },
+      "reading_order": 1,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0002",
+      "page_number": 322,
+      "text": "COMPARISONS / COMPARACIONES",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 727.2,
+        "width": 234.878,
+        "height": 16
+      },
+      "reading_order": 2,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0003",
+      "page_number": 322,
+      "text": "Equal or similar to / Igual o similar a:",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 709.1,
+        "width": 182.916,
+        "height": 12
+      },
+      "reading_order": 3,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0004",
+      "page_number": 322,
+      "text": "Place \" baku sa \" after the 2 things that are to be compared to /",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 694.08,
+        "width": 279.396,
+        "height": 11
+      },
+      "reading_order": 4,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0005",
+      "page_number": 322,
+      "text": "Colo que \" baku sa \" después de las 2 cosas que se están comparando",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 41,
+        "y": 680.67,
+        "width": 303.627,
+        "height": 11
+      },
+      "reading_order": 5,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0006",
+      "page_number": 322,
+      "text": "Examples/Ejemplos:",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 663.58,
+        "width": 90.2,
+        "height": 11
+      },
+      "reading_order": 6,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0007",
+      "page_number": 322,
+      "text": "(Ex/Ej( mwb - 10/19 ): “ Dîa muni Baibil ba wan mawan kaiki glaska kum baku sa ki ? – Why is the Bible like a mirror? /",
+      "block_type": "example",
+      "bbox": {
+        "x": 47.4,
+        "y": 646.47,
+        "width": 516.546,
+        "height": 11
+      },
+      "reading_order": 7,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f5",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0008",
+      "page_number": 322,
+      "text": "¿Por qué la Biblia es como un espejo? )",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 53,
+        "y": 633.08,
+        "width": 171.583,
+        "height": 11
+      },
+      "reading_order": 8,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0009",
+      "page_number": 322,
+      "text": "(Ex/Ej( wqu - 11/19 ): Nahki tnatka ra spirit holikira ba pâsa krawi ba baku sa ki? – In what way is holy spirit like a",
+      "block_type": "example",
+      "bbox": {
+        "x": 47.4,
+        "y": 619.58,
+        "width": 499.129,
+        "height": 11
+      },
+      "reading_order": 9,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0010",
+      "page_number": 322,
+      "text": "blowing wind? / ¿De qué manera el espíritu santo es como un viento que sopla? )",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 53,
+        "y": 606.17,
+        "width": 360.813,
+        "height": 11
+      },
+      "reading_order": 10,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0011",
+      "page_number": 322,
+      "text": "(Ex/Ej( db-1 Korint 3:19 ): Kan naha tasba sinska lâka ba Gâd mapara sins âpu dukia baku sa – Because the wisdom of",
+      "block_type": "example",
+      "bbox": {
+        "x": 47.4,
+        "y": 592.78,
+        "width": 521.103,
+        "height": 11
+      },
+      "reading_order": 11,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0012",
+      "page_number": 322,
+      "text": "this world is like something foolish to God )",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 53,
+        "y": 579.38,
+        "width": 188.683,
+        "height": 11
+      },
+      "reading_order": 12,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0013",
+      "page_number": 322,
+      "text": "Superior to / Superior a:",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 538.17,
+        "width": 120.893,
+        "height": 12
+      },
+      "reading_order": 13,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0014",
+      "page_number": 322,
+      "text": "Place “ kau ” right before the positive adjective, and add “ wal ” a fter the thing being described as inferior. /",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 523.18,
+        "width": 472.446,
+        "height": 11
+      },
+      "reading_order": 14,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0015",
+      "page_number": 322,
+      "text": "Coloque \" kau \" justo antes del adjetivo positivo y agregue \" wal \" después de que la cosa se describa como inferior.",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 41,
+        "y": 509.75,
+        "width": 506.671,
+        "height": 11
+      },
+      "reading_order": 15,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0016",
+      "page_number": 322,
+      "text": "Examples/Ejemplos:",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 490.15,
+        "width": 90.2,
+        "height": 11
+      },
+      "reading_order": 16,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0017",
+      "page_number": 322,
+      "text": "( Ex/Ej( my56 ): Jehova bila wali daukaia ba kau yamni sa, s yîp painkira nani sakripaiska daukaia ba wal. – It is better",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 47.4,
+        "y": 475.55,
+        "width": 518.772,
+        "height": 11
+      },
+      "reading_order": 17,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0018",
+      "page_number": 322,
+      "text": "to obey Jehovah than to sacrifice good sheep. / Es mejor obedecer a Jehová que sacrificar buenas ovejas. )",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 53,
+        "y": 462.15,
+        "width": 470.533,
+        "height": 11
+      },
+      "reading_order": 18,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0019",
+      "page_number": 322,
+      "text": "(Ex/Ej( lfb81 ): Jehova pânika kaia ba kau pain sa lalah ailal briaia ba wal. – To be Jehovah’s friend is better than to",
+      "block_type": "example",
+      "bbox": {
+        "x": 47.4,
+        "y": 448.65,
+        "width": 507.735,
+        "height": 11
+      },
+      "reading_order": 19,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6",
+          "g_d0_f8"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0020",
+      "page_number": 322,
+      "text": "have a lot of money. / Ser amigo de Jehová es mejor que tener mucho dinero. )",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 53,
+        "y": 435.25,
+        "width": 350.303,
+        "height": 11
+      },
+      "reading_order": 20,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0021",
+      "page_number": 322,
+      "text": "Different than / Diferente que:",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 36,
+        "y": 394.05,
+        "width": 153.542,
+        "height": 12
+      },
+      "reading_order": 21,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0022",
+      "page_number": 322,
+      "text": "Place “ sât wala sa ” after one of the things being compared to and “ ba wal ” after the other. /",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 379.15,
+        "width": 414.326,
+        "height": 11
+      },
+      "reading_order": 22,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0023",
+      "page_number": 322,
+      "text": "Coloque \" sât wala sa \" después de una de las cosas que se comparan y \" ba wal \" después de la otra.",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 41,
+        "y": 365.65,
+        "width": 441.777,
+        "height": 11
+      },
+      "reading_order": 23,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0024",
+      "page_number": 322,
+      "text": "Examples/Ejemplos:",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 36,
+        "y": 348.55,
+        "width": 90.2,
+        "height": 11
+      },
+      "reading_order": 24,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0025",
+      "page_number": 322,
+      "text": "(Ex/Ej( wqu - 04/20 ): Joel tristrisia nani kaikan ba bara Jan kaikan ba wal, nahki sât wala sa ki? – How are the locu s ts",
+      "block_type": "example",
+      "bbox": {
+        "x": 47.4,
+        "y": 333.95,
+        "width": 516.579,
+        "height": 11
+      },
+      "reading_order": 25,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0026",
+      "page_number": 322,
+      "text": "that Joel saw different from the ones John saw? / ¿En qué se diferencian las langostas que vio Joel de las que vio",
+      "block_type": "abbreviation_item",
+      "bbox": {
+        "x": 53,
+        "y": 320.55,
+        "width": 500.012,
+        "height": 11
+      },
+      "reading_order": 26,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f3",
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0027",
+      "page_number": 322,
+      "text": "Juan? ) )",
+      "block_type": "appendix_paragraph",
+      "bbox": {
+        "x": 53,
+        "y": 307.02,
+        "width": 32.158,
+        "height": 11
+      },
+      "reading_order": 27,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f4"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    },
+    {
+      "block_id": "p0322-b0028",
+      "page_number": 322,
+      "text": "(Ex/Ej: Jehova Gâd sât wala sa gâd bahki nani ba wal – Jehovah is different than the worthless gods . )",
+      "block_type": "example",
+      "bbox": {
+        "x": 47.4,
+        "y": 293.63,
+        "width": 450.1,
+        "height": 11
+      },
+      "reading_order": 28,
+      "section": "comparisons",
+      "font_summary": {
+        "font_names": [
+          "g_d0_f2",
+          "g_d0_f3",
+          "g_d0_f4",
+          "g_d0_f6"
+        ]
+      },
+      "color_summary": {
+        "colors": []
+      },
+      "confidence": 0.95
+    }
+  ],
+  "visual_elements": [
+    {
+      "uid": "visual-p0322-unknown-0001",
+      "object_type": "visual_element",
+      "visual_type": "unknown",
+      "source_page": 322,
+      "bbox": null,
+      "description": "Elemento visual detectado en la página.",
+      "associated_text": "",
+      "requires_manual_review": false
+    }
+  ],
+  "derived_objects": [],
+  "coverage": {
+    "raw_chars": 2152,
+    "assigned_chars": 2152,
+    "unassigned_chars": 0
+  },
+  "verification_status": "parsed",
+  "extraction_confidence": 1
+}

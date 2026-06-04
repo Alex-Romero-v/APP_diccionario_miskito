@@ -6,13 +6,14 @@ Corrige la aplicacion Android `DiccionarioMiskitoOffline` alojada en `https://gi
 
 ## Fuentes Canonicas
 
-Usa como paquete canonico de datos:
+Usa como paquete canonico de datos ya disponible en el repositorio:
 
 ```text
 docs/agent-handoff/handoff_database_agent_complete_20260603-211934.zip
+docs/agent-handoff/extracted/
 ```
 
-Si el ZIP no existe en el repo, usa la copia local del usuario:
+Si ambos faltan en el repo, usa la copia local del usuario:
 
 ```text
 C:/Users/zr_ma/OneDrive/Documentos/dic_miskito/handoff_database_agent_20260603-211934.zip
