@@ -1,0 +1,32 @@
+﻿{
+  "project": "APP_diccionario_miskito",
+  "description": "App Android offline para consultar el diccionario miskito-espanol basado en Bila Yumhpa.",
+  "rules": {
+    "one_feature_at_a_time": true,
+    "require_tests_to_close": true,
+    "require_approved_spec_to_implement": true,
+    "runtime_network_allowed": false,
+    "valid_status": ["pending", "spec_ready", "in_progress", "done", "blocked"],
+    "sdd_required_when": "feature has \"sdd\": true"
+  },
+  "features": [
+    {
+      "id": 1,
+      "name": "recovery_offline_dictionary",
+      "title": "Recuperacion funcional offline del diccionario miskito",
+      "description": "Regenerar la base SQLite valida, corregir busqueda miskito/espanol, mejorar la salida lexicografica, corregir codificacion, aligerar la app y dejar release reproducible para dispositivos de bajo costo.",
+      "sdd": true,
+      "status": "spec_ready",
+      "source_audit": "docs/audit-summary.md",
+      "spec_dir": "specs/recovery_offline_dictionary",
+      "acceptance": [
+        "La base SQLite generada y el asset Room pasan PRAGMA integrity_check.",
+        "La tabla entries y metadata.entriesCount reportan 6386 entradas o una diferencia justificada por regla documentada.",
+        "Las busquedas miskito y espanol devuelven resultados offline con ranking verificable.",
+        "El detalle de entrada muestra sentidos, traducciones, variantes, ejemplos, notas y pagina fuente sin inventar datos.",
+        "No queda mojibake visible en UI, tests ni datos generados.",
+        "El APK/AAB release no requiere internet, no usa GEMINI_API_KEY, no firma release con debugConfig y queda optimizado para bajo costo."
+      ]
+    }
+  ]
+}

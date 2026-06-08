@@ -1,21 +1,52 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+﻿# Diccionario Miskito Offline - Android
 
-# Run and deploy your AI Studio app
+App Android offline para consultar un diccionario miskito-espanol basado en el
+diccionario Bila Yumhpa.
 
-This contains everything you need to run your app locally.
+## Estado actual
 
-View your app in AI Studio: https://ai.studio/apps/de3a2b36-b945-42cc-829d-a6801b0b4c24
+El repositorio esta preparado para una recuperacion funcional mediante SDD. La
+auditoria detecto que la base SQLite empaquetada y la base generada estan
+corruptas, por lo que la app no debe considerarse funcional hasta completar la
+feature:
 
-## Run Locally
+```text
+recovery_offline_dictionary
+```
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+## Como continuar
 
+1. Lee `AGENTS.md`.
+2. Ejecuta:
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+```powershell
+.\init.ps1
+```
+
+3. Lee:
+
+```text
+specs/recovery_offline_dictionary/idea.md
+specs/recovery_offline_dictionary/requirements.md
+specs/recovery_offline_dictionary/design.md
+specs/recovery_offline_dictionary/tasks.md
+```
+
+4. Espera aprobacion humana antes de implementar. La feature esta en
+   `spec_ready`.
+
+## Documentos principales
+
+- `docs/audit-summary.md`: hallazgos de auditoria.
+- `SPEC.md`: entrada rapida al SPEC.
+- `TASKS.md`: entrada rapida a la cola de tareas.
+- `specs/recovery_offline_dictionary/`: documentacion canonica.
+- `docs/verification.md`: comandos de validacion esperados.
+
+## Principios de producto
+
+- Funcionar sin internet.
+- No requerir `GEMINI_API_KEY`.
+- No usar servicios remotos para buscar.
+- Empaquetar una SQLite valida y ligera.
+- Mostrar resultados miskito/espanol con formato lexicografico enriquecido.

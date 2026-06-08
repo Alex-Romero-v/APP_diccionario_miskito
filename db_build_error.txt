@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/app/applet/app/../tools/dictionary-pipeline/src/build_sqlite.py", line 175, in <module>
-    build_schema(args.db)
-  File "/app/applet/app/../tools/dictionary-pipeline/src/build_sqlite.py", line 9, in build_schema
-    cursor.execute("""
-sqlite3.DatabaseError: database disk image is malformed
