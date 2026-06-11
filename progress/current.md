@@ -2,26 +2,25 @@
 
 Feature activa: `1 - recovery_offline_dictionary`
 
-Estado: `spec_ready`
+Estado: `in_progress`
 
 Ultima accion completada:
 
-- Se adapto el arnes SDD del repositorio `Alex-Romero-v/Arnes` al proyecto
-  Android `APP_diccionario_miskito`.
-- Se reemplazo la documentacion antigua de parches V1 por una especificacion
-  nueva basada en la auditoria.
-- Se generaron `idea.md`, `requirements.md`, `design.md` y `tasks.md`.
-- Se amplio la documentacion para cumplir mejor los lineamientos del arnes:
-  `requirements.md` ahora contiene 72 requirements verificables y `tasks.md`
-  contiene 70 tareas atomicas con Red/Green/Refactor, archivos permitidos,
-  archivos prohibidos, validacion y evidencia esperada.
+- El usuario aprobo explicitamente implementar el plan para hacer pasar T035.
+- Se restauro Gradle Wrapper en el repositorio.
+- Se endurecio el generador/validador SQLite para recrear la DB, ejecutar
+  `PRAGMA integrity_check`, validar schema critico y rechazar corrupcion.
+- Se regenero `tools/dictionary-pipeline/output/dictionary.db`, se valido con
+  6386 entradas y se copio a `app/src/main/assets/dictionary.db`.
+- Se reescribio `PrepackagedDatabaseTest` como contrato de apertura Room del
+  asset y consultas de tablas criticas.
 
 Siguiente accion permitida:
 
-- Esperar aprobacion humana explicita para pasar de `spec_ready` a
-  `in_progress`.
+- Instalar o exponer Java en `JAVA_HOME`/`PATH` y ejecutar
+  `.\gradlew.bat testDebugUnitTest`.
 
 No permitido todavia:
 
-- No modificar codigo Kotlin, Gradle, assets SQLite ni scripts de pipeline.
-- No marcar tasks como completadas.
+- No marcar T035 como completada hasta que `.\gradlew.bat testDebugUnitTest`
+  termine con codigo 0.

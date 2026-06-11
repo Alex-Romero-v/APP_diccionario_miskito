@@ -16,7 +16,7 @@
       "title": "Recuperacion funcional offline del diccionario miskito",
       "description": "Regenerar la base SQLite valida, corregir busqueda miskito/espanol, mejorar la salida lexicografica, corregir codificacion, aligerar la app y dejar release reproducible para dispositivos de bajo costo.",
       "sdd": true,
-      "status": "spec_ready",
+      "status": "in_progress",
       "source_audit": "docs/audit-summary.md",
       "spec_dir": "specs/recovery_offline_dictionary",
       "acceptance": [

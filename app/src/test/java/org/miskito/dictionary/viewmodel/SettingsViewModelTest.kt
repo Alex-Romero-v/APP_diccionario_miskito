@@ -2,6 +2,7 @@ package org.miskito.dictionary.viewmodel
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.cancel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.launch
@@ -52,14 +53,17 @@ class SettingsViewModelTest {
     private lateinit var historyRepository: HistoryRepository
     private lateinit var metadataRepository: MetadataRepository
     private lateinit var viewModel: SettingsViewModel
-    private val tempFile = java.io.File.createTempFile("test_prefs", ".preferences_pb")
+    private lateinit var dataStoreScope: TestScope
+    private lateinit var tempFile: java.io.File
 
     @Before
     fun setup() {
         Dispatchers.setMain(testDispatcher)
         cleared = false
+        dataStoreScope = TestScope(testDispatcher)
+        tempFile = java.io.File.createTempFile("test_prefs_${System.nanoTime()}", ".preferences_pb")
         val testDataStore = androidx.datastore.preferences.core.PreferenceDataStoreFactory.create(
-            scope = TestScope(testDispatcher),
+            scope = dataStoreScope,
             produceFile = { tempFile }
         )
         val dataSource = UserPreferencesDataSource(testDataStore)
@@ -71,6 +75,7 @@ class SettingsViewModelTest {
 
     @After
     fun tearDown() {
+        dataStoreScope.cancel()
         tempFile.delete()
         Dispatchers.resetMain()
     }
